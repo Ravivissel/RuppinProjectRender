@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+  <name> Trigger CRM</name>
+
+  <type> מערכות מידע </type>
+
+  <tags>
+    <tag> מערכת CRM </tag>
+    <tag> android </tag>
+  </tags>
+
+  <faculty>
+    BA
+  </faculty>
+  <year>2013</year>
+
+  <customer>
+    <name> Trigger </name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/trigger.png</logoUrl>
+    <shortDescription>חברת טריגר (trigger) היא חברה ברזילאית המתמקדת בקידום עסקים זרים בתוך השוק הברזילאי . לחברה 3 סניפים הנמצאים בתל אביב, ניו יורק וסאו פאולו. החברה מהווה גשר בין חברות זרות המציעות טכנולוגיות שונות לשוק הברזילאית. המערכת המוצעת פותחה עבור יחידת הפיתוח העסקי      Business Development  - , המספקת שירותים להגדלת רווחים ונתח שוק בתוך השוק הברזילאי.</shortDescription>
+    <interstedParties>
+      <party>מנהל יחידת פיתוח עסקי</party>
+    </interstedParties>
+    <users>
+      <user>מנהל יחידת פיתוח עסקי</user>
+      <user>עובדים</user>
+    </users>
+  </customer>
+
+  <students>
+    <groupCode>bgroup97</groupCode>
+    <groupCode>bgroup6</groupCode>
+    <student>
+      <name>דותן ישראלי </name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/Dotan.JPG</imageUrl>
+    </student>
+    <student>
+      <name>גיל חלדי</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/gil's project photo.JPG</imageUrl>
+    </student>
+    <student>
+      <name>יוסי לוטוק</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/Yossi.jpg</imageUrl>
+    </student>
+  </students>
+
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/trigger.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup97/prod/Default.aspx</projectLandingPage>
+
+
+  <mobile>
+    <links>
+      <link target = "android">
+        <url> https://build.phonegap.com/apps/277895/download/android </url>
+        <QRLink> https://chart.googleapis.com/chart?chs=116x116&amp;cht=qr&amp;chl=http://build.phonegap.com/apps/277895/install/?qr_key=aVDjR3yimrpqTH32NxVb&amp;chld=L|1&amp;choe=UTF-8 </QRLink>
+      </link>
+      <!--<link target = "ios">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "web mobile">
+        <url> the url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>-->
+    </links>
+  </mobile>
+
+  <movie>http://www.youtube.com/v/dHy-qZfefrM</movie>
+  <movie>http://www.youtube.com/v/jw5Pb9PT5y4</movie>
+  <screenShots>
+    // 5 screen shots of the application
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/Login.jpg</imageUrl>
+      <description> מסך Login </description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/Dashboard.jpg</imageUrl>
+      <description> מסך Dashboard </description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/opportunities.jpg</imageUrl>
+      <description> opportunities מסך  </description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/ContactMap.jpg</imageUrl>
+      <description> ContactMap  </description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup97/prod/Images/AdminPanel.jpg</imageUrl>
+      <description> מסך AdminPanel </description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor> עמית רכבי </advisor>
+    <advisor> ניר חן </advisor>
+  </advisors>
+  <shortDescription>
+    מערכת לניהול קשרי לקוחות אשר תפורה לצרכי הלקוח, חברת טריגר.
+    פיתוח המערכת מאפשר לעובדי החברה לעבוד עם ממשק תפעולי נוח אשר יוצג על גבי דפדפנים סטנדרטיים.
+    כל נתוני המערכת יהיו מאוחסנים על גבי שרת מאוחד ויעזרו בתהליכי קבלת ההחלטות הניהוליות.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description> הגדלת יעילות הארגון </description>
+      <status> יצירת מסד נתונים מאוחד המאגד את כל המידע של החברה </status>
+    </goal>
+    <goal>
+      <description>  שיפור מעקב אחר עסקאות המתרחשות בארגון </description>
+      <status> המערכת שולחת התראות במייל לגבי מצבם של העסקאות הפתוחות </status>
+    </goal>
+    <goal>
+      <description>  אחסון נתונים עסקיים ע"ג שרת </description>
+      <status> מסד הנתונים של המערכת יחד עם כל מסכי המערכת יושבים על גבי שרת חיצוני </status>
+    </goal>
+    <goal>
+      <description>  תמיכה בקבלת החלטות ניהוליות </description>
+      <status> המערכת מנתחת את מצב העסקאות הקיימות במסד הנתונים של החברה, וקובעת על פי הגדרות הלקוח את ההסתברות למימוש העסקאות - propability   </status>
+    </goal>
+    <goal>
+      <description>  יצירת מנגנון עדיפות לטיפול בעסקאות על פי דרישות לקוח   </description>
+      <status> המערכת שולחת התראות במייל ומתריאה למשתמש על עסקאות שיש לטפלם בעדיפות עליונה </status>
+    </goal>
+    <goal>
+      <description> פיתוח אפליקציה לייבוא וייצוא אנשי קשר למכשיר המובייל    </description>
+      <status> פותחה אפליקציה לייבוא וייצוא אנשי קשר מהמובייל למסד הנתונים. פיתוח האפליקציה נעשה בכדי לשרת את המשתמש בכנסים ופגישות כאשר אינו נמצא אל מול המערכת. </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name> Dashboard Page </name>
+      <description>
+        המודול מכיל גרפים שונים המציגים חיתוך מצב של יעדי מכירות העובד, מצב המכירות שלו ביחס לשאר העובדים.
+        בנוסף המודול מציג פילוח של התעשיות שבהם כמות העסקאות בארגון הינם הגבוהים ביותר.
+      </description>
+      <features>
+
+      </features>
+    </module>
+    <module>
+      <name> דף החשבונות </name>
+      <description>
+        דף המכיל טבלה של כל החשבונות המשויכים למשתמש שבאותו זמן ניכנס למערכת.
+        הדף מכיל טבלה המציגה את הנתונים. לחיצה על רשומה בטבלה פותחת את טופס עריכת הנתונים או מחיקת הרשומה.
+        כמו כן קיימת האפשרות להוסיף חשבון חדש למערכת ולהוריד קובץ	 XML
+        של כל החשבונות המשוייכים למשתמש. בנוסף, קיימת טבלה בחלקו התחתון של דף פרטי החשבון המכילה את כל  אנשי הקשר המשויכים לחשבון שנבחר
+      </description>
+      <features>
+        <feature>הוספת חשבון</feature>
+        <feature>עריכת חשבון</feature>
+        <feature>מחיקת חשבון</feature>
+        <feature>הורדת קובץ XML של חשבונות המשויכים למשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name> דף אנשי קשר </name>
+      <description>
+        דף המכיל טבלה של כל אנשי הקשר המשויכים לאחד מהחשבונות הקיימים במערכת.
+        הדף מכיל טבלה המציגה את הנתונים. לחיצה על רשומה בטבלה פותחת את טופס עריכת הנתונים או מחיקת הרשומה.
+        כמו כן קיימת האפשרות להוסיף חשבון חדש למערכת ולהוריד קובץ	 XML
+        של כל החשבונות המשויכים למשתמש.
+        בנוסף ניתן לראות את כתובת איש הקשר על גבי מפה של גוגל על ידי לחיצה על אייקון המפה.
+      </description>
+      <features>
+        <feature>הוספת איש קשר</feature>
+        <feature>שיוך איש קשר לחשבון</feature>
+        <feature>עריכת איש קשר</feature>
+        <feature>מחיקת איש קשר</feature>
+        <feature>הורדת קובץ XML של אנשי הקשר המשויכים למשתמש</feature>
+        <feature>צפייה בכתובת איש הקשר על גבי מפה של גוגל</feature>
+      </features>
+    </module>
+    <module>
+      <name> (דף הזדמנויות(עסקאות</name>
+      <description>
+        דף המכיל טבלה של כל ההזדמנויות המשויכות לאחד מהחשבונות הקיימים במערכת.
+        הדף מכיל טבלה המציגה את הנתונים. לחיצה על רשומה בטבלה פותחת את טופס עריכת הנתונים או מחיקת הרשומה. כמו כן קיימת האפשרות להוסיף חשבון חדש למערכת ולהוריד קובץXML
+        של כל ההזדמנויות המשויכות למשתמש. בנוסף, קיימת טבלה בחלקו התחתון של דף פרטי ההזדמנות המכילה את כל הפעילויות המושיכות להזדמנות שנבחרה.
+      </description>
+      <features>
+        <feature>הוספת הזדמנות</feature>
+        <feature>שיוך הזדמנות לחשבון</feature>
+        <feature>עריכת הזדמנות</feature>
+        <feature>מחיקת הזדמנות</feature>
+        <feature>הורדת קובץ XML של הזדמנויות המשויכות למשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name> קביעת משקלות לחישוב הסתברות מימוש העסקה - Probability  - (מודול זה יושב תחת המודול של דף ההזדמנויות) </name>
+      <description>
+        בדף עריכת פרטי ההזדמנות קיימת האפשרות לערוך את יחס המשקלות של חמשת הפרמטרים. שבאמצעותם ניתן לחשב את ההסתברות של העסקה להתממש.
+        חמשת הפרמטרים הינם: סכום העסקה, כמות העסקאות שנעשו עם הלקוח בעבר, מספר הפעילויות המשייכות להזדמנות, שלב ההזדמנות והתעשייה המשויכת.
+        לפונקציה קיים מאמת המגביל את יחס המשקלות לסה"כ 100%.
+      </description>
+      <features>
+        <feature>עריכת משקלות </feature>
+      </features>
+    </module>
+    <module>
+      <name> דף פעילויות </name>
+      <description>
+        דף המכיל טבלה של כל הפעילויות המשויכות לאחת מההזדמנויות הקיימות במערכת.
+        הדף מכיל טבלה המציגה את הנתונים. לחיצה על רשומה בטבלה פותחת את טופס עריכת הנתונים או מחיקת הרשומה.
+        כמו כן קיימת האפשרות להוסיף חשבון חדש למערכת ולהוריד קובץ	 XML
+        של כל הפעילויות המשויכות למשתמש. בנוסף, המשתמש יכול לבחור לקבל תזכורת עבור הפעילות שתופיע לו באקורדיון הנמצא בחלקו השמאלי של הדף תחת הלשונית Activities notifications
+      </description>
+      <features>
+        <feature>הוספת פעילות</feature>
+        <feature>שיוך פעילות להזדמנות</feature>
+        <feature>עריכת פעילות</feature>
+        <feature>קביעת תזכורת לפעילות</feature>
+        <feature>מחיקת פעילות</feature>
+        <feature>הורדת קובץ XML של הפעילויות המשויכות למשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name> דף Admin </name>
+      <description>
+        גישה לדף זה מורשית רק למשתמשים המוגדרים כמנהלים.
+        דף זה מכיל טבלה של כל המשתמשים הקיימים במערכת.
+        הדף מכיל טבלה המציגה את הנתונים. לחיצה על רשומה בטבלה פותחת את טופס עריכת הנתונים או מחיקת הרשומה.
+        כמו כן קיימת האפשרות להוסיף משתמש חדש למערכת ולהוריד קובץ	 XML
+        של כל המשתמשים הקיימים במערכת. בנוסף, קיימת האפשרות להעביר הזדמנות המשויכת ממשתמש אחד למשתמש אחר.
+        כמו כן הדף מכיל דוח pipeline המאגד בתוכו את כל ההזדמנויות המשייכות לכלל המשתמשים הקיימים במערכת.
+      </description>
+      <features>
+        <feature>הוספת משתמש</feature>
+        <feature>שיוך משתמש להזדמנות</feature>
+        <feature>עריכת משתמש</feature>
+        <feature>מחיקת משתמש</feature>
+        <feature>הורדת קובץ XML של המשתמשים המשויכות למשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name> אקורדיון גישה מהירה </name>
+      <description>
+        האקורדיון מופיע בכל דפי המערכת בצידו השמאלי של הדף.
+        לאקורדיון חמש לשוניות שדרכם ניתן לראות את ההתראות הקיימות עבור כלל ההזדמנויות המשויכות למשתמש, התראות עבור פעילויות שהמשתמש בחר לקבל התראות עבורם,
+        קביעת אפשרות לקבל מייל יומי מהמערכת עבור כלל ההתראות שצוינו לעיל. כמו כן, המשתמש יכול לקבוע את השעה הרצויה עבור שליחת המייל מהמערכת אל תיבת דוא"ל האישי שלו,
+        הוספת איש קשר זריזה למערכת ללא צורך מקדים בפתיחת חשבון או שיוך חשבון ומנוע חישוב המרות מטבע.
+
+        לחיצה על אחת מההתראות עבור הזדמנות או פעילות מעבירה אוטומטית את המשתמש אל הדף המבוקש.
+      </description>
+      <features>
+        <feature>קביעת מייל יומי </feature>
+        <feature>הוספת איש קשר בצורה מקוצרת</feature>
+        <feature>מנוע לחישוב המרות מטבע</feature>
+      </features>
+    </module>
+    <module>
+      <name> אפליקציה למובייל (אנדרואיד) לייבוא וייצוא אנשי קשר בין המובייל למסד הנתונים </name>
+      <description>
+        אפליקציה שפותחה עבור צרכי הלקוח לייבא פרטי איש קשר ממסד הנתונים שבשרת לזיכרון אנשי הקשר במובייל.
+        כמו כן קיימת הפשרות לייצא איש קשר מזיכרון הנייד לטבלת אנשי הקשר הנמצאת במסד הנתונים שבשרת.
+        במוסף, קיימת האפשרות לייצר חשבון חדש במידה וחשבון איש הקשר שבמובייל אינו קיים בטבלת החשבונות הנמצאת בשרת הנתונים.
+      </description>
+      <features>
+        <feature>הרשאת Log-in </feature>
+        <feature>ייבוא איש קשר ממסד הנתונים למובייל</feature>
+        <feature>ייצוא איש קשר מהמובייל למסד הנתונים </feature>
+        <feature>יצירת חשבון חדש </feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name = "ASP.NET"/>
+    <technology name = "C#"/>
+    <technology name = "jQuery Mobile"/>
+    <technology name = "javaScript"/>
+  </technologies>
+  <challenges>
+    *תיאום עבודת צוות בשלבי הפיתוח
+    *תיאום גרסאות בין המפתחים בשלבי הפיתוח
+    *למידת פונקציונאליות של מכשיר המובייל ופיתוח בסביבת phonegap
+    *למידת פונקציונאליות של השרת
+    *עבודה עם דף global asax + סנכרון המערכת עם שרת הדוא"ל של gmail
+    *גרף לימוד איטי
+  </challenges>
+  <personalNote>
+    פרויקט מאתגר אשר דרש השקעה רבה. תהליך העבודה והלמידה תרם רבות להבנת התחום של יזום, פיתוח ובדיקת מערכת מידע. מרוצים מהתוצאה הסופית  אליה הגענו.
+  </personalNote>
+</project>
+

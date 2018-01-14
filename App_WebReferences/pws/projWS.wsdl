@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getProjectsList">
+        <s:complexType />
+      </s:element>
+      <s:element name="getProjectsListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getProjectsListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getProjects">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projFilesNames" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getProjectsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getProjectsResult" type="tns:ArrayOfProject" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfProject">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Project" nillable="true" type="tns:Project" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Project">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tags" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="faculty" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="year" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="customers" type="tns:ArrayOfCustomer" />
+          <s:element minOccurs="0" maxOccurs="1" name="groupCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="students" type="tns:ArrayOfStudent" />
+          <s:element minOccurs="0" maxOccurs="1" name="projectImageUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="projectLandingPage" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="movie" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="screenshots" type="tns:ArrayOfScreenShot" />
+          <s:element minOccurs="0" maxOccurs="1" name="modules" type="tns:ArrayOfModule" />
+          <s:element minOccurs="0" maxOccurs="1" name="advisors" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="goals" type="tns:ArrayOfGoal" />
+          <s:element minOccurs="0" maxOccurs="1" name="technologies" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="challenges" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="personalNote" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Customer" nillable="true" type="tns:Customer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Customer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="logoUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="shortDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="interstedParties" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="users" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfStudent">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Student" nillable="true" type="tns:Student" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Student">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="imageUrl" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfScreenShot">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ScreenShot" nillable="true" type="tns:ScreenShot" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ScreenShot">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="imageUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfModule">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Module" nillable="true" type="tns:Module" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Module">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="features" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfGoal">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Goal" nillable="true" type="tns:Goal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Goal">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="status" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getProjectsListSoapIn">
+    <wsdl:part name="parameters" element="tns:getProjectsList" />
+  </wsdl:message>
+  <wsdl:message name="getProjectsListSoapOut">
+    <wsdl:part name="parameters" element="tns:getProjectsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getProjectsSoapIn">
+    <wsdl:part name="parameters" element="tns:getProjects" />
+  </wsdl:message>
+  <wsdl:message name="getProjectsSoapOut">
+    <wsdl:part name="parameters" element="tns:getProjectsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="projWSSoap">
+    <wsdl:operation name="getProjectsList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">get a list of all the project ids</wsdl:documentation>
+      <wsdl:input message="tns:getProjectsListSoapIn" />
+      <wsdl:output message="tns:getProjectsListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getProjects">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">get a list of all the projects</wsdl:documentation>
+      <wsdl:input message="tns:getProjectsSoapIn" />
+      <wsdl:output message="tns:getProjectsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="projWSSoap" type="tns:projWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getProjectsList">
+      <soap:operation soapAction="http://tempuri.org/getProjectsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProjects">
+      <soap:operation soapAction="http://tempuri.org/getProjects" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="projWSSoap12" type="tns:projWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getProjectsList">
+      <soap12:operation soapAction="http://tempuri.org/getProjectsList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getProjects">
+      <soap12:operation soapAction="http://tempuri.org/getProjects" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="projWS">
+    <wsdl:port name="projWSSoap" binding="tns:projWSSoap">
+      <soap:address location="http://localhost:63897/projWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="projWSSoap12" binding="tns:projWSSoap12">
+      <soap12:address location="http://localhost:63897/projWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>הקלסר האלקטרוני</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>אתר לסטודנטים</tag>
+    <tag>איגוד החומר הלימודי</tag>
+  </tags>
+  <faculty>BA</faculty>
+  <year>2014</year>
+  <customer>
+    <name>סטודנטים</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/flat-user.png</logoUrl>
+    <shortDescription>
+    </shortDescription>
+    <interstedParties>
+      <party>מכללות</party>
+      <party>אוניברסיטאות</party>
+    </interstedParties>
+    <users>
+      <user>סטודנטים ברופין</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup15</groupCode>
+    <student>
+      <name>חן גולדמן</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/henGoldman.jpg</imageUrl>
+    </student>
+    <student>
+      <name>דנה חגי</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/danaHagay.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/dana_logo.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup15/test2/Login.aspx</projectLandingPage>
+  <movie>http://www.youtube.com/v/6daplcF4fj8</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenCourses.PNG</imageUrl>
+      <description>דף הקורסים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenDetails.PNG</imageUrl>
+      <description>דף פרטים אישיים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenHome.PNG</imageUrl>
+      <description>מסך הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenLogin.PNG</imageUrl>
+      <description>מסך ההתחברות למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenSheet.PNG</imageUrl>
+      <description>מסך הגיליון</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/screenShareFriends.PNG</imageUrl>
+      <description>שיתוף חברים באתר</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>עמית רכבי</advisor>
+    <advisor>ניר חן</advisor>
+    <advisor>בני בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+במסגרת אפיון הצרכים חקרנו את המצב הקיים ומצאנו כי במסגרת התואר האקדמי ישנם סטודנטים שדבקים בשיטה המיושנת של מחברות וקלסרים הגוזלת זמן יקר וישנם סטודנטים אחרים המשתמשים בלפטופ במהלך השיעור ומקלידים את הסיכום לתוך קבצי וורד. 
+שמירת החומר בצורה זו בלתי יעילה ואחסון המידע לא נוח.בנוסף, התנהלות זו של הסטודנט פוגעת ביעילותו ובניצול משאבים טכנולוגיים שונים, דבר המעכב של העבודה השוטפת של הסטודנט.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>צמצום ערימות הדפים וזיכרון המחשב</description>
+      <status>
+        המערכת מאפשרת לסטודנט לאגד את החומר הלימודי במקום אחד במינימום מקום 
+      </status>
+    </goal>
+    <goal>
+      <description>
+       חיסכון בזמן 
+      </description>
+      <status>
+        המערכת חוסכת לסטודנט זמן יקר. המערכת עולה תוך מספר שניות בודדות בלבד. בנוסף הזמן חוסכת לסטודנט בזמן שנגזל לאורך השנה בסידור הסיכומים, חיפושם וכדומה.
+      </status>
+    </goal>
+    <goal>
+      <description>יעילות ניהול החומר הלימודי</description>
+      <status>
+        	מערכת חכמה המשמשת כפיתרון מוצלח ביותר לצרכי הסטודנט בהמהלך לימודיו האקדמיים
+      </status>
+    </goal>
+    <goal>
+      <description>נוחות</description>
+      <status>
+        הנוחות שבארגון חומרי הלימוד אינה קיימת במצב הקיים.המערכת מאפשרת ארגון חומר בצורה פשוטה ונוחה
+      </status>
+    </goal>
+    <goal>
+      <description>שמירה על איכות הסביבה</description>
+      <status>
+       צמצום כמות הדפים מונע פגיעה באיכות הסביבה
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך ראשי</name>
+      <description>
+        מודול המכיל אלמנטים שונים העומדים לרשותו של הסטודנט:קורסים, לוח מבחנים, רשימת מטלות וכדומה
+      </description>
+      <features>
+        <feature>מעבר לקורסים</feature>
+        <feature>יצירת רשימת מטלות</feature>
+        <feature>מעבר ללוח מבחנים</feature>
+        <feature> עדכון פרטים אישיים</feature>
+        <feature>שינוי תמונת פרופיל</feature>
+        <feature>התנתקות מהמערכת</feature>
+      </features>
+    </module>
+    <module>
+      <name>כניסה למערכת</name>
+      <description>
+       המודל מאפשר כניסה למערכת ע"י הכנסה של שם משתמש וסיסמה
+      </description>
+      <features>
+        <feature>כניסה למערכת</feature>
+        <feature>יצירת משתמש חדש</feature>
+      </features>
+    </module>
+    <module>
+      <name>דף הקורסים</name>
+      <description>
+ המודול מציג לסטודנט את הקורסים שיצר ואפשרות ליצור קורסים נוספים. לכל קורס קיים מעבר לגיליון 
+      </description>
+      <features>
+        <feature>צפייה בקורסים</feature>
+        <feature>מעבר לגיליון השייך לקורס</feature>
+        <feature>מחיקת קורס</feature>
+        <feature>יצירת קורס חדש</feature>
+        <feature>עריכת שם הקורס</feature>
+        <feature> עדכון פרטים אישיים</feature>
+        <feature>שינוי תמונת פרופיל</feature>
+        <feature>התנתקות מהמערכת</feature>
+      </features>
+    </module>
+    <module>
+      <name>גיליון</name>
+      <description>
+       המודול מאפשר לסטודנט להקליד את החומר באדיטור. לערוך את הטקסט, לשמור ולשתפו עם חבריו באמצעות שליחת מייל או דרך האתר עצמו
+      </description>
+      <features>
+        <feature>הקלדת החומר</feature>
+        <feature>עריכת הטקסט </feature>
+        <feature>הוספת תמונות, וידאו לטקסט</feature>
+        <feature>
+          שמירת החומר
+        </feature>
+        <feature>שיתוף באמצעות שליחת מייל</feature>
+        <feature>שיתוף דרך האתר</feature>
+        <feature>מעבר חזרה לכל הקורסים</feature>
+        <feature> עדכון פרטים אישיים</feature>
+        <feature>שינוי תמונת פרופיל</feature>
+        <feature>התנתקות מהמערכת</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="SQL Server - Microsoft"/>
+    <technology name="jQuery library"/>
+    <technology name="JavaScript"/>
+    <technology name="ckEditor"/>
+    <technology name="ASP.NET AJAX Control Toolkit"/>
+  </technologies>
+  <challenges>
+יצירת מערכת נוחה וידידותית למשתמש, חלוקת המטלות בין חברי הקבוצה, ניהול ותכנון לוחות זמנים .
+  </challenges>
+  <personalNote>
+  </personalNote>
+</project>

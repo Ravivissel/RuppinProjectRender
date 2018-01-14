@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+  <name>מעל"ה -  מערכת מידע למרכזי הצעירים</name>
+  <faculty>IE</faculty>
+  <year>2016</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>מרכז צעירים</tag>
+    <tag>חדרה</tag>
+    <tag>משרות</tag>
+    <tag>מלגות</tag>
+    <tag>אירועים</tag>
+    <tag>גילאי 18-35</tag>
+  </tags>
+  <customer>
+    <name>מרכז צעירים חדרה</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/maala.png</logoUrl>
+    <shortDescription>
+      מרכז הצעירים בחדרה הוא חממה לפיתוח אישי, מקצועי, תרבותי וחברתי, של צעירי העיר, סביבה תומכת ומכוונת לקידום הצעירים ברמה האישית, המשפחתית והקהילתית.</shortDescription>
+    <interstedParties>
+      <party>מרכז צעירים חדרה</party>
+      <party>החברה לתיירות</party>
+      <party>עיריית חדרה</party>
+      <party>חברת סטארט - אפ</party>
+      <party>צעירים</party>
+    </interstedParties>
+    <users>
+      <user>מנהלת מרכז צעירים</user>
+      <user>רכזות - עובדות מרכז הצעירים</user>
+      <user>צעירי העיר חדרה</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup59</groupCode>
+    <student>
+      <name>יונתן לפידוס</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/yonathan.jpg</imageUrl>
+    </student>
+    <student>
+      <name>הודיה דמתי</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/hodaya.jpg</imageUrl>
+    </student>
+    <student>
+      <name>שיראל דוד</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/shirel.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/maala.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup59/prod/index.html</projectLandingPage>
+  <movie>https://www.youtube.com/v/HrDX_Oy55rc</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/index.png</imageUrl>
+      <description>מסך הכניסה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/Capture.png</imageUrl>
+      <description>מסך לו"ז רכזות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/milgot.png</imageUrl>
+      <description>מסך מלגות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/misrot.png</imageUrl>
+      <description>מסך משרות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/racazot.png</imageUrl>
+      <description>מסך רכזות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup59/prod/doc/Images/eruim.png</imageUrl>
+      <description>מסך אירועים</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>ד"ר דיצה ביימל</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription> מהות הפרויקט היא פיתוח מערכת אשר תספק פלטפורמה ידידותית לשם פיקוח, תכנון וניהול שוטף של פעילויות המרכז ותאפשר ייעול תהליכים וקיצור זמני פעילות. בנוסף, המערכת תבטיח את שימור הידע הניהולי במרכז לשם למידה, הפקת לקחים, מסקנות והחלטות עתידיות.</shortDescription>
+  <goals>
+    <goal>
+      <description>	גיוס צעירים – המערכת תתמוך בתהליך גיוס הצעירים בעיר</description>
+      <status> המערכת תומכת בגיוס צעירים ע"י מאגר נתונים רחב וגישה נוחה לצעיר בעזרת אפליקציה </status>
+    </goal>
+    <goal>
+      <description>מחשוב מידע – הקמת תשתית ממחושבת אשר תסייע לניהול המידע.</description>
+      <status> המערכת בעלת אפשרויות של יצירת לו"ז , ניהול מלגות, משרות, צעירים ואירועים  </status>
+    </goal>
+    <goal>
+      <description>	שימוש יעיל – תמיכה בתהליכים העסקיים השונים, תוך מתן פתרון לבעיות וייעולם</description>
+      <status>המערכת תומכת בתהליכים בעסקיים השונים ועוזרת לייעולם כמו כן המערכת מסייעת לפתרון הבעיות </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>לוז אישי</name>
+      <description> המודול מציג את הלו"ז האישי של כל אחת מהרכזות, במסך זה ניתן לצפות בלוז האישי של כל אחת מהרכזות ולהוסיף אירועים ופגישות </description>
+      <features>
+        <feature>שימוש בלוח שנה</feature>
+        <feature>הזנת פגישות</feature>
+      </features>
+    </module>
+    <module>
+      <name>מסך משרות</name>
+      <description> המודול מאפשר יצירה ועדכון משרות ובכך מנהל ביעילות את המשרות המוצעות במרכז הצעירים </description>
+     <features>
+        <feature>המודול מאפשר הכנסת נתונים ואפשרות להעלאת משרה לצפייה באפליקציה</feature>
+        <feature>צפייה בנתונים הקיימים שהוזנו</feature>
+        <feature>עדכון פרטי הנתונים</feature>
+        <feature>מחיקת פרטי הנתונים שהוזנו</feature>
+      </features>
+    </module>
+    <module>
+      <name>מסך הרכזות</name>
+      <description> המודול מאפשר הזנת נתונים על העובדות וצפייה בנתוניהן </description>
+      <features>
+        <feature>צפייה בנתונים הקיימים שהוזנו</feature>
+       
+        <feature>מחיקת פרטי הנתונים הקיימים שהוזנו</feature>
+        
+      </features>
+
+    </module>
+
+
+    <module>
+
+      <name>מסך מלגות</name>
+
+      <description> המודול מאפשר הכנסת נתונים ואפשרות להעלאת מלגה לצפייה באפליקציה</description>
+
+
+      <features>
+
+
+        <feature>הכנסת נתונים ואפשרות להעלאת מלגה לצפייה באפליקציה</feature>
+
+        <feature>צפייה בנתונים הקיימים שהוזנו</feature>
+
+        <feature>עדכון פרטי הנתונים</feature>
+
+        <feature>מחיקת פרטי הנתונים שהוזנו</feature>
+        
+      </features>
+
+    </module>
+
+
+    <module>
+
+      <name>מסך אירועים</name>
+
+      <description> מודול זה מאפשר יצירת אירועים חדשים </description>
+
+
+      <features>
+
+        <feature>הזנת נתונים</feature>
+
+        <feature>צפייה בנתונים הקיימים שהוזנו</feature>
+
+        <feature>עדכון פרטי הנתונים</feature>
+
+        <feature>מחיקת פרטי הנתונים שהוזנו</feature>
+
+        <feature>מיון נתונים מוצגים</feature>
+
+
+      </features>
+
+    </module>
+
+
+    <module>
+
+      <name>דף ניהול צעירים</name>
+
+      <description>מודול זה מאפשר ניהול צעירים </description>
+
+
+      <features>
+
+        <feature>הוספת צעירים חדשים</feature>
+
+        <feature>עריכה ומחיקת פרטים</feature>
+
+        <feature>שליחת אי-מייל</feature>
+        
+        <feature>מיון צעירים לפי קטגוריות</feature>
+
+
+      </features>
+
+    </module>
+
+  </modules>
+
+
+  <technologies>
+
+    <technology name="C#"/>
+
+    <technology name="MS SQL Server"/>
+
+    <technology name="JavaScript"/>
+
+    <technology name="jQuery"/>
+
+
+  </technologies>
+
+  <challenges> עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, התמודדות מול מאגר נתונים גדול ומסורבל ויצירת שפה משותפת למערכת אחידה </challenges>
+
+  <personalNote/>
+
+</project>

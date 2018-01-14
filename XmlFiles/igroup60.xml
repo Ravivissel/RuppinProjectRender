@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>RentMyCar אפליקציה לשיתוף רכבים</name>
+  <faculty>IE</faculty>
+  <year>2016</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>אפליקציה</tag>
+    <tag>נסיעות</tag>
+    <tag>כלכלה שיתופית</tag>
+    <tag>השכרת רכב</tag>
+    <tag>שיתוף רכבים</tag>
+  </tags>
+  <customer>
+    <name>RentMyCar</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/appLogo.png</logoUrl>
+    <shortDescription>
+      אפליקציה לשיתוף רכבים המאפשרת לכל בעל רכב להציע את רכבו להשכרה ובנוסף מאפשרת לכל בן אדם שצריך תחבורה למצוא רכב העונה על דרישותיו ולהשכירו
+    </shortDescription>
+    <interstedParties>
+      <party>מכללת רופין</party>
+      <party>אגודת הסטודנטים של רופין</party>
+      <party>סטודנטים הלומדים במכללת רופין</party>
+      <party>מועצת עמק חפר</party>
+    </interstedParties>
+    <users>
+      <user>סטודנטים הלומדים במכללת רופין</user>
+      <user>משתמשים פרטיים</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup60</groupCode>
+    <student>
+      <name>ליאב נוה</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/liav.jpg</imageUrl>
+    </student>
+    <student>
+      <name>אוהד דיין</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/ohad.jpg</imageUrl>
+    </student>
+    <student>
+      <name>סער מדר</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/saar.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/logo.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup60/prod/</projectLandingPage>
+  <movie>https://youtu.be/n_89mzmqrsk</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/Home.png</imageUrl>
+      <description>מסך הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/SignIn.png</imageUrl>
+      <description>הרשמה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/Search.png</imageUrl>
+      <description>מסך חיפוש רכבים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/PostAd.png</imageUrl>
+      <description>פרסום מודעת השכרת רכב חדשה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup60/prod/docs/Images/Dashboard.png</imageUrl>
+      <description> User Dashbord</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup24/prod/docs/Images/UserInfo.png</imageUrl>
+      <description>פרטי משתמש ויצירת קשר</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>ד"ר עמית רכבי</advisor>
+    <advisor>מר בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+    ?!המכונית שלכם חונה רוב היום ללא שימוש ,אז למה שלא תעשו ממנה כסף בינתיים
+    .כיום יש מיליארד מכוניות בעולם, וכל מכונית עומדת חסרת שימוש הרבה שעות ביממה
+    </shortDescription>
+    <shortDescription>RentMyCar</shortDescription>
+  <shortDescription>
+    הינה אפליקציה לשיתוף רכבים המאפשרת לכל בעל רכב להציע את רכבו להשכרה ובנוסף
+    מאפשרת לכל בן אדם שצריך תחבורה למצוא רכב העונה על דרישותיו ולהשכירו
+    </shortDescription>
+  <goals>
+    <goal>
+      <description>יצירת פלטפורמה שתאפשר לבעלי רכבים להציע את רכבם להשכרה</description>
+      <status>
+        סטודנטים בעלי רכב ישכרו את רכבם וינצלו את הפוטנציאל שלו כאשר לא נעשה בו שימוש ,למטרת רווח ולהפוך הוצאה להכנסה
+      </status>
+    </goal>
+    <goal>
+      <description>יצירת חלופה נוחה לתחבורה ציבורית וגמישה ככל הניתן עבור סטודנטים ללא רכב הגרים בקרבת המכללה</description>
+      <status>
+        סטודנטים שאין ברשותם רכב תהיה אופציה  לחפש רבכבים זמינים לפי מיקום ,זמן ועלות
+      </status>
+    </goal>
+    <goal>
+      <description>הפחתת עומס על אזורי החניה בקרבת המרכז האקדמי רופין</description>
+      <status>
+        הגדלת זמינות המקומות הפנויים בעקבות ניצול נכון יותר של רכבים והפחתת שעות החנייה בהן הרכב עומד ללא שימוש
+      </status>
+    </goal>
+    <goal>
+      <description>יצירת מציאות ירוקה יותר על-ידי הפחתת כמות הרכבים על הכביש</description>
+      <status>
+        יצירת מודעות ומציאות בה סטודנט לא חייב לרכוש רכב משלו, אלא להשתמש ברכב זמין בסביבת הלימודים
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך כניסה לאפליקציה</name>
+      <description>
+        מסך התחברות ע"י הזנת דוא"ל וסיסמא
+      </description>
+      <features>
+        <feature>
+          שמירת נתוני התחברות
+        </feature>
+        <feature>
+          משתמש שנכנס למערכת יכול להתחבר אליה דרך חשבון הפייסבוק שלו
+        </feature>
+        <feature>
+          ישנה אפשרות של שחוזר סיסמא
+        </feature>
+      </features>
+    </module>
+    <module>
+      <name>הרשמה למערכת</name>
+      <description>Wizard</description>
+      <description>
+        של מילוי פרטי משתמש במערכת
+      </description>
+      <features>
+        <feature>
+          שמירת נתוני המשתמש
+        </feature>
+        <feature>
+          שמירת נתוני רכב
+        </feature>
+        <feature>
+          העלת תמונות ישרות מהסמארטפון
+        </feature>
+        <feature>
+          הגדרת סוג משתמש - שוכר ו\או משכיר
+        </feature>
+        <feature>
+          שמירת פרטי כרטיס אשראי
+        </feature>
+      </features>
+    </module>
+    <module>
+      <name>חיפוש רכבים</name>
+      <description>
+        חיפוש רכבים לפי מיקום נוחכי והצגת המיקום הנוכחי של המשתמש ושל רכבים הזמינים להשכרה באזורו
+      </description>
+      <features>
+        <feature>
+          שימוש בשירותי המפות של גוגל
+        </feature>
+        <feature>שליפת המיקום הנוכחי של המשתמש והצגת מיקומים של רכבים זמינים</feature>
+        <feature>הרכבים הזמינים להשכרה ממוינים לפי תאריך</feature>
+        <feature>חיפוש מתקדם של רכבים לפי סוג רכב, שנת ייצור, תיבת הילוכים ומחיר</feature>
+      </features>
+    </module>
+    <module>
+      <name>פרסום מודעת השכרת רכב חדשה</name>
+      <description>יצירת מודעת השכרת רכב חדשה ועדכון על מצב זמינות הרכב לפי ימים או שעות</description>
+      <features>
+        <feature>שליפת המיקום הנוכחי של המשתמש והזנת המיקום בפרטי המודעה</feature>
+        <feature>שימוש בדייט פיקר לבחירת שעה ותאריך למודעה</feature>
+      </features>
+    </module>
+    <module>
+      <name>User Dashbord</name>
+      <description>מסך ניהול ראשי לכל סוג משתמש</description>
+      <features>
+        <feature>צפייה בהזמנות או בקשות הממתינות לאישור </feature>
+        <feature>אישור או דחייה של בקשת השכרה</feature>
+        <feature>צפייה בפרטי מבקש הבקשה</feature>
+        <feature>צפייה בהיסטוריית נסיעות</feature>
+      </features>
+    </module>
+    <module>
+      <name>פרטי משתמש ויצירת קשר</name>
+      <description>מסך ניהול פרטי המשתמש</description>
+      <features>
+        <feature>צפייה ועריכת פרטי משתמש </feature>
+        <feature>צפייה ועריכה של פרטי רכב</feature>
+        <feature>שליחת הודעה למנהלי המערכת</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="Json.Net"/>
+    <technology name="PushSharp"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="jQuery"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="Google Maps API"/>
+    <technology name="PhoneGap"/>
+  </technologies>
+  <challenges>
+    עבודה עם שרת, תיאום צוות בפיתוח המערכת, למידת טכנולוגיות חדשות כגון:
+    <challenges>
+      Facebook login, Google Maps API, Phonegap, PushSharp.
+      </challenges>
+    ופיתוח מכונת מצבים מורכבת הנותנת מענה למציבי שימוש שונים.
+  </challenges>
+  <personalNote>
+    ,הרעיון לאפלקציה עקב צורך אמיתי של חברי הקבוצה, בנוסף סער עבד בחברת טכנולגית מכוניות ונחסף לעולם שיתוף הרכבים והכלכלה השיתופית
+    ביצוע הפרויקט היווה אתגר גדול עבורינו הן בפן הטכנולוגי והן בפן המקצועי. למדנו רבות על יישום תהליכים והפיכה של רעיון לכדי מוצר, פיתחנו מיומנויות של כתיבת תוכניות עסקיות ועבודת צוות בפקוייקט .
+  </personalNote>
+</project>

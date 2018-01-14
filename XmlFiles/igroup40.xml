@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>רשת חברתית למציאת בעלי מקצוע עפ"י המלצות חברים</name>
+  <faculty>IE</faculty>
+  <year>2015</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>רשת חברתית</tag>
+    <tag>בעלי מקצוע</tag>
+    <tag>עסקים</tag>
+    <tag>אמינות</tag>
+    <tag>מקצועיות</tag>
+    <tag>חיפוש</tag>
+  </tags>
+  <customer>
+    <name>proFIT</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/logo.png</logoUrl>
+    <shortDescription>'פרופיט' מתמחה במציאת בעלי מקצוע המומלצים על ידי האנשים הכי קרובים אלינו ועושה זאת בעזרת ממשק חדשני ונוח.</shortDescription>
+    <interstedParties>
+      <party>בעלי מקצוע עצמאיים</party>
+      <party>עסקים קטנים</party>
+      <party>אזרחי מדינת ישראל</party>
+      <party>חברות מתחרות</party>
+      <party>חברות פרסום</party>
+    </interstedParties>
+    <users>
+      <user>משתמש כללי</user>
+      <user>בעל עסק</user>
+      <user>מנהל מערכת</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup40</groupCode>
+    <student>
+      <name>סימה בטט</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/sima.JPG</imageUrl>
+    </student>
+    <student>
+      <name>ואדים גיליאדוב</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/vadim.jpg</imageUrl>
+    </student>
+    <student>
+      <name>שלי פיינשטיין</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/shelly.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/logo.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup40/prod/Login.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/hU7ih3zeww0</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/login.JPG</imageUrl>
+      <description>מסך הכניסה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/login_mobile.PNG</imageUrl>
+      <description>מסך הכניסה למערכת באפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/home_mobile.PNG</imageUrl>
+      <description>מסך הבית באפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/homepage.JPG</imageUrl>
+      <description>מסך חיפוש בעל מקצוע</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/searchResults.JPG</imageUrl>
+      <description>מסך תוצאות חיפוש בעל מקצוע</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/searchResults_mobile.PNG</imageUrl>
+      <description>מסך תוצאות חיפוש באפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/recommendations.JPG</imageUrl>
+      <description>מסך צפיה בהמלצות על העסק</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/recommendations_mobile.PNG</imageUrl>
+      <description>מסך צפיה בהמלצות באפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/fillRec.JPG</imageUrl>
+      <description>מסך הוספת המלצה חדשה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/fillRec_mobile.PNG</imageUrl>
+      <description>מסך הוספת המלצה חדשה באפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/profile.JPG</imageUrl>
+      <description>מסך דף פרופיל</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/home_business.JPG</imageUrl>
+      <description>מסך כניסה - בעל עסק</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup40/prod/docs/Images/admin.JPG</imageUrl>
+      <description>מסך דף אדמין</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>מר בנימין בורנפלד</advisor>
+    <advisor>ד"ר עמית רכבי</advisor>
+  </advisors>
+  <shortDescription>"PROFIT" היא רשת חברתית לחיפוש ושיתוף בעלי מקצוע אשר מתמחה במציאת בעלי מקצוע המומלצים על ידי האנשים הכי קרובים אלינו ועושה זאת בעזרת ממשק חדשני ונוח.</shortDescription>
+  <goals>
+    <goal>
+      <description>פתרון בעיית האמינות בעת חיפוש אחר בעל מקצוע</description>
+      <status>המערכת מבססת את תוצאות החיפוש על המלצות חברים תוך שימוש באלגוריתם חכם אשר לוקח בחשבון את ההמלצות האמינות ביותר</status>
+    </goal>
+    <goal>
+      <description>הצגת תוצאות החיפוש באופן ויזואלי וחדשני</description>
+      <status>תוצאות החיפוש מוצגות במבנה עצי ולא כעוד רשימה כדוגמת מערכות מתחרות</status>
+    </goal>
+    <goal>
+      <description>דירוג העסק במספר פרמטרים</description>
+      <status>המערכת מאפשרת לדרג את בעל המקצוע/ העסק בפרמטרים שונים: מחיר, זמינות, אמינות, שירות והערכה כללית</status>
+    </goal>
+    <goal>
+      <description>חשיפה לבעלי המקצוע ללא צורך ב"מניפולציות" ובהשקעה כספית גדולה</description>
+      <status>המערכת מנטרלת "מניפולציות" ו"פרוטקציות" באופן הצגת תוצאות החיפוש</status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>חיפוש בעל מקצוע</name>
+      <description>המודול מאפשר לבצע חיפוש של בעל מקצוע בקטגוריה רצויה ובאזור שירות רצוי ומציג תוצאות חיפוש במבנה עצי עפ"י המלצות חברים או תוצאות עפ"י דירוג כללי במידה ולא נמצאו המלצות עפ"י חברים</description>
+      <features>
+        <feature>בחירת קטגוריה ואזור שירות</feature>
+        <feature>אלגוריתם חכם העושה שימוש בדירוג החברים, דירוג כללי, מספר החברים המדרגים ומספר המדרגים הכללי</feature>
+        <feature>הצגת תוצאות החיפוש באופן ויזואלי ונוח כאשר כל המידע הרלוונטי זמין לעיני המחפש</feature>
+      </features>
+    </module>
+    <module>
+      <name>הוספת המלצה חדשה</name>
+      <description>המודול מאפשר הזנת המלצה חדשה למערכת על בעל מקצוע/ עסק</description>
+      <features>
+        <feature>בחירת העסק עליו רוצים להמליץ (תתאפשר רק במידה ולא המלצנו עליו בעבר)</feature>
+        <feature>הזנת המלצה במספר פרמטרים: מחיר, זמינות, אמינות, שירות והערכה כללית</feature>
+        <feature>עדכון דירוג העסק במערכת לאור ההמלצה החדשה</feature>
+      </features>
+    </module>
+    <module>
+      <name>הוספת חבר</name>
+      <description>מודול המאפשר יצירת קשרי חברות חדשים עם משתמשי המערכת</description>
+      <features>
+        <feature>שליחת בקשת חברות למשתמש</feature>
+        <feature>התרעת "בקשת חברות חדשה" תישלח למשתמש ממנו ביקשו חברות הן דרך אימייל והן דרך המערכת</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול "המוזמנים שלי"</name>
+      <description>המודול מאפשר מעקב היסטורי ועתידי אחר בעלי המקצוע המוזמנים ע"י המשתמש</description>
+      <features>
+        <feature>הוספת הזמנה חדשה</feature>
+        <feature>צפיה/עדכון/מחיקה של הזמנות קיימות</feature>
+      </features>
+    </module>
+    <module>
+      <name>רישום עסק</name>
+      <description>מודול המאפשר למשתמש לרשום עסק שלו ובכך להפוך לבעל עסק במערכת/להוסיף עסק נוסף למערכת</description>
+      <features>
+        <feature>הזנת פרטי העסק כולל קטגורית העסק ואזורי שירות</feature>
+        <feature>הוספת העסק למאגר</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול מערכת</name>
+      <description>מודול ניהול המערכת וקבלת הודעות משתמשים</description>
+      <features>
+        <feature>טיפול בהודעות משתמשים</feature>
+        <feature>חסימת תכנים לא הולמים/פוגעניים</feature>
+        <feature>חסימת משתמשים</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="AJAX"/>
+    <technology name="jQuery"/>
+    <technology name="Google API"/>
+    <technology name="Cytoscape.js"/>
+    <technology name="HTML5 + CSS3"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="PhoneGap"/>
+  </technologies>
+  <challenges>עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, פיתוח במקביל של מערכת שולחנית ואפליקצית מובייל ופיתוח מודול חיפוש חכם הן לוגית והן ויזואלית מבחינת ממשק משתמש</challenges>
+  <personalNote></personalNote>
+</project>

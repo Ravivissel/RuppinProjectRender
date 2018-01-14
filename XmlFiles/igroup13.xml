@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת לניהול מאגרי תקשורת לארגון בטרם</name>
+  <faculty>IE</faculty>
+  <year>2014</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>עמותה</tag>
+    <tag>היפגעויות</tag>
+    <tag>ילדים</tag>
+    <tag>בטיחות</tag>
+    <tag>אזכורים</tag>
+    <tag>הורים</tag>
+  </tags>
+  <customer>
+    <name>בטרם</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/logo.jpg</logoUrl>
+    <shortDescription>
+      ארגון 'בטרם' לבטיחות ילדים הינו עמותה הפועלת ללא מטרת רווח שמקדמת ומנהלת את תחום בטיחות הילדים במדינת ישראל
+    </shortDescription>
+    <interstedParties>
+      <party>רשויות שלטון</party>
+      <party>רשויות מקומיות</party>
+      <party>אזרחי מדינת ישראל</party>
+      <party>גופים וארגונים</party>
+      <party>אנשי מקצוע</party>
+    </interstedParties>
+    <users>
+      <user>עובד עמותה כללי</user>
+      <user>מטייב</user>
+      <user>עובד עמותה המתעסק עם התחומים הנוגעים למערכת</user>
+      <user>מנהל מערכת</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup13</groupCode>
+    <student>
+      <name>סתיו כהן</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/stav.jpg</imageUrl>
+    </student>
+    <student>
+      <name>מור שיבק</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/mor.jpg</imageUrl>
+    </student>
+    <student>
+      <name>נופר פלשניצקי</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/nofar.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl> http://proj.ruppin.ac.il/igroup13/prod/docs/Images/logo.jpg </projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup13/prod/Login.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/V3RKNlawZec</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Login.png</imageUrl>
+      <description>מסך הכניסה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Insert.png</imageUrl>
+      <description>מסך הזנת תרחיש חדש למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Reports.jpg</imageUrl>
+      <description>מסך דוחות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Search.jpg</imageUrl>
+      <description>מסך חיפוש</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Map.jpg</imageUrl>
+      <description>מסך המציג ריכוז נתונים על גבי מפה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup13/prod/docs/Images/Rss.jpg</imageUrl>
+      <description>מסך "רסיסי מידע" (RSS)</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>דוד בנימין</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+    מהות הפרויקט היא פיתוח מערכת שתנהל את הכתבות ממאגרי התקשורת השונים ובכך לסייע להפחתת היפגעויות ילדים בישראל
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>איחוד שלושת סוגי התיעוד למאגר נתונים אחד</description>
+      <status>
+        המערכת מאגדת בתוכה את שלושת התחומים - היפגעות, בטיחות ואזכורים וכן מצליבה נתונים באופן אוטומטי ומנתחת אותם
+      </status>
+    </goal>
+    <goal>
+      <description>הצגת נתונים מהימנים ונכונים ללמידה על מניעת היפגעויות ילדים</description>
+      <status>
+        מסד הנתונים של המערכת על גבי שרת אשר שומר את כל המידע הרלוונטי
+      </status>
+    </goal>
+    <goal>
+      <description>צמצום שעות עבודה של עובדי הארגון</description>
+      <status>
+        המערכת מנתחת ומעבדת נתונים
+      </status>
+    </goal>
+    <goal>
+      <description>הפחתת שיעור תמותה והיפגעות ילדים</description>
+      <status>
+        דרך המערכת ניתן לזהות את הגורמים המכריעים להתקיימות מקרים אלו
+      </status>
+    </goal>
+
+
+  </goals>
+
+  <modules>
+    <module>
+      <name>מסך הבית</name>
+      <description>
+        המודול מכיל ריכוז מידע על מקרי היפגעויות ילדים המוצג על גבי מפה, ייצוא נתונים לגבי שלושת התחומים לקבצי אקסל
+      </description>
+      <features>
+        <feature>ייצוא לאקסל</feature>
+        <feature>אלגוריתם העושה שימוש במקום גאוגרפי לפי בחירת הפילטרים הרצויים למקרי ההיפגעות</feature>
+      </features>
+    </module>
+    <module>
+      <name>הזנת נתוני היפגעות, בטיחות ואזכורים</name>
+      <description>
+        המודול מאפשר הזנת נתוני תרחישי היפגעות, מקרי בטיחות ואזכורי 'בטרם' בתקשורת, מאפשר הצלבת נתוני כתבות בין היפגעות לבטיחות
+      </description>
+      <features>
+        <feature>הכנסת נתונים ואפשרות להעלאת קובץ של פרטי הכתבה למערכת</feature>
+        <feature>צפייה בנתונים הקיימים שהוזנו</feature>
+        <feature>עדכון הנתונים</feature>
+        <feature>מחיקת פרטי הנתונים שהוזנו</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול הפקת דוחות</name>
+      <description>
+        מודול המאפשר יצירת דוחות חדשים לפי יישוב, חגים, מנגנון היפגעות ותמותה
+      </description>
+      <features>
+        <feature>אפשרות צפייה בדוח על גבי השרת</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול חיפוש</name>
+      <description>
+        המודול מאפשר חיפוש תרחישי היפגעות ומקרי בטיחות
+      </description>
+      <features>
+        <feature>חיפוש רגיל לפי שדות קבועים</feature>
+        <feature>חיפוש מורחב לפי שדות מרובים המופיעים בכל פרטי תרחיש היפגעות/מקרה בטיחות</feature>
+        <feature>חיפוש מתקדם לפי שדות משולבים בנושאי היפגעות ובטיחות</feature>
+        <feature>אפשרות צפייה ועדכון תוצאות החיפוש</feature>
+        <feature>אפשרות ייצוא לאקסל את טבלת תוצאות החיפוש</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול "רסיסי מידע"-RSS</name>
+      <description> טכנולוגיה מבוססת רשת המאפשרת לאתרים הרלוונטים להיפגעות ילדים להפיץ את התכנים ברשת ולאפשר לגולשים להתעדכן בהם </description>
+      <features>
+        <feature>צפייה בתרחישים הנבחרים</feature>
+        <feature>אפשרות צפייה בקובץ הכתבה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול המשתמשים</name>
+      <description>מודול ניהול ההרשאות במערכת</description>
+      <features>
+        <feature>הוספת משתמשים</feature>
+        <feature>עריכה ומחיקת פרטים</feature>
+        <feature>הענקת רמות גישה</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="jQuery"/>
+    <technology name="Google Maps API"/>
+  </technologies>
+  <challenges>
+    עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, התמודדות מול מאגר נתונים גדול ומסורבל ויצירת שפה משותפת למערכת אחידה
+  </challenges>
+  <personalNote></personalNote>
+</project>
