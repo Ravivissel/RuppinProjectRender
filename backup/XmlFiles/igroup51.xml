@@ -1,0 +1,207 @@
+﻿<project>
+<name>מערכת לניהול מידע בארגון השומר החדש</name>
+<faculty>IE</faculty>
+<year>2016</year>
+<type>מערכות מידע</type>
+<tags>
+<tag>עמותה</tag>
+<tag>שמירות</tag>
+<tag>שומרים</tag>
+<tag>התראות</tag>
+<tag>איורעי בטיחות</tag>
+</tags>
+<customer>
+<name>השומר החדש</name>
+<logoUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/logo.png</logoUrl>
+<shortDescription>
+ארגון השומר החדש הוקם בשנת 2007 ע"י קבוצת פעילים אוהבי הארץ במטרה לסייע לחקלאים, לבוקרים ולכלל אזרחי המדינה בשמירה, עבודה חקלאית והחזקת השטחים הפתוחים בנגב ובגליל מתוך תפיסת ערבות הדדית ואחריות משותפת.
+</shortDescription>
+<interstedParties>
+<party>שומרים קבועים</party>
+<party>מתנדבים</party>
+<party>הנהלת האירגון</party>
+<party>אזרחי המדינה</party>
+<party>חקלאיים</party>
+</interstedParties>
+<users>
+<user>שומר בארגון</user>
+<user>רכזת מתנדבים</user>
+<user>מנהלי הארגון</user>
+<user>חלקאיים</user>
+</users>
+</customer>
+<students>
+<groupCode>igroup51</groupCode>
+<student>
+<name>מזל סבן</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/mazal.jpg</imageUrl>
+</student>
+<student>
+<name>ענת ציוני</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/anat.jpg</imageUrl>
+</student>
+<student>
+<name>תימור נועה לוי</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/timor.jpg</imageUrl>
+</student>
+</students>
+<projectImageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/logo.png</projectImageUrl>
+<projectLandingPage>http://proj.ruppin.ac.il/igroup51/test1/sando/deskPage.html</projectLandingPage>
+<mobile><links><link target="android"><url>http://proj.ruppin.ac.il/igroup51/test1/sando/index.html</url></link></links></mobile>
+<movie>https://www.youtube.com/v/5ufrK_LzuRQ</movie>
+<screenShots>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/GuaringAndEvent.png</imageUrl>
+<description>מסך שמירות ואירועים - מנהל</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/SmartScheduling.png</imageUrl>
+<description>מסך שיבוץ חכם לשמירות בהם חסר איוש</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/tipol.jpg</imageUrl>
+<description>מסך טיפול בשומרים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/app_home.png</imageUrl>
+<description>מסך הבית אפליקציה</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/app_events.png</imageUrl>
+<description>מסך פתיחת אירוע חריג או מצוקה באפליקציה</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup51/prod/docs/Images/manger.png</imageUrl>
+<description>מסך מהמנל</description>
+</screenShot>
+</screenShots>
+<advisors>
+<advisor>ד"ר דיצה ביימל</advisor>
+<advisor>מר בנימין בורנפלד</advisor>
+</advisors>
+<shortDescription>
+ליצור תשתית מחשובית שתסייע לארגון לנהל ביתר יעילות את מטלות צוות המתנדבים בו, להעצים את המוטיבציה שלהם ולהגדיל את חשיפת הארגון לקהל הרחב
+</shortDescription>
+<goals>
+<goal>
+<description>לאפשר קליטה מהירה, נוחה ויעילה של מתנדבים לארגון</description>
+<status>
+המערכת מאפשרת לשומרים להיקלט באופן אישי לאירגון, או שרכזת המתנתבנים יכולה לקלוט אותם באופן אישי. כמו כן, בכל מקרה היא נדרשת לאשר אותם כחברים בארגון.
+</status>
+</goal>
+<goal>
+<description>
+לאפשר למתנדבים להשתבץ לשמירות באופן ידידתי, ולעודדם להתנדב לשמירות באמצעות כלי מישחוק
+</description>
+<status>
+השומרים יכולים להירשם לשמירות מהאפליקציה או מהמערכת בכל רגע שירצו. כמו כן, כאשר המתנדבים מבצעים פעולות במערכת הם מקבלים על כך ניקוד (כוכבים) אשר מדרבנים אותם להמשיך ולהתנדב בארגון.
+</status>
+</goal>
+<goal>
+<description>לסייע להנהלה באמצעות תמיכה ממוחשבת בתהליכים הארגוניים הכרוכים בניהול המתנדבים</description>
+<status>להנהלה יש ממשק דסקטופ בו הם מבצעים את כל פעולותיהם בארגון- הרשמה לארגון, הרשמה לשמירות, קבלת דוחות, טיפול במשתמשי הארגון ועוד. כמו כן, יש להם גם ממשק אפליקטיבי אשר נותן להם מענה מעבר לשעות העבודה לגבי השמירות שמתבצעות בשטח.</status>
+</goal>
+<goal>
+<description>לאפשר למתנדבים לבצע את שלב העליה לשמירה בצורה יעילה</description>
+<status>
+לשומרים ישנה אפליקציה בה הם עולים לשמירה, מחוייבים לבצע תדריך עליה לשמירה דרך האפליקציה על מנת להתחיל את השמירה. כמן כן, הם ממלאים סיכום שמירה דרך האפליקציה גם כן.
+</status>
+</goal>
+<goal>
+<description>לאפשר למתנדבים להזעיק עזרה באופן מהיר ויעיל ככל הניתן בזמן אירוע</description>
+<status>
+באפליקציה, לאחר שהשומר עלה לשמירה, הוא יכול ללחוץ על כפתור "פתיחת אירוע" והכריז על אירוע חריג (בו הוא מזעיק לשטח את בעל החווה ורכז השטח) או אירוע מצוקה (בו הוא מזעיק את כל הגורמים הרלוונטים לאירוע)
+</status>
+</goal>
+</goals>
+<modules>
+<module>
+<name>מודל משתמשים</name>
+<description>
+המערכת נותנת מענה לניהול משתמשים- שומרים ומנהלים. לנהל רישום של משתמש חדש לארגון, עריכת משתמשים וכו</description>
+<features>
+<feature>ייצוא לאקסל והדפסת הנתונים</feature>
+<feature>
+חיבור עם בסיס הנתונים לניהול הנתונים בזמן אמת
+</feature>
+<feature>עריכה עדכון ומחיקה של משתמשים</feature>
+</features>
+</module>
+<module>
+<name>מודל שמירות</name>
+<description>
+מודל השמירות נותן מענה לשומר ולמנהל להרשמה לשמירות בזמן אמת. כמו כן מנהלת המתנדבים יכולה לערוך את השמירות, ליצור שמירות חדשות וכו
+</description>
+<features>
+<feature>
+רישום למשמרות על ידי השומרים במערכת ובאפליקציה
+</feature>
+<feature>צפייה בשמירות שלי בזמן אמת</feature>
+<feature>עדכון שמירות על ידי רכזת המתנדבים וצפייה בזמן אמת של השומרים</feature>
+</features>
+</module>
+<module>
+<name>מודול הפקת דוחות</name>
+<description>
+רכזת המתנדבים יכולה להפיק דוחות לגבי השומרים והשמירות בארגון</description>
+<features>
+<feature>אפשרות לצפייה בדוחות השונות של הנתונים השמורים בבסיס הנתונים</feature>
+<feature>אפשרות להדפסת הדוחות מהמערכת ולייצוא לאקסל</feature>
+</features>
+</module>
+<module>
+<name>מודול אירועים</name>
+<description>המודל מאפשר לצפות בכל האירועים שנפתחו בזמן השמירות, לצפות בפרטי הדוח והאם הוזן דוח סיכום</description>
+<features>
+<feature>חיפושים וחיתוכים של המידע מבסיס הנתונים</feature>
+<feature>
+צפייה ועדכון של הפרטים בבסיס הנתונים
+</feature>
+</features>
+</module>
+<module>
+<name>מודול כוכבים</name>
+<description>
+מודל זה מדרבן את השומרים בארגון לבצע פעולות במערכת על מנת לצבור כוכבים ולהפוך למצטייני החודש או השנה. השומרים מקבלים כוכבים על הרשמה לארגון, הרשמה לשמירות, מילוי דוח סיכום שמירה וכו..
+</description>
+<features>
+<feature>מנהל צפייה ועדכון נקודות לכוכבים</feature>
+<feature>שומר צפייה במערכת ובאפליקציה על מה קיבל כוכבים וכמה</feature>
+<feature>כל שומר יכול לראות מי השומר המצטיין החודשי והשנתי</feature>
+</features>
+</module>
+<module>
+<name>מודול התראה על אירועים</name>
+<description>מודל זה נועד על מנת להתריא בזמן אמת על אירועי בטיחות ואירועים חריגים שקורים בזמן השמירות</description>
+<features>
+<feature>אפליקציה שומר- השומר יכול להתריר בזמן אמת על אירוע חריג ולפרט אותו או להתריא על אירוע מצוקה וכן להקפיץ כוחות לאירוע</feature>
+<feature>אפליקציה מנהל- המנהל מקבל את ההתראה על האירוע ויכול לנווט למקום (מתממשק עם וויז) וכן לראות את הכוחות על פני מפה</feature>
+<feature>במערכת ניתן לראות את האירועים שנפתחו, לראות את סיכומי האירועים ולעדכן סטטוס האירוע</feature>
+</features>
+</module>
+<module>
+<name>מודול שיבוץ חכם</name>
+<description>מודול זה מזהה שמירות אשר חסר להם שיבוץ בשבוע הקרוב, ועל ידי הפעלת האלגוריתם מתקבלים שומרים אשר עונים על הקריטיונים שנבחרו לפי הציונים שרכזת המתנדבים נתנה לכל קריטיון. ובלחיצה על כפתור היא יכולה לשלוח הודעות לשומרים שאותם היא מעוניינת לשבץ לשמירה זו. והשומרים מקבלים זאת כהתראה מהאפליקציה- בקשה לרישום לשמירה</description>
+<features>
+<feature>זיהוי השמירות להם חסר שיבוץ- לפי בסיס הנתונים</feature>
+<feature>מיפוי נתונים מעמיקים וחקירת בסיס הנתונים על מנת לקבל את השומרים המתאימים ביותר לשמירה</feature>
+<feature>שליחת הודעה לשומרים על ידי טכנולוגית push notification</feature>
+</features>
+</module>
+</modules>
+<technologies>
+<technology name="ASP.NET"/>
+<technology name="C#"/>
+<technology name="MS SQL Server"/>
+<technology name="JavaScript"/>
+<technology name="ASP.NET AJAX Control Toolkit"/>
+<technology name="jQuery"/>
+<technology name="Google Maps API - Location Based Services"/>
+<technology name="Google API - push notification"/>
+<technology name="Phone gap"/>
+</technologies>
+<challenges>
+למידה של טכנולוגיות חדשות, יצירת מודולים מורכבים, אלמנטים חכמים, עבודת צוות, עיצוב ממש משתמש נוח בעל מגוון רחב.
+</challenges>
+<personalNote/>
+</project>

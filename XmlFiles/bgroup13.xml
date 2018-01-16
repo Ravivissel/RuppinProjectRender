@@ -140,12 +140,12 @@
     <technologies>
         <technology name="ASP.NET"/>
         <technology name="SQL Server - Microsoft"/>
-        <technology name="jQuery library"/>
-        <technology name="jQuery mobile library"/>
-        <technology name="ASP.NET AJAX Control Toolkit"/>
+        <technology name="jQuery"/>
+        <technology name="jQuery mobile"/>
+        <technology name="ASP.NET AJAX"/>
         <technology name="JAVASCRPIT"/>
         <technology name="HTML"/>
-        <technology name="HTML5"/>
+        <technology name="HTML 5"/>
         <technology name="C#"/>
     </technologies>
     <challenges>

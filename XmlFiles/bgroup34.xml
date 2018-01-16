@@ -125,7 +125,7 @@
 </features>
 </module>
 -<module>
-<name>העלאת תמונה יחודית של המשתמש תוך שימוש בPHONEGAP</name>
+<name>העלאת תמונה יחודית של המשתמש תוך שימוש בphonegap</name>
 <description> אפשרות של המשתמש במערכת להעלות תמונה לפרופיל המשתמש שלו אשר תוצג בדירוג הכללי של משתמשי המערכת </description>
 -<features>
 <feature> העלאת תמונה מאלבום התמונות במכשיר הסלולרי של המשתמש </feature>
@@ -171,10 +171,10 @@
 <technology name="C#"/>
 <technology name="MS SQL Server"/>
 <technology name="JavaScript"/>
-<technology name="ASP.NET AJAX Control Toolkit"/>
+<technology name="ASP.NET AJAX"/>
 <technology name="jQuery Mobile"/>
-<technology name="Phone Gap"/>
-<technology name="Web Service.ASMX "/>
+<technology name="phonegap"/>
+<technology name="Web Service"/>
 </technologies>
 <challenges> עיצוב ממשק משתמש נוח וידידותי, יצירת משחקים גנריים עם תכנים דינמיים, עבודה מול לקוח אמיתי ודרישות מהותיות, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, יצירה של ממשק אדמין בעל שליטה מלאה על תכני האפליקציה וחיבור למסד הנתונים, התמודדות מול מאגר נתונים גדול, חשיבה יצירתית על משחקים גנריים ואינטואיטיביים למשתמש. </challenges>
 <personalNote/>

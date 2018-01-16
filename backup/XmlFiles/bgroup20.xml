@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+<name>מרכז יום</name>
+
+<type>מערכות מידע</type>
+
+
+<tags>
+
+<tag> מערכת מידע למעקב ,עדכון והוספת נתונים בצורה יעילה בארגון מרכז יום ,DayCare</tag>
+
+</tags>
+
+<faculty>BA</faculty>
+
+<year>2015</year>
+
+
+<customer>
+
+<name>מרכז יום</name>
+
+<logoUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Logo/Logom.png</logoUrl>
+
+<shortDescription>תאור של הלקוח בלא יותר מ30 מילים: מטרת מערת המידע מרכז יום הינה לספק כלי ניהולי המאפשר תיעוד,עדכון,הוספת נתונים ומעקב אחר פעילויות הארגון בצורה יעילה, נוחה ופונקציונאלית. </shortDescription>
+
+
+<interstedParties>
+
+<party>מנכ"לית הארגון</party>
+
+<party>מזכירת הארגון</party>
+
+<party> עובדי הארגון</party>
+
+<party>אנשי הקשר של הלקוחות</party>
+
+</interstedParties>
+
+
+<users>
+
+<user>מנכ"לית הארגון</user>
+
+<user>מזכירת הארגון</user>
+
+</users>
+
+</customer>
+
+
+<students>
+
+<groupCode>bgroup20</groupCode>
+
+
+<student>
+
+<name>שירן נפתלי</name>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Students/shiran.jpg</imageUrl>
+
+</student>
+
+
+<student>
+
+<name>קיריל ויגדורציק</name>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Students/kiril.jpg</imageUrl>
+
+</student>
+  
+  
+<student>
+
+<name>שיר יהב</name>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Students/shir.jpg</imageUrl>
+
+</student>
+
+
+<student>
+
+<name>עומר מנסור</name>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Students/omar.jpg</imageUrl>
+
+</student>
+
+</students>
+
+<projectImageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Logo/Logom.png</projectImageUrl>
+// this is the main image that will represent your project 
+<projectLandingPage>http://proj.ruppin.ac.il/bgroup20/prod/</projectLandingPage>
+
+<movie>http://goanimate.com/videos/0Ce9HkqOyRqc</movie>
+
+
+<screenShots>
+
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/attend.png</imageUrl>
+
+<description>נוכחות</description>
+
+</screenShot>
+  
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/customers.png</imageUrl>
+
+<description>לקוחות</description>
+
+</screenShot>
+
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/report.png</imageUrl>
+
+<description>דוחות</description>
+
+</screenShot>
+
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/activity.png</imageUrl>
+
+<description>אירועים</description>
+
+</screenShot>
+
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/shifts.png</imageUrl>
+
+<description>ניהול משמרות העובדים</description>
+
+</screenShot>
+
+
+<screenShot>
+
+<imageUrl>http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Screenshots/shuttle.png</imageUrl>
+
+<description>ניהול חברות הסעות</description>
+
+</screenShot>
+
+</screenShots>
+
+
+<advisors>
+
+<advisor>מר ניר חן</advisor>
+
+<advisor>מר עמית רכבי</advisor>
+
+</advisors>
+
+<shortDescription>מערכת המידע נבנתה עבור מנהלי ארגון מרכז יום בחבל מודיעין על מנת לספק להם כלי ניהולי המאפשר תיעוד ומעקב אחר פעילויות הארגון בצורה יעילה , נוחה ופונקציונלית. 
+מערכת המידע תאפשר הצגה ,עדכון, מעקב ,הוספת נתונים והפקת דוחות וניהול משתמשים באמצעות המערכת האפליקטיבית והמערכת האינטרנטית. 
+</shortDescription>
+
+
+<goals>
+
+<goal>
+
+<description>זמינות ושקיפות המידע לעובדים.</description>
+  <status>המידע נגיש וזמין וניתן לצפות בסידור עבודה</status>
+
+</goal>
+
+<goal>
+
+<description>מענה מהיר לשביעות רצון הלקוחות.</description>
+  <status>לקוח יקבל שירות במהירות וביעילות ולא יצטרך לחכות זמן רב</status>
+</goal>
+  
+<goal>
+
+<description>קיצור זמנים של תהליכים קריטיים:</description>
+
+<status>שליפה מהירה של מידע רפואי על מנת לטפל בלקוח.</status>
+
+</goal>
+
+<goal>
+
+<description>נוחות למשתמש:</description>
+
+<status>צפייה מאורגנת ומהירה בנתונים, עדכון והוספת נתונים ויכולת חיפוש ומציאת פרטי לקוח בקלות ובמהירות.</status>
+
+</goal>
+
+</goals>
+
+
+<modules>
+
+
+<module>
+ 
+<name>ניהול לקוחות</name>
+
+<description> תאור קצר של המודול בלא יותר ב30 מילים: המודל מאפשר הוספה ועדכון פרטי לקוח.</description> 
+
+<features>
+
+<feature> הוספת לקוח</feature>
+
+<feature>עדכון פרטי לקוח</feature>
+
+<feature>מעקב אחר תשלום</feature>
+
+<feature>מעקב אחר נוכחות</feature>
+
+<feature>חיפוש לקוחות</feature>
+
+<feature>מחיקת לקוחות</feature>
+
+  
+</features>
+
+</module>
+
+
+<module>
+
+<name>ניהול עובדים</name>
+
+<description>תאור קצר של המודול בלא יותר ב30 מילים: המודל מאפשר הוספה ועדכון פרטי עובד.</description>
+
+
+<features>
+
+<feature>הוספת עובד חדש</feature>
+
+<feature>עדכון פרטי עובד</feature>
+
+<feature>חיפוש עובד</feature>
+
+<feature>מחיקת עובד</feature>
+  
+<feature>הוספה/עדכון סידור עבודה</feature>
+
+</features>
+
+</module>
+  
+<module>
+
+<name>אירועים</name>
+
+<description>תאור קצר של המודול בלא יותר ב30 מילים: המודל מאפשר הוספה ועדכון אירועי הארגון.</description> 
+
+<features>
+
+<feature>הוספת אירוע חדש</feature>
+
+<feature>עדכון אירוע</feature>
+
+<feature>מחיקת אירוע</feature>
+  
+</features>
+</module>
+ 
+<module>
+
+<name>ניהול דוחות</name>
+
+<description>תאור קצר של המודול בלא יותר ב30 מילים: המודל מאפשר הפקת דוחות לארגון.</description> 
+
+<features>
+  
+ <feature>דוחות נוכחות</feature>
+
+<feature> ביטוח לאומי</feature>
+
+<feature>משרד הרווחה</feature>
+
+<feature>דוחות כספיים</feature>
+  
+</features>
+</module>
+</modules>
+
+
+<technologies>
+
+<technology name="ASP.NET"/>
+
+<technology name="C#"/>
+
+<technology name="javascript"/>
+
+<technology name="jQuery"/>
+  
+<technology name="CSS3, Bootstrap"/>
+  
+<technology name="SQL"/>
+  
+<technology name="Ajax"/>
+  
+<technology name="Json"/>
+  
+</technologies>
+
+<challenges>עיצוב ממשק משתמש נוח וידידותי עבור אוכלוסייה מבוגרת, חלוקת מטלות שיוונית בין חברי הקבוצה, תכנון לוח הזמנים וקביעת יעדים, תיאום בין דרישות וציפיות של הלקוח בשלב האפיון לתפעול המערכת, לימוד עצמי של כלים וטכנולוגיות חדשות.</challenges>
+
+<personalNote/>
+
+</project>

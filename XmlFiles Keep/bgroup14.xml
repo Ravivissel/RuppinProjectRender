@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project> 
+    <name>Let's Play</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>ספורט</tag>
+        <tag>let's play</tag>
+        <tag>מגרשים</tag>
+    </tags>
+    <faculty>BA</faculty>
+    <year>2014</year>     
+    <customer>
+        <name>אנשים העוסקים בפעילות גופנית</name>
+        <logoUrl>http://proj.ruppin.ac.il/bgroup14/prod/tar6/pic/logo_black.png</logoUrl> 
+        <shortDescription> Let's Play תשמש כפלטפורמה חברתית ליצירת אירועי ספורט אשר תעניק למשתמשים בה חוויה ייחודית לארגון ומציאת שותפים למגוון פעילויות ספורט.
+
+        </shortDescription>
+        <interstedParties>
+            <party>חובבי ספורט בישראל</party>
+            <party>בעלי מגרשים</party>
+        </interstedParties>
+        <users>
+            <user>חובבי ספורט בישראל</user>
+            <user>בעלי מגרשים</user>
+            
+        </users>
+    </customer>
+    <students>
+        <groupCode>bgroup14</groupCode>
+        <student>
+            <name>עומר ליברנט</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/omer_liverant.jpg</imageUrl>
+        </student>
+        <student>
+            <name>נתנאל גוטפריד</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/netanel.jpg</imageUrl>
+        </student>
+        <student>
+            <name>עידו מכנס</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/ido_machnes.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/bgroup14/prod/tar6/pic/logo_black.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/bgroup14/prod/tar6/Default.aspx</projectLandingPage>
+    <movie>https://www.youtube.com/v/jKX_6TR_hpk</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/home.png</imageUrl>
+            <description>דף הבית של האתר</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/AllEvents.png</imageUrl>
+            <description>מסך לצפיה בכל האירועים הזמינים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/EventPage.png</imageUrl>
+            <description>מסך לצפיה באירוע קיים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/MyEvents.png</imageUrl>
+            <description>מסך לצפיה בכל האירועים שהמשתמש מעורב בהם</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup14/prod/Docs/images/NewEvents.png</imageUrl>
+            <description>מסך ליצירת אירוע חדש</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>ד"ר עמית רכבי</advisor>
+        <advisor>מר ניר חן</advisor>
+       	<advisor>מר בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+    מערכת מידע אשר נבנתה עבור חובבי ספורט ברחבי הארץ והעולם אשר מעוניינים למצוא שותפים לפעילויות ספורט בסביבתם
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>מענה על הצורך למציאת שותפים לביצוע פעילות גופנית</description>
+            <status>
+                המערכת מאפשרת למשתמשים למצוא שותפים לפעילות גופנית עפ"י מיקום, גיל וענפי ספורט
+            </status>
+        </goal>
+        <goal>
+            <description>
+               ארגון נוח ופשוט של אירועי ספורט
+            </description>
+            <status>
+                המערכת עוזרת לאנשים שמעוניינים לארגן אירועי ספורט לעשות זאת בצורה קלה ונוחה. לכל אירוע יש מיקום מדויק ורשימת משתתפים שמתעדכנת בזמן אמת, וכל משתמש יכול לדעת מה הסטטוס של האירוע
+            </status>
+        </goal>
+       
+    </goals>
+    <modules>
+        <module>
+            <name>הרשמה למערכת</name>
+            <description>
+               כל משתמש שנכנס למערכת יכול להתחבר אליה דרך חשבון הפייסבוק 
+            </description>
+            <features>
+            </features>
+        </module>
+        <module>
+            <name>יצירת אירוע</name>
+            <description>
+                המודול מאפשר למשתמש רשום ליצור אירוע בהתאם לדרישות שלו
+            </description>
+            <features>
+                <feature>בחירת קטגוריה</feature>
+                <feature>בחירת כמות משתתפים לאירוע</feature>
+                <feature>בחירת מיקום האירוע מתוך מפה</feature>
+                <feature>בחירת תאריך ושעה לאירוע</feature>
+                <feature>הוספת הערות לאירוע</feature>
+                <feature>גם לאחר יצירת האירוע ניתן לבצע שינויים בפרטי האירוע</feature>
+            </features>
+        </module>
+        <module>
+            <name>חיפוש ומיון אירועים</name>
+            <description>
+              המודול מאפשר למשתמש המערכת לבצע חיפוש בין שלל האירועים הקיימים במטרה למצוא אירועים המתאימים לו 
+            </description>
+            <features>
+                <feature>חיפוש לפי סוג האירוע</feature>
+                <feature>מיון של האירועים לפי גיל</feature>
+                <feature>חיפוש לפי עיר</feature>
+                <feature>האירועים ממוינים לפי התאריך כך שהאירועים הקרובים ביותר הם הזמינים ביותר</feature>
+            </features>
+        </module>
+        <module>
+            <name>הרשמה לאירוע</name>
+            <description>מודל הרשמה לאירועים קיימים מאפשר למשתמש להצטרף ולהירשם לאירועים שונים. המשתמש יכול לצפות בכל פרטי האירוע טרם ההרשמה לרבות מספר הנרשמים, שמות הנרשמים, מיקום וזמן האירוע 
+            </description>
+            <features>
+            </features>
+        </module>
+
+	<module>
+            <name>האירועים שלי</name>
+            <description> מודל המאפשר צפייה באירועים אליהם הצטרף המשתמש, גם אירועים שכבר נערכו, וגם אירועים שייערכו בעתיד, בנוסף יכול המתשמש לצפות באירועים אותם הוא יצר ולבצע בהם שינויים כרצונו 
+            </description>
+            <features>
+            </features>
+        </module>
+
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="SQL Server - Microsoft"/>
+        <technology name="jQuery library"/>
+        <technology name="ASP.NET AJAX Control Toolkit"/>
+        <technology name="GOOGLE MAPS API"/>
+        <technology name="JAVASCRIPT"/>
+        <technology name="Facebook login "/>
+        <technology name="jQuery Mobile "/>
+    </technologies>
+    <challenges>
+        עבודה מול השרת, תיאום עבודת הצוות בשלבי הפיתוח, עבודה עם phonegap.
+ בנוסף ההתמודדות עם מערכות פחות מוכרות אשר בחלקם נאלצנו ללמוד לבד כמו התחברות משתשמים דרך הפייסבוק וכן שירותי המיקום של Google.  
+    </challenges>
+    <personalNote>
+        ביצוע הפרויקט היווה אתגר גדול עבורינו מהרבה בחינות. עם זאת אנו מרגישים סיפוק רב מהפרויקט ומהעובדה שהוא תרם לנו רבות מבחינה אישית ומקצועית וכן נתן לנו כלים טובים להתמודדות במשימות עתידיות שככל הנראה ניתקל בהם לאחר סיום הלימודים .
+    </personalNote>
+</project>

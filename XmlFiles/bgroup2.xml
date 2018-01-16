@@ -195,10 +195,10 @@
     <technology name="C#"/>
     <technology name="jQuery"/>
     <technology name="Ajax"/>
-    <technology name="SQL- server"/>
+    <technology name="SQL server"/>
     <technology name="JavaScript"/>
     <technology name="CSS"/>
-    <technology name="Ajaxtoolkit"/>
+    <technology name="Ajax toolkit"/>
   </technologies>
   <challenges>
     המערכת כולה מתבססת על מאגרים חיצוניים שצריכים לתת מענה אמין ומהיר ללקוחות האתגר העיקרי במערכת היה מציאת מאגר שיהיה גם חינמי אבל גם אמין מספיק כדי שהחלטות המערכת יהיו כמה שיותר מדוייקות ושלא רק יזהו מילים קשות להבנה אלא גם יצליחו לדרג אותם לפי חומרת הבנתן לציבור.

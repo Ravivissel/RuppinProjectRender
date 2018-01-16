@@ -151,8 +151,8 @@
         <technology name="C#"/>
         <technology name="jQuery Mobile"/>
         <technology name="LinqToSql"/>
-        <technology name="javaScript"/>
-        <technology name="BootStrap"/>
+        <technology name="JavaScript"/>
+        <technology name="BOOTSTRAP"/>
     </technologies>
     <challenges>
         התאמת גרסאות קוד בעבודת הפיתוח, לימוד עצמי של כלים וטכנולוגיות חדשות 

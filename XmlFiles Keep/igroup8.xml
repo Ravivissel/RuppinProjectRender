@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>My Best Trip</name>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>טיולים</tag>
+    <tag>מדריכים</tag>
+  </tags>
+  <faculty>IE</faculty>
+  <year>2014</year>
+  <customer>
+    <name>General Public</name>
+    <logoUrl></logoUrl> // not mandatory
+    <shortDescription>
+      תפקידו של המיזם להקים מערכת מידע התהווה פלטפורמה שתגשר בין מטיילים למדריכים ותאפשר להמוניי חובבי טיולים המעוניינים להרחיב את אופקיהם תוך כדי טיול חוויתי ולימודי עם מדריך עשיר בידע ליעדים שנבחרו בקפידה ואושרו על ידיהם מראש.
+    </shortDescription>
+    <interstedParties>
+      <party>מנחים</party>
+      <party>סטודנטים</party>
+      <party>מטיילים</party>
+      <party>מדריכים</party>
+    </interstedParties>
+    <users>
+      <user>מטיילים</user>
+      <user>מדריכים</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup8</groupCode>
+    <student>
+      <name>מיכאל קבסא</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/michael.jpg</imageUrl>
+    </student>
+    <student>
+      <name>אלכס ברוכשטוט</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/AlexBrohshtut.jpg</imageUrl>
+    </student>
+    <student>
+      <name>דיאנה קיפניס</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/diana.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/ProjectImage.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup8/prod/index.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/1f7_3OQgFrw</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/1.PNG</imageUrl>
+      <description>דף יצירת טיול</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/2.PNG</imageUrl>
+      <description>דף בית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/3.PNG</imageUrl>
+      <description>מסך הוספת יעדים לטיול</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/4.PNG</imageUrl>
+      <description>מסך הרשמה לאתר - רגיל ודרך הפייסבוק</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup8/prod/docs/images/5.PNG</imageUrl>
+      <description>דף חיפוש טיולים</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>דיצה ביימל</advisor>
+    <advisor>ניר חן</advisor>
+  </advisors>
+  <shortDescription>
+    מיזם שמטרתו הקמת פלטפורמה ממוחשבת ליצירת קשר בין מדריכי טיולים לבין מטיילים המעוניינים לתכנן ולהוציא לפועל טיול התפור על פי מידותיהם בהיבטי תקציב, משך הטיול והיעדים הרצויים. המערכת תאפשר למשתמשים השונים לארגן טיולים המבוססים על התאמה אישית לצרכיהם או לחילופין להצטרף לטיולים שאורגנו על ידי משתמשים אחרים ושניתן לצרף אליהם מטיילים נוספים.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>הקמת מסלול ייחודי</description>
+      <status>
+        המערכת תאפשר ללקוחות לבנות מסלול ייחודי, בהתאמה אישית, על פי צרכיהם ולמצוא מדריך וחברים לטיול .
+      </status>
+    </goal>
+    <goal>
+      <description>מתקן שקיפות מלאה למשתמשים באשר לחברי הצוות עמם יטיילו.</description>
+      <status>
+        המערכת תאפשר ללקוחותיה לדעת מראש מי חברי הצוות שיצאו עימם לטיול ותספק מידע עליהם  .
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>הרשמה למערכת</name>
+      <description>
+        ישנה הרשמה למדריכים ומטיילים בנפרד והרשמה מקוצרת דרך הפייסבוק בלחיצת כפתור בודדת.
+      </description>
+      <features>
+        <feature>הרשמת מדריך</feature>
+        <feature>הרשמת מטייל</feature>
+        <feature>הרשמה מקוצרת דרך הפייסבוק</feature>
+      </features>
+    </module>
+    <module>
+      <name>יצירת טיול</name>
+      <description>יצירת קבוצת טיול תוך בחירת חברי צוות, מדריך, יעדים לטיול, תאריך, שעות, ועוד</description>
+      <features>
+        <feature>בחירת תאריך</feature>
+        <feature>בחירת חברי צוות</feature>
+        <feature>בחירת יעדים</feature>
+        <feature>בחירת שעות</feature>
+        <feature>פתיחת טיול לקהל הרחב</feature>
+        <feature>פתיחת טיול לBIDDING</feature>
+      </features>
+    </module>
+    <module>
+      <name>מערכת מכרז על טיולים</name>
+      <description>
+        ניתן לפתוח טיול למכרז ולקבל הצעות ממדריכים. בהמשך אפשר לבחור את ההצעה המועדפת עליך ולצרף את המדריך לטיול שיצרת
+      </description>
+      <features>
+        <feature>פתיחת טיול מכרז</feature>
+        <feature>מדריך מגיש הצעה</feature>
+        <feature>הבעלים של הטיול מקבל או דוחה את ההצעה</feature>
+        <feature>מדריך מצורף לטיול חדש</feature>
+      </features>
+    </module>
+    <module>
+      <name>הוספת יעדים למערכת</name>
+      <description>
+        משתמש יכול להוסיף יעדים חדשים למערכת שבעתיד ישמשו לשם יצירת טיול חדש. כל יעד מורכב מקורדינטות מפה של גוגל, שם, תיאור וקטגוריה.
+      </description>
+      <features>
+        <feature>חיפוש יעד חדש על מפה של גוגל</feature>
+        <feature>כתיבת תיאור של היעד</feature>
+        <feature>שיוך יעד לקטגוריה כמו מוזאונים, אתגרי ועוד</feature>
+        <feature>הוספת זמן בילוי ממולץ ביעד</feature>
+        <feature>ציון עלות ממוצעת ביעד </feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="SQL Server - Microsoft"/>
+    <technology name="jQuery library"/>
+    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="foundation 5"/>
+    <technology name="Facebook API"/>
+    <technology name="Google API"/>
+  </technologies>
+  <challenges>
+    קושי בחלוקת המטלות בין חברי הצוות. קושי בהבדלים בין תכנון המערכת לישומה בפועל. למידת מערכות חדשות כמו חיבור לפייסבוק והתממשקות על גוגל.
+  </challenges>
+  <personalNote></personalNote>
+</project>

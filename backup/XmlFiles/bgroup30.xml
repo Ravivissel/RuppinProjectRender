@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <script id="tinyhippos-injected"/>
+  <name>מערכת לניהול פעילויות והתנדבות</name>
+  <faculty>BA</faculty>
+  <year>2016</year>
+  <type>אפליקציה</type>
+  <tags>
+    <tag>עמותה</tag>
+    <tag>פעילויות</tag>
+    <tag>התנדבות</tag>
+    <tag>עזרה</tag>
+  </tags>
+  <customer>
+    <name>VoluMatch</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/logo.jpg</logoUrl>
+    <shortDescription>
+      אפליקציה שמרכזת מידע מקיף ומציגה אותו בזמן אמת ובמקום אחד. האפליקציה מציעה "לוח פעילויות" אליהן ניתן להירשם בקלות (או לסמן Like). 
+    </shortDescription>
+    <interstedParties>
+      <party>מתנדבים</party>
+      <party>ארגונים</party>
+      <party>עמותות</party>
+    </interstedParties>
+    <users>
+      <user>עובד עמותה כללי</user>
+      <user>מוטב</user>
+      <user>מתנדב</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup30</groupCode>
+    <student>
+      <name>Gefen Glickerman</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/gefen.jpg</imageUrl>
+    </student>
+    <student>
+      <name>Lora Berger</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/lora.jpg</imageUrl>
+    </student>
+    <student>
+      <name>Lee Tibi</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/lee.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/logo.jpg</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup30/prod/index.html</projectLandingPage>
+  <movie>https://www.youtube.com/v/-QH9vL9yPzI</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/login.png</imageUrl>
+      <description>התחברות לאפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/volumain.png</imageUrl>
+      <description>מסך ראשי של מתנדב</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/benemain.png</imageUrl>
+      <description>>מסך ראשי של מוטב</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/volunav.png</imageUrl>
+      <description>ניווט האפליקציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/chat.png</imageUrl>
+      <description>מסך הודעות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup30/prod/docs/Images/new.png</imageUrl>
+      <description>הוספת פעילות חדשה</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>ניר חן</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+    אפליקציה שמרכזת מידע מקיף ומציגה אותו בזמן אמת ובמקום אחד. האפליקציה מציעה "לוח פעילויות" אליהן ניתן להירשם בקלות (או לסמן Like). 
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>חוסר בפלטפורמה לריכוז המתנדבים ופעילויות ההתנדבות</description>
+      <status>
+        האפליקציה מהווה פלטפורמה שכזו
+      </status>
+    </goal>
+    <goal>
+      <description>
+        התקשורת בין הצדדים אינה אידאלית
+      </description>
+      <status>
+       האפליקציה מהווה אמצעי תקשורת ישיר בין מוטב למתנדב
+      </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך כניסה</name>
+      <description>
+      התחברות וכניסה למערכת.
+      </description>
+      <features>
+        <feature>שמירת פרטים - לאחר כניסה ובקשת שמירה פרטים, הכניסה הבאה תהיה אוטמטית</feature>
+      </features>
+    </module>
+    <module>
+      <name>הודעות נוטיפיקציה</name>
+      <description>
+        תקשורת בין המוטב למתנדב ושמירת עירנות על תקינות המודעות
+      </description>
+      <features>
+        <feature>
+          שליחת הודעות בין המוטב למתנדב
+        </feature>
+        <feature>מתן הודעה במידה ולא ביצעו LIKE לפעילות תוך 24 שעות. </feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="Phonegap"/>
+    <technology name="jQuery"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="Google Maps API"/>
+    <technology name="nativeDroid2"/>
+  </technologies>
+  <challenges>
+    עיצוב ממשק נוח וקל לתפעול גם עבור אלו שאינם רגילים לשימוש תכוף במכשירים ניידים, הודעות בזמן אמת , התראות על פעילויות שזקוקות לשינוי עקב חוסר בהתעניינות
+  </challenges>
+  <personalNote/>
+</project>

@@ -136,7 +136,7 @@
     <technology name="JavaScript"/>
     <technology name="jQuery"/>
     <technology name="Google Maps API"/>
-    <technology name="PhoneGap"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>
     הצגת מיקומים של משתמשים מחוברים בלבד, יצירת צ'אט קבוצתי אשר פועל בכל מיני מצבים שונים וזמן אמת בכל מסכי האפליקציה

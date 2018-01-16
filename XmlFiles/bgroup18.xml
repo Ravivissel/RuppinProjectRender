@@ -179,15 +179,15 @@ http://proj.ruppin.ac.il/bgroup18/prod/docs/Images/custumerLogo.jpg</logoUrl> //
 
   <technologies>
     <technology name="ASP.NET"/>
-    <technology name="SQL Server - Microsoft"/>
-    <technology name="jQuery and jQuery Mpbile"/>
-    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="SQL Server"/>
+    <technology name="jQuery and jQuery Mobile"/>
+    <technology name="ASP.NET AJAX"/>
     <technology name="Json"/>
     <technology name="Google Maps Api"/>
-    <technology name="Waze Api"/>
-    <technology name="Angular JS"/>
-    <technology name="Bootstrap"/>
-    <technology name="Phonegap"/>
+    <technology name="Waze"/>
+    <technology name="Angular js"/>
+    <technology name="BOOTSTRAP"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>
     שינוי תפיסה של קהילת חובבי הבישול ומעבר מספרי בישול ישנים ומתכלים למערכת מידע מתקדמת.

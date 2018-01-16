@@ -190,14 +190,14 @@
     <technology name="ASP.NET"/>
     <technology name="SQL Server"/>
     <technology name="HTML 5"/>
-    <technology name="CSS 3.0"/>
+    <technology name="css 3.0"/>
     <technology name="JavaScript"/>
     <technology name="jQuery"/>
     <technology name="jQuery Mobile"/>
-    <technology name="AJAX Control Toolkit"/>
-    <technology name="Bootstrap framework"/>
-    <technology name="Google Maps API v3"/>
-    <technology name="PhoneGap"/>
+    <technology name="Ajax toolkit"/>
+    <technology name="BOOTSTRAP"/>
+    <technology name="Google Maps API"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>
     עבודה מאסיבית עם שלושת השכבות, עבודה עם פלאגינים חיצוניים מבוססי jQuery, עבודה עם כמות גדולה של טבלאות ב-DB ואינטגרציה באמצעות אפיון הקשרים ביניהן. עבודה עם Google Maps API.

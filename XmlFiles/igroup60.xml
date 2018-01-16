@@ -205,12 +205,12 @@
     <technology name="jQuery"/>
     <technology name="jQuery Mobile"/>
     <technology name="Google Maps API"/>
-    <technology name="PhoneGap"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>
     עבודה עם שרת, תיאום צוות בפיתוח המערכת, למידת טכנולוגיות חדשות כגון:
     <challenges>
-      Facebook login, Google Maps API, Phonegap, PushSharp.
+      Facebook login, Google Maps API, phonegap, PushSharp.
       </challenges>
     ופיתוח מכונת מצבים מורכבת הנותנת מענה למציבי שימוש שונים.
   </challenges>

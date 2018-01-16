@@ -11,22 +11,20 @@ function getId(url) {
     }
 }
 
-
-
 function getProjectCB(result) {
     projects = JSON.parse(result.d);
     proj = projects[0];
     // Riki, in this point in the code you get in object proj all the fields you need.
-    initPage(proj);
+    fillSeeMoreLikeThis(initPage(proj));
+
+
 
 
 }
-
 
 function errorCB(e) {
     alert("I caught the exception :  The exception message is : " + e.responseText);
 }
-
 
 function initPage(project) {
 
@@ -34,6 +32,7 @@ function initPage(project) {
     fillMoreAboutTheProject(project);
     fillCustomers(project);
     fillAboutUs(project);
+    fillSeeMoreLikeThis();
 
 }
 
@@ -59,6 +58,7 @@ function fillAboutTheProject(project) {
 
 
 }
+
 function fillMoreAboutTheProject(project) {
     document.getElementById('projGoals').innerHTML = getGoals(project);
     document.getElementById('projAdvisors').innerHTML = getAdvisors(project);
@@ -125,6 +125,7 @@ function fillMoreAboutTheProject(project) {
     }
 
 }
+
 function fillAboutUs(project) {
     document.getElementById("projNum").innerHTML = project.groupCode;
     document.getElementById("projFaculty").innerHTML = project.faculty;
@@ -145,6 +146,7 @@ function fillAboutUs(project) {
     }
 
 }
+
 function fillCustomers(project) {
     initCustomerArea()
     for (var i = 0; i < project.customers.length; i++) {
@@ -192,23 +194,23 @@ function fillCustomers(project) {
 
 $(document).ready(function () {
 
-    
+
     $("#moreDetailsContainer").hide();
 
     $("#button").click(function () {
 
-        if (isOn == 1)
-            {
-        $("#moreDetailsContainer").slideUp("slow", function () {
-            isOn = 0;
-            $("#button").text("עוד פרטים");
+        if (isOn == 1) {
+            $("#moreDetailsContainer").slideUp("slow", function () {
+                isOn = 0;
+                $("#button").text("עוד פרטים");
             });
         }
         else {
             $("#moreDetailsContainer").slideDown("slow", function () {
                 $("#button").text("פחות פרטים");
                 isOn = 1;
-            });}
+            });
+        }
     });
 
 
@@ -216,3 +218,70 @@ $(document).ready(function () {
 
 
 })
+
+function fillSeeMoreLikeThis() {
+
+    const requiredNumberOfLogos = 1;
+
+
+    let projFilesNames = [];
+    getProjectsNames(function (result) {
+
+        let allProjectsNames = JSON.parse(result.d); 
+
+
+        for (let numberOfLogo = 0; numberOfLogo < requiredNumberOfLogos; numberOfLogo++) 
+        {
+
+            let projectId = getRandomProjectFromList(allProjectsNames);
+            projectId += ".xml"
+            projFilesNames.push(projectId);
+                    
+           
+
+        }
+
+
+        getProjects(projFilesNames, function (results) {
+
+            let projectsObjectsArray = JSON.parse(results.d);
+            let str = "";
+            str += "<a href='renderProject.html?gid=" + projectsObjectsArray[0].groupCode + "'>";
+            str += "<img class='img-responsive portfolio-item' src='" + projectsObjectsArray[0].projectImageUrl + "' alt=''/>";
+            str += "   </a>";
+
+            document.getElementById('relatedProjects').innerHTML = str;
+
+
+        }, function (err) {
+
+            console.log(err);
+        });
+
+        
+
+
+
+  //relatedProjects
+      //  <a href='renderProject.html?gid=bgroup14'>
+        //    <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup14/prod/tar6/pic/logo_black.png' alt=''>
+          //          </a>
+
+
+        function getRandomProjectFromList(allProjectsNames) {
+         
+          
+            let projectsIdsArray = Object.keys(allProjectsNames);
+            let randomProjectKey = Math.floor(Math.random() * projectsIdsArray.length);
+
+            return projectsIdsArray[randomProjectKey];
+           
+
+        }
+
+
+
+    }, function (err) { console.log(err) });
+
+
+}

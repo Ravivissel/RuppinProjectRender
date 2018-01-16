@@ -192,19 +192,19 @@ Bonimpo הינה מערכת התומכת בבניית בית פרטי החל מ�
 <technologies>
 <technology name="ASP.NET"/>
 <technology name="HTML"/>
-<technology name="HTML5"/>
+<technology name="HTML 5"/>
 <technology name="Google Maps API"/>
 <technology name="C#"/>
 <technology name="MS SQL Server"/>
 <technology name="JavaScript"/>
 <technology name="AJAX"/>
-<technology name=" Web Service"/>
+<technology name="Web Service"/>
 <technology name="jQuery"/>
 <technology name="CSS"/>
-<technology name="Bootstrap"/>
+<technology name="BOOTSTRAP"/>
 <technology name="Ajax"/>
 <technology name="Json"/>
-<technology name="AngularJS"/>
+<technology name="Angular js"/>
 </technologies>
 <challenges>
 עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות,לימוד עצמי של כלים וטכנולוגיות חדשות.</challenges>

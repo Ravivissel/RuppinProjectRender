@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>SmartGan</name>
+    <type>מערכות מידע</type>
+    <tags>
+        // תגדירו תגיות שיעזרו לחפש ולמיין את הפרויקט שלכם
+        <tag>גני ילדים</tag>
+        <tag>גננת</tag>
+    </tags>
+    <faculty>IE</faculty>
+    <year>2014</year>
+    <customer>
+        <name>גן גפן</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup14/prod/images/logo2.png</logoUrl>
+        <shortDescription>
+          עיקר פעילות הגן: פעילות הגן היא בימי א'-ו' בין השעות   13:45- 8:00
+          החזון של מערכת החינוך היא יצירת חברת מופת.
+          הצבת ערכים אוניברסליים של כבוד האדם שוויון, צדק, סובלנות, חמלה, דמוקרטיה, זהות ושייכות.
+          קבלת השונה והאחר: הבנה ששונות מצויה בכל אחד, הכרת הערך שבשונות לחשיבה, ללמידה, לקיומה של חברה.
+          דמוקרטיה: אמונה בכושרו של החינוך לעצב לחיוב את דמותם של היחידים ושל החברה כולה. אמונה שמערכת החינוך מסוגלת להוביל שיח דמוקרטי ערכי, המכבד את האחר ודואג לחלשים בחברה.
+          התשתית למהות גן הילדים היא הילד והתהליך החינוכי.
+          התהליך החינוכי במערכת החינוך הוא ממושך ומתמקד בפיתוח אישיותו הייחודית של כל ילד מרגע היכנסו למסגרת הגן: נותן מענה לצרכיו הגופניים הרגשיים, החברתיים והאינטלקטואליים, מאפשר מיצוי יכולותיו, מפתח את היצירתיות הטמונה בו ומרחיב את תחומי ההתעניינות שלו. למימוש המטרות החינוכיות בגן דרוש ידע מקצועי רחב ומעמיק, תובנה, רגישות ואמונה נחושה במסוגלותו של כל פרט ליטול חלק במארג החברתי ובפעילויות המגוונות המוצעות.
+
+        </shortDescription>
+        <interstedParties>
+            <party>גננות</party>
+            <party>עיריות</party>
+            <party>משרד החינוך</party>
+            <party>גנים פרטיים</party>
+            <party>הורים לילדים בגן</party>
+            <party>מפקחת הגנים</party>
+    
+        </interstedParties>
+        <users>
+            <user>גננת</user>
+            <user>הורים</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup14</groupCode>
+        <student>
+            <name>שני אברהם</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/shaniPic.jpg</imageUrl>
+        </student>
+        <student>
+            <name>עמית ישעיהו</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/amitPic.jpg</imageUrl>
+        </student>
+        <student>
+            <name>שירן חיים</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/shiranPic.jpg</imageUrl>
+        </student>
+    </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/home.png</projectImageUrl>
+    // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup14/prod/default.aspx</projectLandingPage>
+    <!--
+
+  <mobile>
+    <links>
+      <link target = "android">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "ios">
+        <url> the download url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+      <link target = "web mobile">
+        <url> the url goes here </url>
+        <QRLink> QR code link </QRLink>
+      </link>
+    </links>
+  </mobile>
+  
+-->
+    <movie> https://www.youtube.com/v/lVHqwKzRr8o </movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/attend.png</imageUrl>
+            <description>מסך נוכחות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/forms.png</imageUrl>
+            <description>מסך טפסים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/inbox.png</imageUrl>
+            <description>מסך דואר נכנס</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/tala.png</imageUrl>
+            <description>מסך צפייה בתל"א</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup14/prod/images/profile.png</imageUrl>
+            <description>מסך פרופיל הילד</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>ד"ר עמית רכבי </advisor>
+        <advisor>מר ניר חן</advisor>
+    </advisors>
+    <shortDescription>
+      מערכת מידע לניהול גני ילדים אשר מנהלת את המידע בצורה פשוטה ויעילה. המערכת תעניק לגננת כלים לעקוב אחר התפתחות הילד ולקדם אותו בדרך הטובה ביותר
+    </shortDescription>
+  <goals>
+        <goal>
+            <description>קידום הילד</description>
+            <status>
+              .המערכת תאפשר הפקת דו"חות מעקב התפתחות הילד אשר יאפשרו תהליך של הסקת מסקנות והתאמת תוכנית לימודים אישית  
+            </status>
+        </goal>
+
+    <goal>
+      <description>שיתוף מידע בין ההורים לגננת</description>
+      <status>
+        אפליקציה סלולרית מהווה כמערכת משלימה למערכת המידע אשר מאפשרת להורים להיות מעורבים יותר בחיי הילד בגן.
+      </status>
+    </goal>
+    
+        <goal>
+            <description> ניהול מאגר מידע</description>
+            <status>
+              מסד הנתונים של המערכת על גבי שרת אשר שומר את כל המידע על ילדי הגן והוריהם.
+            </status>
+        </goal>
+    </goals>
+  
+  
+    <modules>
+        <module>
+            <name>טופס הרשמה</name>
+            <description>
+                המודול מאשפר רישום לגן בצורה דיגיטלית,הנתונים נשמרים במסד הנתונים להמשך תהליך
+            </description>
+            <features>
+                <feature>הוספת ילד חדש</feature>
+                <feature>הוספת תמונה לילד</feature>
+                <feature>הוספת פרטי הורי הילד</feature>
+              </features>
+        </module>
+        <module>
+            <name>פרופיל הילד</name>
+            <description>
+              המודול מרכז את כל פרטי הילדים בגן והוריהם בצורה נוחה,הנתונים נשמרים במסד הנתונים להמשך תהליך
+            </description>
+            <features>
+                <feature>צפייה בפרטי הילד והוריו</feature>
+                <feature>עריכת פרטי הילד</feature>
+                <feature>עריכת פרטי הורי הילד</feature>
+                <feature>עריכת תמונת הילד</feature>
+                <feature>מחיקת ילד</feature>
+            </features>
+        </module>
+        <module>
+            <name>טפסים</name>
+            <description>
+               המודול מרכז את הטפסים המשמשים את הגננת בניהול הגן 
+            </description>
+            <features>
+                <feature>טעינת טופס חדש למערכת</feature>
+                <feature>הורדת טופס וצפייה בו</feature>
+                <feature>מחיקת טפסים</feature>  
+            </features>
+        </module>
+        <module>
+            <name>הודעות</name>
+            <description>
+                המודול מאפשר לגננת לשלוח ולקבל הודעות מהורי הילדים בגן 
+            </description>
+            <features>
+                <feature>שליחת הודעה</feature>
+                <feature>צפייה בהודעה</feature>
+                <feature>השבה להודעה נכנסת</feature>
+                <feature>מחיקת הודעה</feature>
+            </features>
+        </module>
+
+      <module>
+        <name>תל"א-תוכנית לימודים אישית</name>
+        <description>
+           המודול מאפשר לגננת לבנות תוכנית לימודים אישית עבור כל ילד בגן 3 פעמים בשנה וכן לבצע מעקב והשוואה בין התקופות השונות בהתפתחות הילד
+        </description>
+        <features>
+          <feature>מילוי תל"א</feature>
+          <feature>צפייה בתל"א</feature>
+          <feature>עריכת תל"א</feature>
+          <feature>צפייה בגרפי בקרה </feature>
+          <feature>הדפסת תל"א</feature>
+        </features>
+      </module>
+
+      <module>
+        <name>נוכחות</name>
+        <description>
+          המודול מאפשר לגננת לתעד את נוכחות הילדים בגן 
+        </description>
+        <features>
+          <feature>מילוי נוכחות</feature>
+          <feature>צפייה בנוכחות</feature>
+          <feature>עריכת נוכחות</feature>
+        </features>
+      </module>
+
+      <module>
+        <name>אירועים</name>
+        <description>
+          המודול מאפשר לגננת לשלוח להורים הודעה על אירוע המתרחש בגן 
+        </description>
+        <features>
+          <feature>שליחת אירוע</feature>
+          <feature>צפייה באירועים</feature>
+        </features>
+      </module>
+      
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+        <technology name="PHONEGAP"/>
+        <technology name="JavaScript"/>
+        <technology name="HTML5"/>
+        <technology name="SQL Server"/>
+
+    </technologies>
+    <challenges>
+      הבנת התהליכים המרכזיים בגן, עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה, ניהול ותכנון לוחות זמנים
+    </challenges>
+    <personalNote></personalNote>
+</project>

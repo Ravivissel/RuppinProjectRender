@@ -158,11 +158,11 @@
     </modules>
     <technologies>
         <technology name="ASP.NET"/>
-        <technology name="SQL Server - Microsoft"/>
-        <technology name="jQuery library"/>
-        <technology name="ASP.NET AJAX "/>
+        <technology name="SQL Server"/>
+        <technology name="jQuery"/>
+        <technology name="ASP.NET AJAX"/>
         <technology name="GOOGLE API"/>
- 	<technology name="Bootstrap,Assets"/>
+ 	<technology name="BOOTSTRAP"/>
     </technologies>
     <challenges>
         עבודה עם ממשקי אפליקציות חדשות, שילוב של אלגוריתם קלאסי בתוך מערכת המידע, עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה, ניהול ותכנון לוחות זמנים, חילופי תפקידים בעמותה.

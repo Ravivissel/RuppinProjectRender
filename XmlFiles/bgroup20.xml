@@ -302,11 +302,13 @@
 
 <technology name="C#"/>
 
-<technology name="javascript"/>
+<technology name="JavaScript"/>
 
 <technology name="jQuery"/>
   
-<technology name="CSS3, Bootstrap"/>
+<technology name="css 3.0"/>
+<technology name="BOOTSTRAP"/>
+
   
 <technology name="SQL"/>
   
@@ -315,6 +317,7 @@
 <technology name="Json"/>
   
 </technologies>
+
 
 <challenges>עיצוב ממשק משתמש נוח וידידותי עבור אוכלוסייה מבוגרת, חלוקת מטלות שיוונית בין חברי הקבוצה, תכנון לוח הזמנים וקביעת יעדים, תיאום בין דרישות וציפיות של הלקוח בשלב האפיון לתפעול המערכת, לימוד עצמי של כלים וטכנולוגיות חדשות.</challenges>
 

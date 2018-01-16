@@ -128,9 +128,9 @@
         <technology name="ASP.NET"/>
         <technology name="C#"/>
         <technology name="jQuery"/>
-        <technology name="Javascript"/>
-        <technology name="Phonegap Mobile"/>
-        <technology name="SQL-Server"/>
+        <technology name="JavaScript"/>
+        <technology name="phonegap"/>
+        <technology name="SQL server"/>
     </technologies>
     <challenges></challenges>
     <personalNote></personalNote>

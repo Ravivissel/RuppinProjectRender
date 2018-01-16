@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת מידע תומכת קבלת החלטות לשיפור,ייעול ושינוי אורח חיים של המשתמש </name>
+  <faculty>BA </faculty>
+  <year>2015</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>רשת חברתית</tag>
+    <tag>פעילויות</tag>
+    <tag>אורח חיים</tag>
+    <tag>יעילות</tag>
+    <tag>ניהול זמן</tag>
+  </tags>
+  <customer>
+    <name>משתמשי אינטרנט מעל גיל 16</name>
+    <logoUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/logo.png</logoUrl>
+    <shortDescription>
+      App2me הינו אפליקציית שימוש אינטרנטי
+      APP2ME אשר מספקת למשתמש את היכולת לאבחן ולנתח את הפעילויות שמתבצעות על ידי המשתמש לאורח יומו, תוך מתן אינדיקציה למשתמש על אורח חייו. בנוסף, המערכת מאפשרת הרחבת עיסוקים/ תחביבים על בסיס זהות לאנשים דומים ויוצרת רשת חברתית.
+    </shortDescription>
+    <interstedParties>
+      <party>לקוחות פרטיים</party>
+      <party>גורמים ציבוריים :הלמ"ס, משרד הבריאות</party>
+    </interstedParties>
+    <users>
+      <user>משתמש מערכת</user>
+      <user>מנהל מערכת</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>bgroup23</groupCode>
+    <student>
+      <name>שובל ידיד</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/Shoval.jpg</imageUrl>
+    </student>
+    <student>
+      <name>רועי ברקוביץ</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/Roei.jpg</imageUrl>
+    </student>
+    <student>
+      <name>דר לוי</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/Dar.jpg</imageUrl>
+    </student>
+    <student>
+      <name>ליאת וידל</name>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/Leeat.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/logo.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/bgroup23/prod/Login.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/Psrmzli1bFg</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/login.png</imageUrl>
+      <description>מסך הכניסה למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/registration.png</imageUrl>
+      <description>רישום למערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/userProfile.png</imageUrl>
+      <description>מסך פרופיל משתמש</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/default.png</imageUrl>
+      <description>מסך בית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/addNewActivity.png</imageUrl>
+      <description>מסך הוספת פעילות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/addActivityOfOther.png</imageUrl>
+      <description>מסך הוספת פעילות ממאגר פעילויות של משתמשים אחרים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/reports.png</imageUrl>
+      <description>מסך הצגת דוחות אישיים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/inbox.png</imageUrl>
+      <description>תכתובת הודעות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/bgroup23/prod/docs/Images/ScreenShots/AdminBoard.png</imageUrl>
+      <description>מסך לוח בקרה</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>בנימין בורנפלד</advisor>
+    <advisor>ניר חן</advisor>
+    <advisor>ד"ר עמית רכבי </advisor>
+  </advisors>
+  <shortDescription>
+    מערכת מידע שתשמש כפלטפורמה אישית לניהול מידע אישי תוך התייחסות לפעילויות השונות בחיי המשתמש. מטרת המערכת לספק מידע למשתמש אודות דרכיי התנהלות היומיומיים בכל תחומי חייו תוך ניתוח הפעילויות השונות, וגזירת השלכות עתידיות מהם.
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>מעקב אחר זמני פעילויות </description>
+      <status>
+        באמצעות הפעלת הפעילויות של המשתמש המערכת מחשבת את הזמן הכולל של כל פעילות ומאפשרת תצוגה שבועית חודשית ויומית המהווה אינדיקציה על אורח חייו של המשתמש.
+      </status>
+    </goal>
+    <goal>
+      <description>
+        הצגת נתוני המלצות הנוגעות לזמני הפעילויות השונות באורח חיים תקין
+      </description>
+      <status>
+        המערכת מאפשרת השוואה בין פעילויות המשתמש לבין מידע מומלץ של גורמים שונים. בדרך זו מתאפשרת למשתמש יכולת לבדוק אם הגיע ליעדיו שהציב לעצמו והאם מקיים אורח חיים בריא.
+      </status>
+    </goal>
+    <goal>
+      <description>רשת חברתית המבוססת על דמיון משתמשים</description>
+      <status>המערכת מנתחת את פעילויות המשתמשים על בסיס פרמטרים שונים ובהתאם לכך מציגה הצעות חברות ורשת חברתית המבוססת על אורח חיים דומה. </status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך התחברות</name>
+      <description> מודול המאפשר למשתמש רשום להתחבר למערכת</description>
+      <features>
+        <feature>כניסה למערכת למשתמש רשום</feature>
+        <feature>אפשרות ליצירת חשבון למשתמש חדש</feature>
+      </features>
+    </module>
+    <module>
+      <name>רישום למערכת </name>
+      <description>מודול המאפשר רישום חדש של משתמש למערכת</description>
+      <features>
+      </features>
+    </module>
+    <module>
+      <name> מסך פרופיל משתמש</name>
+      <description>
+        מודול המציג את פרופיל המשתמש המחובר למערכת
+      </description>
+      <features>
+        <feature>צפייה בפרופיל משתמש </feature>
+        <feature>אפשרות עדכון פרטים של המשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name>מסך הבית</name>
+      <description>
+        המודול מכיל ריכוז מידע אודות הפעילויות המתבצעות על ידי המשתמש ומאפשר לו לדווח על פעילויות לאורח היום.
+      </description>
+      <features>
+        <feature>1.דיווח על פעילויות פתיחה וסגירת פעילות </feature>
+        <feature>
+          2. הוספת פעילות חדשה-המשתמש מועבר למסך הוספת פעילות
+        </feature>
+      </features>
+    </module>
+    <module>
+      <name> הוספת פעילות</name>
+      <description>
+        המודול מאפשר למשתמש שתי אפשרויות, להוסיף פעילות חדשה משלו או לחילופין להוסיף פעילות שמשתמש אחר במערכת הוסיף ולמשוך אותה אליו לדף הבית כדי להשתמש בפעילות זו
+      </description>
+      <features>
+        <feature>
+          צפייה בפעילויות קיימות למשיכה
+        </feature>
+        <feature>הוספת פעילות חדשה</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול הפקת דוחות</name>
+      <description>
+        המודול מאפשר למשתמש להציג דוחות לגבי פעילויותיו השונות בשלוש תדירויות: יומיות, שבועיות וחודשיות. כמו כן המשתמש יכול להציג את פעילויותיו אל מול מידע מומלץ של הפעילויות הדיפולטיביות ולהעריך את אורח חייו על פי הם
+      </description>
+      <features>
+        <feature>אפשרות צפייה על זמני הפעילויות בדוח לפי תדירויות שונות</feature>
+        <feature>אפשרות צפייה של פעילויות לעומת זמני הפעילויות המומלצות</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול הודעות</name>
+      <description>המודול מאפשר תכתובת הודעות בין משתמשים דומים  </description>
+      <features>
+        <feature>אלגוריתם חכם מופעל ולפי 4 קטגוריות שונות מציע חברות בין משתמשים דומים ומציג אותם</feature>
+        <feature>אפשרות צפייה על חברים שאושרו הדדית וביניהם קיימת תכתובת הודעות </feature>
+        <feature>אפשרות שליחת הודעות בין  חברים מאושרים וצפייה בהיסטוריית הודעות</feature>
+      </features>
+    </module>
+    <module>
+      <name> מסך לוח בקרה </name>
+      <description>
+        מודול המאפשר למנהלי המערכת לבקר את פעילות המשתמשים באתר
+      </description>
+      <features>
+        <feature>צפייה במשתמשי המערכת הרשומים </feature>
+        <feature>אפשרות הפיכת משתמש למושהה</feature>
+        <feature>אפשרות לעריכת פרטי משתמש</feature>
+        <feature>אפשרות צפייה בפעילויות</feature>
+        <feature>אפשרות עריכת פרטי פעילות </feature>
+        <feature>אפשרות השהיית פעילות</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="Linq"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="jQuery"/>
+    <technology name="jQuery mobile"/>
+    <technology name="Google Maps API"/>
+  <technology name="Ajax"/>
+  <technology name="JSON"/>
+  </technologies>
+  <challenges>
+    חלוקת המטלות בין חברי הקבוצה ועבודת צוות
+  </challenges>
+  <personalNote/>
+</project>
+

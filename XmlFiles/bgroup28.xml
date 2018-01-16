@@ -145,7 +145,7 @@
 		<technologies>
 			<technology name="ASP.NET"/>
                                           <technology name="C#"/>
-                                          <technology name="PhoneGap"/>
+                                          <technology name="phonegap"/>
                                           <technology name="MS SQL Server"/>
                                           <technology name="JavaScript"/>
                                           <technology name="ASP.NET AJAX"/>

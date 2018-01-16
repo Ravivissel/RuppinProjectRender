@@ -186,9 +186,9 @@
     <technology name="jQuery"/>
     <technology name="Google API"/>
     <technology name="Cytoscape.js"/>
-    <technology name="HTML5 + CSS3"/>
+    <technology name="HTML 5 + css 3.0"/>
     <technology name="jQuery Mobile"/>
-    <technology name="PhoneGap"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, פיתוח במקביל של מערכת שולחנית ואפליקצית מובייל ופיתוח מודול חיפוש חכם הן לוגית והן ויזואלית מבחינת ממשק משתמש</challenges>
   <personalNote></personalNote>

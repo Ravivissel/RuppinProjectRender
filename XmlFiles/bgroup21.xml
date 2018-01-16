@@ -184,14 +184,14 @@
   </modules>
   <technologies>
     <technology name="ASP.NET"/>
-    <technology name="SQL Server - Microsoft"/>
+    <technology name="SQL Server"/>
     <technology name="jQuery and jQuery Mobile"/>
-    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="ASP.NET AJAX"/>
     <technology name="Json"/>
     <technology name="Google Maps Api"/>
-    <technology name="Waze Api"/>
-    <technology name="Bootstrap"/>
-    <technology name="Phonegap"/>
+    <technology name="Waze"/>
+    <technology name="BOOTSTRAP"/>
+    <technology name="phonegap"/>
   </technologies>
   <challenges>
     הפשטת המורכבות ביצירת מפגש חברתי

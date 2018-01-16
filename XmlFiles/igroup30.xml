@@ -177,7 +177,7 @@
         <technology name="JavaScript"/>
         <technology name="jQuery"/>
         <technology name="jQuery Mobile"/>
-        <technology name="jQuery UI"/>
+        <technology name="jQuery"/>
         <technology name="Lightbox 2.0"/>
         <technology name="Google Maps API"/>
     </technologies>

@@ -185,7 +185,7 @@
 <features>
 <feature>זיהוי השמירות להם חסר שיבוץ- לפי בסיס הנתונים</feature>
 <feature>מיפוי נתונים מעמיקים וחקירת בסיס הנתונים על מנת לקבל את השומרים המתאימים ביותר לשמירה</feature>
-<feature>שליחת הודעה לשומרים על ידי טכנולוגית push notification</feature>
+<feature>שליחת הודעה לשומרים על ידי טכנולוגית Push Notifications</feature>
 </features>
 </module>
 </modules>
@@ -194,11 +194,11 @@
 <technology name="C#"/>
 <technology name="MS SQL Server"/>
 <technology name="JavaScript"/>
-<technology name="ASP.NET AJAX Control Toolkit"/>
+<technology name="ASP.NET AJAX"/>
 <technology name="jQuery"/>
-<technology name="Google Maps API - Location Based Services"/>
-<technology name="Google API - push notification"/>
-<technology name="Phone gap"/>
+<technology name="Google Maps API"/>
+<technology name="Google API - Push Notifications"/>
+<technology name="phonegap"/>
 </technologies>
 <challenges>
 למידה של טכנולוגיות חדשות, יצירת מודולים מורכבים, אלמנטים חכמים, עבודת צוות, עיצוב ממש משתמש נוח בעל מגוון רחב.

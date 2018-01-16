@@ -175,11 +175,11 @@
   <technologies>
     <technology name="ASP.NET"/>
     <technology name="Ajax"/>
-    <technology name="HTML5"/>
-    <technology name="CSS3"/>
+    <technology name="HTML 5"/>
+    <technology name="css 3.0"/>
     <technology name="C#"/>
     <technology name="jQuery"/>
-    <technology name="javaScript"/>
+    <technology name="JavaScript"/>
   </technologies>
   <challenges>
     בניית תשתית טובה שכוללת שאילתות ופונקציות מורכבות, על מנת לאפשר ניהול פרויקט ללא תקלות ומתן תמונת מצב נכונה

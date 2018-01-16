@@ -158,7 +158,7 @@
         <technology name="ASP.NET"/>
         <technology name="C#"/>
         <technology name="Json"/>
-        <technology name="javaScript"/>
+        <technology name="JavaScript"/>
         <technology name="Google Visualisation"/>
     </technologies>
     <challenges>

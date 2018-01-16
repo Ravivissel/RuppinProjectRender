@@ -27,50 +27,30 @@ public class projectsWS : System.Web.Services.WebService {
         return "Hello World";
     }
 
-
-    [WebMethod]
-    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-    public string getProjectsList()
-    {
-        string xmlFilesDir = Server.MapPath(".") + "/XmlFiles";
-        string[] xmlList = Directory.GetFiles(xmlFilesDir)
-                        .Select(path => Path.GetFileName(path))
-                        .ToArray();
-
-        xmlList = xmlList.Where(val => val.Contains("xml")).ToArray();
-
-
-        // create a json serializer objetct
-        JavaScriptSerializer js = new JavaScriptSerializer();
-        // serialize to string
-        string jsonString = js.Serialize(xmlList);
-        return jsonString;
-    }
-
      [WebMethod]
     [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
     public string getProjects(List<String> projFilesNames)
     {
-        
+        projRup.WebServiceSupplier projRup = new projRup.WebServiceSupplier();
+        string[] projStringArray = projFilesNames.ToArray();
 
-         List<Project> projList = new List<Project>();
+        return projRup.GetProjects(projStringArray);
+     
+       
 
-         foreach (string fname in projFilesNames)
-         {
-             Project p = new Project();
-             string fullPath = Server.MapPath(".") + "/XmlFiles/" + fname;
-             projList.Add(p.ReadXML(fullPath));
-         }
-
-        JavaScriptSerializer js = new JavaScriptSerializer();
-        // serialize to string
-        string jsonString = js.Serialize(projList);
-        return jsonString;
      }
-    
- 
+
+    [WebMethod]
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+    public string getProjectsNames()
+    {
+        projRup.WebServiceSupplier projRup = new projRup.WebServiceSupplier();
+         return projRup.GetProjectsNames();
+    }
 
 
-    
+
+
+
 
 }

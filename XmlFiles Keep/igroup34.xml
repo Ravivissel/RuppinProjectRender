@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת ליצירת לוח זמנים עבור המטייל</name>
+  <faculty>IE</faculty>
+  <year>2015</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>טיול</tag>
+    <tag>לוח זמנים</tag>
+    <tag>מטיילים</tag>
+    <tag>אטרקציה</tag>
+    <tag>בעל אטרקציה</tag>
+    <tag>חופשה</tag>
+  </tags>
+  <customer>
+    <name></name>
+    <logoUrl></logoUrl>
+    <shortDescription>
+    </shortDescription>
+    <interstedParties>
+      <party>רשות הטבע והגנים</party>
+      <party>רשויות מקומיות</party>
+      <party>אזרחי מדינת ישראל</party>
+      <party>בתי עסק של אטרקציות</party>
+      <party>בעלי אטרקציה</party>
+    </interstedParties>
+    <users>
+      <user>בעל אטרקציה</user>
+      <user>מטייל</user>
+      <user>מנהל מערכת</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup34</groupCode>
+    <student>
+      <name>יובל אור</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/yuval.jpg</imageUrl>
+    </student>
+    <student>
+      <name>גל הדר</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/gal.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/logo.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup34/prod/homePage.aspx</projectLandingPage>
+  <movie>https://youtu.be/tY1vnsfrDaI</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/homepage.png</imageUrl>
+      <description>דף הבית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/userForm.png</imageUrl>
+      <description>מסך הזנת קריטריונים למערכת על ידי המשתמש</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/schedule.png</imageUrl>
+      <description>מסך בחירת שעות ובקרה על התקציב עבור כל אטרקציה נבחרת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/showSchedule.png</imageUrl>
+      <description>מסך הצגת הלוח זמנים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/userPage.png</imageUrl>
+      <description>מסך המציג את כל הלוחות זמנים שנעשו על ידי המשתמש במערכת</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/mySchedule.png</imageUrl>
+      <description>מסך המציג מידע על לוח זמנים ספציפי של המשתמש</description>
+    </screenShot>
+      <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/attractionOwnerRegistrration.png</imageUrl>
+      <description>מסך רישום/כניסה למערכת של בעל האטרקציה</description>
+    </screenShot>
+      <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/ownerPage.png</imageUrl>
+      <description>מסך המציג עבור בעל האטרקציה את שלל האטרקציות שלו ולחצן מעבר למסך הזנת אטרקציה</description>
+    </screenShot>
+      <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/editAttraction.png</imageUrl>
+      <description>מסך עריכת אטרקציה של בעל האטרקציה הקיימת במערכת</description>
+    </screenShot>
+            <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/insertAttraction.png</imageUrl>
+      <description>מסך הכנסת אטרקציה חדשה למערכת על ידי בעל האטרקציה</description>
+    </screenShot>
+            <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/attraction.png</imageUrl>
+      <description>מסך המציג את האטרקציות הקיימות במערכת הרלוונטיות לסוג האטרקציה הנבחרת</description>
+    </screenShot>
+              <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup34/prod/docs/Images/attractionType.png</imageUrl>
+      <description>סוגי האטרקציות הקיימות במערכת</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>דיצה ביימל</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>
+    מהות הפרויקט היא פיתוח מערכת עבור יצירת לוח זמנים לטיול לפי קריטריונים שיזין המשתמש
+  </shortDescription>
+  <goals>
+    <goal>
+      <description>יצירת לוח זמנים יעיל</description>
+      <status>
+יצירת לוח זמנים המספק עבור הלקוח את המקסימום שאפשר לתת לו מבחינת מכלול האטרקציות האטרקטיבי ומתאים עבורו
+</status>
+    </goal>
+    <goal>
+      <description>זמינות לוח זמנים עבור המשתמש </description>
+      <status>
+        מתן אפשרות למשתמש לצפות בלוח הזמנים שלו בכל רגע נתון
+      </status>
+    </goal>
+    <goal>
+      <description>פרסום עצמאי של בעל עסק האטרקציות</description>
+      <status>
+מתן פלטפורמה עבור בעל העסק של האטרקציה עבור הוספת אטרקציה למערכת ועדכונה בהתאם
+</status>
+    </goal>
+    <goal>
+      <description>בקרה על תקציב הטיול</description>
+      <status>
+במהלך בניית לוח הזמנים ישנה אפשרות למשתמש לבקר את גודל ההוצאות הצפויות לו עם לוח הזמנים שהוא קבע
+</status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך הבית</name>
+      <description>
+מסך הבית מכיל שתי חלקים: חלק ראשון הינו החלק של המשתמש והחלק השני הינו החלק של בעל האטרקציה
+</description>
+      <features>
+        <feature>מעבר ללוחות הזמנים של המשתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name>הזנת הקריטריונים בבניית הלוח זמנים על ידי המשתמש</name>
+      <description>
+המודול מציע למשתמש אפשרות לבחור קריטריונים שעל ידי הם יתקיים אלגוריתם של סינון האטרקציות הרלוונטיות עבורו על פי בחירתו
+</description>
+      <features>
+        <feature>הכנסת נתונים לפי רצונו ואופיו של המשתמש</feature>
+        <feature>אלגוריתם המסנן אטרקציות לפי:מרחק ממיקום הלינה שלו,התאריכים שהוא בוחר,סוגי האטרקציות הנבחרות וקטגוריות האטרקציות הנבחרות</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול בחירת שעות ואטרקציות </name>
+      <description>
+        מודול המאפשר בחירת שעות ואטרקציות ללוח זמנים על ידי המשתמש
+      </description>
+      <features>
+        <feature>הצעת אטרקציות הפתוחות בשעות הנבחרות על ידי המשתמש</feature>
+        <feature>מתן אפשרות לשנות את מספר הילדים ומספר המבוגרים ולפי זה לראות סך ההוצאות הצפוי</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול שמירת לוח זמנים על ידי המשתמש</name>
+      <description>
+לאחר יצירת הלוח זמנים ישנה אפשרות לשמור את הלוח הזמנים במערכת
+</description>
+      <features>
+        <feature>שמירה על ידי כינוי קיים במערכת</feature>
+        <feature>יצירת כינוי חדש עבור שמירת לוח הזמנים</feature>
+        <feature>צפייה בלוחות הזמנים שנעשו על ידי המשתמש במערכת</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול בעל האטרקציה</name>
+      <description> מודול המאפשר לבעל האטרקציה להתחבר למערכת </description>
+      <features>
+        <feature>רישום ראשוני למערכת</feature>
+        <feature>התחברות עם אימייל וסיסמא למשתמש של בעל האטרקציה</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול האטרקציות של בעל האטרקציה</name>
+      <description>מודול ניהול האטרקציות הנמצאות במערכת השייכות לאותו בעל אטרקציה</description>
+      <features>
+        <feature> הוספת אטרקציות חדשות למערכת</feature>
+        <feature>עריכה אטרקציה הקיימת במערכת</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="jQuery"/>
+    <technology name="Google Maps API"/>
+  </technologies>
+  <challenges>
+    עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, התמודדות מול מאגר נתונים גדול ומסורבל ויצירת שפה משותפת למערכת אחידה, יצירת מערך סינונים לאטרקציות לפי בחירתו של המשתמש
+  </challenges>
+  <personalNote/>
+</project>

@@ -183,9 +183,9 @@
         <technology name="jQuery"/>
         <technology name="AJAX"/>
         <technology name="JavaScript"/>
-        <technology name="MSSql"/>
-        <technology name="CSS3"/>
-        <technology name="HTML5"/>
+        <technology name="MS SQL Server"/>
+        <technology name="css 3.0"/>
+        <technology name="HTML 5"/>
     </technologies>
     <challenges>
         הבנת התהליכים המרכזיים בעמותה, פתירת תקלות ובגים יומיים בכתיבת הקוד, עבודה עם עיצוב המערכת.

@@ -204,8 +204,8 @@
     <technology name="JavaScript"/>
     <technology name="jQuery"/>
     <technology name="jQuery Mobile"/>
-    <technology name="jQuery UI"/>
-    <technology name="Bootstrap"/>
+    <technology name="jQuery"/>
+    <technology name="BOOTSTRAP"/>
     <technology name="jQuery fullcalendar"/>
     <technology name="textAnimate"/>
     <technology name="SweetAlert"/>

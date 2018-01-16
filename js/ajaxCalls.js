@@ -71,3 +71,18 @@ function getProjects(request, successCB, errorCB) {
         error: errorCB
     }) // end of ajax call
 }
+
+function getProjectsNames(successCB, errorCB) {
+
+    // serialize the object to JSON string
+  
+
+    $.ajax({ // ajax call starts
+        url: 'projectsWS.asmx/getProjectsNames',       // server side web service method
+        type: 'POST',                              // can be also GET
+        dataType: 'json',                          // expecting JSON datatype from the server
+        contentType: 'application/json; charset = utf-8', // sent to the server
+        success: successCB,                // data.d id the Variable data contains the data we get from serverside
+        error: errorCB
+    }) // end of ajax call
+}

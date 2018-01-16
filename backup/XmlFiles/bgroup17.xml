@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project> // all fields are mandatory besides those specified not to be
+    <name>חברים לחיים - מערכת ניהול מידע</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>עמותת חברים לחיים</tag>
+        <tag>מערכת לניהול מידע</tag>
+    </tags>
+    <faculty>BA</faculty> // can be IE or BA
+    <year>2014</year>     // must be an integer
+    <customer>
+        <name>עמותת חברים לחיים</name>
+        <logoUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/logo.jpg</logoUrl> // not mandatory
+        <shortDescription>
+          עמותת חברים לחיים הוקמה כדי להציל כלבים נטושים או כלבים שניצלו מהמתה.
+        </shortDescription>
+        <interstedParties>
+            <party>מנהלי העמותה</party>
+            <party>מתנדבים</party>
+            <party>תורמים</party>
+            <party>מאמצים</party>
+        </interstedParties>
+        <users>
+            <user>מנהל</user>
+            <user>מתנדב</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>bgroup17</groupCode>
+        <student>
+            <name>אדר קריספין</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/AdarKrespin.jpg</imageUrl>
+        </student>
+        <student>
+            <name>שרה לי כץ</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/SarahLeighKatz.jpg</imageUrl>
+        </student>
+        <student>
+            <name>ורד מיכאלוביץ</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/Students/VeredMichaelovich.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/projectImageUrl.png</projectImageUrl>
+    <projectLandingPage>http://proj.ruppin.ac.il/bgroup17/prod/Code/Default.aspx</projectLandingPage>
+    <movie>https://www.youtube.com/v/wKO37n2BJAA</movie>
+  <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/dogManagement.png</imageUrl>
+            <description>מסך ניהול כלבים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/dogProfile1.png</imageUrl>
+            <description>דף פרופיל של כלב הרשום במערכת</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/addDog.png</imageUrl>
+            <description>מסך הוספת כלב חדש למערכת</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/money.png</imageUrl>
+            <description>מסך ניהול כספים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup17/prod/docs/images/foster.png</imageUrl>
+            <description>מסך ניהול בתי אומנה המציג את הכלבים שנמצאים כעת באומנה</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>מר ניר חן</advisor>
+        <advisor>ד"ר עמית רכבי</advisor>
+    </advisors>
+    <shortDescription>
+      מערכת המידע נבנתה עבור מנהלי עמותת חברים לחיים והמתנדבים על מנת לספק להם כלי ניהולי שיאפשר תיעוד ומעקב אחר פעילות העמותה בצורה יעילה, פונקציונלית ומסודרת.
+    </shortDescription>
+    <goals>
+              <goal>
+            <description>
+              קבלת כלב חדש לעמותה ועדכון פרטים אישיים ע"י המשתמשים
+            </description>
+            <status>
+               במערכת ניתן ליצור עמוד פרופיל לכל כלב, להוסיף תמונה של הכלב ולערוך פרטים לגביו
+            </status>
+        </goal>
+        <goal>
+            <description>שמירת פרטי אימוץ/אומנה שבהם הכלב ישהה</description>
+            <status>
+                מסד הנתונים של המערכת על גבי שרת  שומר את כל המידע הרלוונטי
+            </status>
+        </goal>
+        <goal>
+            <description>מעקב אחר היסטוריה רפואית</description>
+            <status>
+                המערכת מרכזת את כל הטיפולים הנדרשים לכלב ותדירותם. כמו כן המערכת מציגה כברירת מחדל את הטיפולים הדחופים ביותר.
+            </status>
+        </goal>
+      <goal>
+      <description>ניהול הכספים</description>
+      <status>
+     במערכת ניתן לעדכן הוצאות מול הכנסות ולקבל מידע לגבי תאריכים ספציפיים.
+      </status>
+      </goal>
+      <goal>
+        <description>הפקת דוחות</description>
+        <status>
+        המערכת מפיקה דוחות בחתכים שונים על פי דרישת העמותה
+        </status>
+      </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>מסך הבית</name>
+            <description>
+              </description>
+            <features>
+                <feature>הוספת כלב</feature>
+                <feature>תצוגת טיפולים</feature>
+                <feature>הזנת תרומות   </feature>
+                <feature>צפייה ברשימת החיסונים לשבוע הקרוב</feature>
+          </features>
+        </module>
+        <module>
+            <name>מודול ניהול כלבים</name>
+            <description>
+              המודול מאפשר הוספת כלב חדש למערכת או עדכון פרטים. כמו כן ניתן לדווח על לקיחה לאימוץ או לאומנה
+            </description>
+            <features>
+                <feature>הוספת כלב חדש למערכת</feature>
+                <feature>עריכת חיפוש ומיון</feature>
+                <feature>צפייה ברשימת הכלבים שהתווספו לאחרונה</feature>
+                <feature>צפייה בפרופיל של כלב</feature>
+                <feature>עריכת פרטי כלב</feature>
+              <feature>ביצוע אימוץ כלב</feature>
+              <feature>פרסום כלב בפייסבוק</feature>
+            </features>
+        </module>
+        <module>
+            <name>מודול ניהול אימוצים ואומנה</name>
+            <description>
+              המודול מאפשר למשתמשי המערכת שמירת פרטי אימוץ/אומנה שבהם הכלב ישהה
+            </description>
+            <features>
+                <feature>צפייה באימוצים או באומנה האחרונים</feature>
+              <feature>עריכת חיפוש ומיון</feature>
+                <feature>הוספת מאמץ\בית אומנה</feature>
+                <feature>צפייה ברשימת כל המאמצים\בתי אומנה הרשומים במערכת</feature>
+                <feature>עריכת פרטי המאמץ\בית אומנה</feature>
+              </features>
+        </module>
+        <module>
+            <name>מודול ניהול מצב רפואי</name>
+            <description>
+                המודול מאפשר הוספת מידע על טיפולים נדרשים לכלבים ותדירותם
+            </description>
+            <features>
+                <feature>צפייה ברשימת הטיפולים שעוד לא התקבלו</feature>
+                <feature>ניהול יומן חיסונים של הכלב</feature>
+                <feature>איתור טיפולים לפי תאריכים </feature>
+                <feature>הצגת טיפולים לפי סוג הטיפול</feature>
+              </features>
+        </module>
+      <module>
+        <name>מודול ניהול כספים</name>
+        <description>
+          המודול מאפשר הוספת הכנסות והוצאות של העמותה
+        </description>
+        <features>
+          <feature>צפייה בהכנסות ובהוצאות שהתקבלו</feature>
+          <feature>סינון הפריטים לפי טווח תאריכים</feature>
+          <feature>הצגה גרפית של הכנסות לעומת הוצאות</feature>
+          <feature>הזנת הכנסה או הוצאה</feature>
+           </features>
+      </module>
+      <module>
+        <name>מודול דוחות</name>
+        <description>
+          המודול מציג דוחות בחתכים שונים
+        </description>
+        <features>
+          <feature>הצגת דוחות בחתכים שונים</feature>
+        </features>
+      </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="SQL Server - Microsoft"/>
+        <technology name="jQuery library"/>
+        <technology name="ASP.NET AJAX Control Toolkit"/>
+      <technology name="Facebook API"/>
+      <technology name="JavaScript"/>
+      <technology name="WalkMe - The Enterprise Guidance and Engagement Platform"/>
+      </technologies>
+    <challenges>
+      יישום דרישות הלקוח לתוכנה עובדת שתענה על שביעות רצונם.
+      ההתקשרויות בין הישויות במערכת - כלב, מאמץ, בית אומנה.
+      ייצור תוכנה נוחה ואינטואטיבית לשימוש המשתמש.
+    </challenges>
+    <personalNote> // not mandatory
+אנו שמחות כי נפלה בחלקנו ההזדמנות לתרום ולעזור לייעל עמותה בעלת מטרה כה נעלה - הצלת חיים של כלבים במסגרת פרויקט הגמר
+    </personalNote>
+</project>

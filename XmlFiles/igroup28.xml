@@ -212,10 +212,10 @@
     </modules>
     <technologies>
         <technology name="ASP.NET"/>
-        <technology name="SQL Server - Microsoft"/>
-        <technology name="jQuery library"/>
-        <technology name="ASP.NET AJAX Control Toolkit"/>
-        <technology name="FullCalendar - Full-sized Calendar jQuery Plugin - Adam Shaw"/>
+        <technology name="SQL Server"/>
+        <technology name="jQuery"/>
+        <technology name="ASP.NET AJAX"/>
+        <technology name="FullCalendar"/>
         <technology name="ELMAH - Error Logging Modules and Handlers for ASP.NET"/>
     </technologies>
     <challenges>

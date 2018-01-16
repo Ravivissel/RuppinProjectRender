@@ -2,7 +2,7 @@
     groupid = getParameterByName('gid');
     //projFilesNames = ["bgroup1.xml"];
     projFilesNames = new Array();
-    projFilesNames[0] = groupid + ".xml";
+    projFilesNames[0] = groupid;
     getProjects(projFilesNames, getProjectCB, errorCB);
 }
 

@@ -123,9 +123,9 @@
     <technology name="ASP.NET"/>
     <technology name="C#"/>
     <technology name="SQL Server"/>
-    <technology name="HTML5 + CSS 3.0"/>
+    <technology name="HTML 5 + css 3.0"/>
     <technology name="jQuery Mobile"/>
-    <technology name="javaScript"/>
+    <technology name="JavaScript"/>
   </technologies>
   <challenges>
     חיבור לבסיס מידע חיצוני קיים באמצעות webService נוספת שכבת נתונים חדשה בבסיס נתונים פנימי, ע"מ לתמוך בניהול משתמשים ובמידע זמן אמת אלגוריתם זמן אמת - מנגנון מורכב למדי, העושה שימוש בכלים לעיבוד בסיס נתונים לצד פונקציות צד שרת והפעלת רכיבי מיקום ופונקציות בצד לקוח עבודת צוות, סנכרון, למידה תוך כדי תנועה הצגות סטאטוס לבכירים ברכבת ישראל אחת לחודש-חודשיים

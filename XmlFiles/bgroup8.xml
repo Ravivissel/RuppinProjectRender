@@ -189,8 +189,8 @@
     <technology name="Entity Framework"/>
     <technology name="Linq to Entities"/>
     <technology name="fullcalendar"/>
-    <technology name="Jquery-ui"/>
-    <technology name="HTML5"/>
+    <technology name="jQuery"/>
+    <technology name="HTML 5"/>
   </technologies>
   <challenges>
     <challenge>למידת הטכנולוגיות השונות בזמן בניית הפרוייקט</challenge>

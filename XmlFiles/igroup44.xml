@@ -181,7 +181,7 @@
     <technology name="MS SQL Server"/>
     <technology name="JavaScript"/>
     <technology name="AJAX"/>
-    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="ASP.NET AJAX"/>
     <technology name="jQuery"/>
     <technology name="Google Maps API"/>
   </technologies>

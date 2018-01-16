@@ -141,7 +141,7 @@
 <name>התראות והודעות</name>
 <description>המודול מאפשר שיחה עם הלקוח ונותן ללקוח תחושת מעקב אישי</description>
 <features>
-<feature>שליחת הודעות מתוזמנות עפ"י קריטריונים באמצעות Push Notification</feature>
+<feature>שליחת הודעות מתוזמנות עפ"י קריטריונים באמצעות Push Notifications</feature>
 <feature>הכנסת הודעות מתוזמנות אישית ללקוח</feature>
 <feature>קריאת הודעות מהלקוחות</feature>
 <feature>שליחת הודעות חד פעמיות אישיות</feature>
@@ -169,8 +169,8 @@
 <technology name="C#"/>
 <technology name="MS SQL Server"/>
 <technology name="JavaScript"/>
-<technology name="ASP.NET AJAX Control Toolkit"/>
-<technology name="Html5"/>
+<technology name="ASP.NET AJAX"/>
+<technology name="HTML 5"/>
 <technology name="jQuery"/>
 <technology name="jQuery Mobile"/>
 <technology name="Push Notifications"/>

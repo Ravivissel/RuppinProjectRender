@@ -1,7 +1,7 @@
 ﻿<project>
   <shortDescription>אפליקציה המיועדת לתאם אימונים אישיים בין מאמן אישי למתאמן, בלי הכאב ראש של תחלופת הודעות וטלפונים</shortDescription>
   <name>TrainIt</name>
-  <faculty>BA</faculty>
+  <faculty>BMA</faculty>
   <year>2015</year>
   <type>מערכות מידע</type>
   <tags>

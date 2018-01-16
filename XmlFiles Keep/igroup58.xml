@@ -1,0 +1,196 @@
+﻿
+<project>
+<name>מערכת מידע לעמותת רעים</name>
+<faculty>IE</faculty>
+<year>2016</year>
+<type>מערכות מידע</type>
+<tags>
+<tag>עמותה</tag>
+<tag>סלי מזון</tag>
+<tag>חלוקה</tag>
+<tag>משפחות נזקקות</tag>
+<tag>רעים</tag>
+<tag>הוד השרון</tag>
+</tags>
+<customer>
+<name>עמותת רעים</name>
+<logoUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/logo.png</logoUrl>
+<shortDescription>
+עמותת רעים הינה עמותה קטנה המחלקת סלי מזון למשפחות נזקקות בהוד השרון, זוהי עמותת מלכר ומורכבת ממתנדבים בלבד
+</shortDescription>
+<interstedParties>
+<party>חברי וועד העמותה</party>
+</interstedParties>
+<users>
+<user>יו"ר העמותה</user>
+<user>מנהל מחסן</user>
+<user>מנהל משפחות וסלים</user>
+<user>מנהל מתנדבים</user>
+<user>מנהל תורמים</user>
+</users>
+</customer>
+<students>
+<groupCode>igroup58</groupCode>
+<student>
+<name>אמראל רובין</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Amarel.jpg</imageUrl>
+</student>
+<student>
+<name>עמרי אפרת</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Omri.jpg</imageUrl>
+</student>
+<student>
+<name>מורן בר</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Moran.jpg</imageUrl>
+</student>
+</students>
+<projectImageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/logo.png</projectImageUrl>
+<projectLandingPage>http://proj.ruppin.ac.il/igroup58/prod/login.aspx</projectLandingPage>
+<movie>
+https://www.youtube.com/v/XhrqzHclnjg
+</movie>
+<screenShots>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Home.png</imageUrl>
+<description>מסך הבית</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Products.png</imageUrl>
+<description>מסך מוצרים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Baskets.pngs</imageUrl>
+<description>מסך סוגי סלים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Families.png:</imageUrl>
+<description>מסך משפחות</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/FamilyBasket.png</imageUrl>
+<description>מסך התאמת סל למשפחה</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Volunteers.png</imageUrl>
+<description>מסך פעילויות התנדבות</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup58/prod/docs/Images/Donations.png</imageUrl>
+<description>מסך תרומות</description>
+</screenShot>
+</screenShots>
+<advisors>
+<advisor>ערבה צורי</advisor>
+<advisor>ניר חן</advisor>
+</advisors>
+<shortDescription>
+מהות הפרוייקט היא פיתוח מערכת מידע עבור העמותה שתתמוך בפעילויות הניהול השוטפות ותהווה כלי תומך לתכנון יעיל של התאמת סלי מזון למשפחה
+</shortDescription>
+<goals>
+<goal>
+<description>מיחשוב תהליכי העמותה</description>
+<status>
+המערכת מאפשרת שמירה ומעקב אחר תהליכי ניהול מלאי, ניהול משפחות וסלים, ניהול מתנדבים ופעילויות התנדבות וניהול תורמים ותרומות.
+</status>
+</goal>
+<goal>
+<description>
+יצירת כלי תומך להתאמת סלי מזון למשפחה
+</description>
+<status>
+המערכת תומכת בהתאמת סל למשפחה לפי קריטריונים שונים
+</status>
+</goal>
+</goals>
+<modules>
+<module>
+<name>ניהול מחסן</name>
+<description>
+מודול המאפשר ניהול מוצרים במלאי במקומות האחסון השונים
+</description>
+<features>
+<feature>
+ניהול מקומות אחסון
+</feature>
+<feature>
+ניהול קטגוריות מוצרים
+</feature>
+<feature>
+ניהול מוצרים וכמויות במלאי
+</feature>
+</features>
+</module>
+<module>
+<name>ניהול משפחות וסלים</name>
+<description>
+מודול המאפשר ניהול נתוני משפחות וסוגי סלים והתאמה ביניהם</description>
+<features>
+<feature>
+ניהול סוגי סלים
+</feature>
+<feature>
+ניהול איזורי חלוקה
+</feature>
+<feature>
+ניהול משפחות
+</feature>
+<feature>
+התאמת סלי מזון למשפחות
+</feature>
+</features>
+</module>
+<module>
+<name>ניהול מתנדבים</name>
+<description>
+מודול המאפשר ניהול מתנדבים ופעילויות התנדבות
+</description>
+<features>
+<feature>
+ניהול מתנדבים
+</feature>
+<feature>
+ניהול פעילויות התנדבות
+</feature>
+<feature>
+שליחת מייל תזכורת למתנדבים בפעילות
+</feature>
+</features>
+</module>
+<module>
+<name>ניהול תרומות</name>
+<description>מודול המאפשר ניהול תורמים ותרומות</description>
+<features>
+<feature>
+ניהול תורמים
+</feature>
+<feature>
+ניהול תרומות
+</feature>
+<feature>
+ניהול פעילויות מול תורמים
+</feature>
+</features>
+</module>
+<module>
+<name>ניהול משתמשים</name>
+<description>מודול המאפשר ניהול משתמשי המערכת</description>
+<features>
+<feature>
+ניהול חברי עמותה
+</feature>
+</features>
+</module>
+</modules>
+<technologies>
+<technology name="ASP.NET"/>
+<technology name="C#"/>
+<technology name="MS SQL Server"/>
+<technology name="JavaScript"/>
+<technology name="ASP.NET AJAX Control Toolkit"/>
+<technology name="jQuery"/>
+</technologies>
+<challenges>
+עיצוב ממשק משתמש נוח וידידותי שמתאים למשתמשים פשוטים, אפיון ומימוש אלגוריתם אופטימלי להתאמת סלים למשפחות
+</challenges>
+<personalNote/>
+</project>

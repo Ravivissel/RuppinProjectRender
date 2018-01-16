@@ -83,7 +83,7 @@ public class Project
 
     }
 
-    public Project readProject(XPathNavigator nav)
+    protected Project readProject(XPathNavigator nav)
     {
 
         XPathNodeIterator NodeIter;

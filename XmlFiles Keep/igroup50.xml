@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>
+מערכת מידע לניהול בית הספר "פסגת אמיר"    </name>
+    <type>מערכות מידע</type>
+    <faculty>IE</faculty>
+    <year>2016</year>
+    <tags>
+        <tag>טפסים</tag>
+        <tag>מערכות מידע</tag>
+        <tag>ייעול</tag>
+        <tag>אפליקציה</tag>
+    </tags>
+    <customer>
+        <name>בית הספר "פסגת אמיר"</name>
+        <logoUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/logo.png</logoUrl>
+        <shortDescription>
+          תיכון פסגת אמיר, הינה מסגרת חינוכית ערכית
+          לנוער בקצה רצף הסיכון בו עובדים כ 25 אנשי צוות.
+          כ- 55 תלמידים בגילאי 12-18 מרחבי הארץ
+          בעלי פוטנציאל לימודי תקין אך בעלי רקע רגשי והתנהגותי מורכב.
+          בית הספר מהווה הזדמנות אחרונה להישאר חלק
+          ממערכת החינוך הפורמלית.
+        </shortDescription>
+        <interstedParties>
+            <party>מנהל בית הספר</party>
+            <party>צוות ההוראה</party>
+            <party>תלמידים</party>
+        </interstedParties>
+        <users>
+            <user>מנהל בית הספר</user>
+            <user>צוות ההוראה</user>
+            <user>תלמידים </user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>igroup50</groupCode>
+        <student>
+            <name>עמית זילברשטיין</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/Amit.jpg</imageUrl>
+        </student>
+        <student>
+            <name>אדוה דדון</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/Adva.jpg</imageUrl>
+        </student>
+        <student>
+            <name>אסף תנעמי</name>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/Assaf.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/S1.png</projectImageUrl>
+    // this is the main image that will represent your project
+    <projectLandingPage>http://proj.ruppin.ac.il/igroup50/prod</projectLandingPage>
+    <movie>https://www.youtube.com/v/cfpU2FyYSQs</movie>
+    <screenShots>
+        // 5 screen shots of the application
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/S2.png</imageUrl>
+            <description>מסך כניסה לאפליקציה</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/S3.png</imageUrl>
+            <description>משחק כיתתי</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/S4.png</imageUrl>
+            <description>דוחות התנהגות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/S5.png</imageUrl>
+            <description>טבלת משתמשים</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/igroup50/prod/docs/Images/s5.jpg</imageUrl>
+            <description>נוכחות בוקר</description>
+        </screenShot>
+    </screenShots>
+    <advisors>
+        <advisor>בועז ניסימוב</advisor>
+        <advisor>בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+      כל התהליכים בבית הספר התבצעו עד כה ע"י מילוי טפסים ידנית וללא שימור מידע.
+    </shortDescription>
+    <shortDescription>
+        הפרוייקט נועד לתת מענה טכנולוגי מתקדם לתהליכים אלו בארגון.
+    </shortDescription>
+    <goals>
+        <goal>
+            <description>הגדלת יעילות הארגון וייעול זמני עבודה</description>
+            <status>
+              זמני העבודה קוצרו
+            </status>
+        </goal>
+      <goal>
+        <description>גיבוי ושליפת מידע ויצירת תיק אישי מעודכן</description>
+        <status>
+המערכת מאפשרת לעדכן בזמן אמת את התנהגות התלמיד ושומרת את המידע בצורה שנוחה לשליפה ושימוש        </status>
+      </goal>
+      <goal>
+        <description>העברת תכנים בין מורים לתלמידים</description>
+        <status>
+המערכת מאפשרת העברת הודעות כלליות והערכת מורה לתמיד        </status>
+      </goal>
+        <goal>
+            <description>הפקת דוחות</description>
+            <status>
+המערכת מאפשרת למנהל וצוות ההוראה הפקה של דוחות התנהגות            </status>
+        </goal>
+    </goals>
+    <modules>
+        <module>
+            <name>הזנת דוח התנהגות</name>
+            <description>
+מאפשר הזנה של מעקב התנהגות במהלך כל שיעור על כל תלמיד            </description>
+            <features>
+                <feature>הזנת נתונים</feature>
+                <feature>עדכון נתונים</feature>
+                <feature>שליחת הנתונים</feature>
+            </features>
+        </module>
+        <module>
+            <name>הזנת אירוע שלילי</name>
+            <description>
+מאפשר הזנה של אירוע שלילי שביצע תלמיד            </description>
+            <features>
+                <feature>בחירת שם התלמיד</feature>
+                <feature>סוג אירוע</feature>
+                <feature>בחירת קריטריון</feature>
+                <feature>תיאור האירוע</feature>
+                <feature>שליחת מייל לגורמים הרלוונטיים</feature>
+            </features>
+        </module>
+        <module>
+            <name>נוכחות</name>
+            <description>
+הזנת נוכחות בוקר            </description>
+            <features>
+                <feature>הזנת הנתונים</feature>
+                <feature>שליחת הנתונים למנהל</feature>
+            </features>
+        </module>
+        <module>
+            <name>משחק כיתתי ובית ספרי</name>
+            <description>
+מציג תמונת מצב של התנהגות התלמיד הנוכחי וחבריו לכיתה או בית הספר             </description>
+            <features>
+                <feature>מציג את הניקוד שצבר ומיקומו</feature>
+                <feature>מציג את ניקוד שאר התלמידים</feature>
+                <feature>מציג התראות בכניסה לאפליקציה לגבי שינוי בניקוד</feature>
+            </features>
+        </module>
+       <module>
+            <name>הודעות כלליות</name>
+            <description>
+מוצגות במסך הפתיחה של האפליקציה            </description>
+            <features>
+                <feature>הזנת הודעות חדשות</feature>
+                <feature>צפייה בהודעות קודמות</feature>
+            </features>
+        </module>
+      <module>
+        <name>עדכון משוב התנהגות יומי</name>
+        <description>
+          מאפשר שליחת משוב יומי בין המורה לתלמיד
+        </description>
+        <features>
+          <feature>שליחת משוב מהתלמיד</feature>
+          <feature>קבלת המשוב אצל המורה</feature>
+          <feature>הזנת הערות ונתינת ניקוד</feature>
+        </features>
+      </module>
+      <module>
+        <name>דוחות</name>
+        <description>
+מאפשר יצירת דוחות התנהגות לפי מדדים שונים        </description>
+        <features>
+          <feature>בחירת תאריך</feature>
+          <feature>בחירת פרמטרים</feature>
+          <feature>בחירת תלמיד או כיתה</feature>
+        </features>
+      </module>
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="C#"/>
+        <technology name="HTML5"/>
+        <technology name="JavaScript"/>
+        <technology name="SQL"/>
+        <technology name="jQuery"/>
+        <technology name="AJAX"/>
+    </technologies>
+    <challenges>
+האתגר המרכזי היה יצירת המשחק באפליקציה של התלמידים ועידוד המוטיבציה שלהם להתנהגות חיובית    </challenges>
+    <personalNote></personalNote>
+</project>

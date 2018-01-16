@@ -177,8 +177,8 @@
         <technology name="C#"/>
         <technology name="jQuery"/>
         <technology name="JAVA"/>
-        <technology name="Javascript"/>
-        <technology name="Phonegap Mobile"/>
+        <technology name="JavaScript"/>
+        <technology name="phonegap"/>
         <technology name="Crystal Reports"/>
         <technology name="MS SQL"/>
     </technologies>

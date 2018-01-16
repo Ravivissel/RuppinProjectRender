@@ -209,11 +209,11 @@
 <technology name="MS SQL Server"/>
 <technology name="JavaScript"/>
 <technology name="JQuery Bracket"/>
-<technology name=" Bracket"/>
-<technology name="Angular"/>
-<technology name="AngularMobile"/>
-<technology name="PhoneGap"/>
-<technology name="Push Notification"/>
+<technology name="Bracket"/>
+<technology name="Angular js"/>
+<technology name="Angular js Mobile"/>
+<technology name="phonegap"/>
+<technology name="Push Notifications"/>
 </technologies>
 <challenges></challenges>
 <personalNote/>

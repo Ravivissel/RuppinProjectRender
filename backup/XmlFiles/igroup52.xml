@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+  <name>מערכת מידע מוכוונת לקוח למתאמנים בחדר הכושר</name>
+  <faculty>IE</faculty>
+  <year>2016</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>חדר כושר</tag>
+    <tag>חוגים</tag>
+  </tags>
+  <customer>
+    <name>פורמה קלאב</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/logo.jpg</logoUrl>
+    <shortDescription>פורמה קלאב - הינו חדר כושר הממוקם בחדרה, מתאמנים בו כ-200 מנויים. מציע מגוון פעילויות החל ממשקולות חופשיות, מכשירים ומערכת שלמה של חוגים</shortDescription>
+    <interstedParties>
+      <party>הנהלת חדר הכושר</party>
+      <party>לקוחות חדר הכושר</party>
+      <party>צוות המדריכים</party>
+    </interstedParties>
+    <users>
+      <user>מנהלי חדר הכושר</user>
+      <user>מדריכי חדר הכושר</user>
+      <user>לקוחות חדר הכושר</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup52</groupCode>
+    <student>
+      <name>איתן מוגרמן</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/eitan.jpg</imageUrl>
+    </student>
+    <student>
+      <name>עוז טפילצקי</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/oz.jpg</imageUrl>
+    </student>
+    <student>
+      <name>חזי זערור</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/chezi.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/logo.jpg</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup52/prod/Login.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/92g7A5omOYE</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot1.jpg</imageUrl>
+      <description>מסך הכניסה למערכת האדמין</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot2.jpg</imageUrl>
+      <description>עמוד בית - מציג סטטיסטיקות ומידע כללי</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot3.jpg</imageUrl>
+      <description>ניהול משתמשים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot4.jpg</imageUrl>
+      <description>ניהול חוגים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot5.jpg</imageUrl>
+      <description>ניהול יעדים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Desktop/screenshot6.jpg</imageUrl>
+      <description>ניהול הודעות ושינויים + משפטי מוטיבציה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot1.jpg</imageUrl>
+      <description>מסך הכניסה למערכת המובייל</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot2.jpg</imageUrl>
+      <description>עמוד בית</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot3.jpg</imageUrl>
+      <description>פרופיל אישי</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot4.jpg</imageUrl>
+      <description>צפייה ורישום לחוגים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot5.jpg</imageUrl>
+      <description>תכניות אימון</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot6.jpg</imageUrl>
+      <description>הגדרת יעדים אישיים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot7.jpg</imageUrl>
+      <description>צפייה ועידכון אבני דרך יעדים אישיים</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup52/prod/docs/Images/Screenshots/Moblie/mobilescreenshot8.jpg</imageUrl>
+      <description>צפייה בהודעות חדר הכושר</description>
+    </screenShot>
+  </screenShots>
+  <advisors>
+    <advisor>דיצה ביימל</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>מטרת הפרויקט הוא לחבר בין לקוחות חדר הכושר ובין מגוון הפעילויות שחדר הכושר מציע דרך המובייל לרבות רישום און-ליין לחוגים, קבלת עדכונים ישירות למייל ועוד</shortDescription>
+  <goals>
+    <goal>
+      <description>רישום און-ליין לחוגים</description>
+      <status>ניתן להירשם ישירות לחוגים מתוך האפליקציה, בתנאי שכמות הנרשמים לא עברה את המקסימום</status>
+    </goal>
+    <goal>
+      <description>עידכון לגבי כל שינוי</description>
+      <status>לאחר ההרשמה לחוג, הלקוח יקבל התראה למייל במידה ומשהו השתנה כגון שעה, מדריך, ביטול החוג</status>
+    </goal>
+    <goal>
+      <description>הגדרת יעדים אישיים</description>
+      <status>המשתמש יכול להגדיר יעדים אישיים ולעדכן אבני דרך עד שהוא מגיע ליעד!</status>
+    </goal>
+    <goal>
+      <description>צפייה בתכנית אימונים</description>
+      <status>המשתמש יכול לראות תכניות אימונים שנכתבו ע"י מדריכים מוסמכים בפורמה-קלאב</status>
+    </goal>
+  </goals>
+
+  <modules>
+    <module>
+      <name>מסך הבית</name>
+      <description>המסך מכיל טבלת שינויים אחרונים וגרף של החוגים הכי נבחרים לאותו החודש</description>
+      <features>
+        <feature>צפייה בנרשמים</feature>
+        <feature>מנהל המערכת יכול לצפות בכל הלקוחות שנרשמו לחוגים על מנת לדעת כמה לקוחות רשומים לכל חוג</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול משתמשים</name>
+      <description>המודל מאפשר לרשום את משתמשי המערכת, לערוך את המשתמשים ולמחוק, ברגע שמשתמש חדש נוצר - נשלח אליו מייל עם שם המשתמש והססמא למערכת</description>
+      <features>
+        <feature>ניתן לשלוח מייל עם שם משתמש וססמא על פי דרישה</feature>
+        <feature>הענקת רמות גישה לכל משתמש</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול חוגים</name>
+      <description>מודול המאפשר יצירת מופעים של חוגים חדשים, מדריכים חדשים וכמובן חוגים חדשים</description>
+      <features>
+        <feature>אפשרות קביעת מספר משתתפים מקסימלי לכל מופע של חוג</feature>
+        <feature>אפשרות סימון "מופע חוזר לאותו חודש" - דבר המקל על יצירת חוגים בכל תחילת חודש</feature>
+        <feature>עריכה של חוגים אחרי יצירתם - שינוי המדריך, שעה התחלה, שעת סיום ועוד. במידה ויש לקוחות הרשומים לחוג זה - הם יקבלו התראה בדואר אלקטרוני</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול יעדים</name>
+      <description>המודול מאפשר הוספה, שינוי עריכה ומחיקה של יעדים</description>
+      <features>
+        <feature>מחיקת יעדים</feature>
+        <feature>שינוי יעדים</feature>
+        <feature>הוספת יעד חדש</feature>
+      </features>
+    </module>
+    <module>
+      <name>ניהול הודעות ומשפטי מוטיבציה</name>
+      <description>במודול זה ישנם שני תתי מודולים, ניהול הודעות כלליות של חדר הכושר וניהול פיצ'ר משפטי מוטיבציה</description>
+      <features>
+        <feature>ניתן לערוך את ההודעות של חדר הכושר באמצעות סיפריית סקריפט מיוחדת</feature>
+        <feature>אפשרות מחיקה + מחיקה מרובה של הודעות</feature>
+        <feature>אפשרות לקבוע כמה הודעות ירוצו בתחתית האפליקציה - מספר בין 1 ל 6 הודעות</feature>
+      </features>
+    </module>
+  </modules>
+  <technologies>
+    <technology name="ASP.NET"/>
+    <technology name="C#"/>
+    <technology name="MS SQL Server"/>
+    <technology name="JavaScript"/>
+    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="jQuery"/>
+    <technology name="jQuery Mobile"/>
+    <technology name="FullCalendar"/>
+    <technology name="X-Editable"/>
+    <technology name="SlickSlider"/>
+  </technologies>
+  <challenges>עיצוב ממשק משתמש נוח וידידותי, חשיבה על מקרי קצה, יציבות מערכת</challenges>
+  <personalNote></personalNote>
+</project>

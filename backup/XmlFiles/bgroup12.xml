@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project>
+    <name>RanKing</name>
+    <type>מערכות מידע</type>
+    <tags>
+        <tag>RanKing</tag>
+        <tag>ניטור אחר פעולות ותחומי העניין של הגולשים באתר</tag>
+    </tags>
+    <faculty>BA</faculty> 
+    <year>2014</year>     
+    <customer>
+        <name>RanKing</name>
+        <logoUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Logo.png</logoUrl>
+        <shortDescription>
+מטרת מערכת רנקינג הינה לספק מידע רלוונטי וממוקד אודות הגולשים באתר החברה. מידע ממוקד כגון: תחומי העניין של הגולש, משך שהותו באתר ומיקומו הגיאוגרפי. 
+        </shortDescription>
+        <interstedParties>
+            <party>אנשי מכירות של בעלי האתר</party>
+            <party>אנשי שיווק</party>
+            <party>מנהלים</party>
+        </interstedParties>
+        <users>
+            <user>אדמיניסטרטור</user>
+            <user>איש מכירות</user>
+            <user>מנהל מכירות</user>
+        </users>
+    </customer>
+    <students>
+        <groupCode>bgroup12</groupCode>
+        <student>
+            <name>לי בן-דוד</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Lee.jpg</imageUrl>
+        </student>
+        <student>
+            <name>ליטל כהו</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Lital.jpg</imageUrl>
+        </student>
+        <student>
+            <name>תום קנובל</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Tom.jpg</imageUrl>
+</student>
+ <student>
+            <name>שי אסור</name>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Shay.jpg</imageUrl>
+        </student>
+    </students>
+    <projectImageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Logo.png</projectImageUrl>
+   <projectLandingPage>http://proj.ruppin.ac.il/bgroup12/prod/Login.aspx</projectLandingPage>
+    <movie>https://www.youtube.com/v/gs0RWaQRjic</movie>
+    <screenShots>
+  
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Capture1.PNG</imageUrl>
+            <description>דף סטטיסטיקות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Capture2.PNG</imageUrl>
+            <description>מסך צפייה בליד ספציפי</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Capture3.jpg</imageUrl>
+            <description>מסך הגדרת איזורים גיאוגרפיים לאנשי מכירות </description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Capture4.PNG</imageUrl>
+            <description>מסך הגדרת פרסומות</description>
+        </screenShot>
+        <screenShot>
+            <imageUrl>http://proj.ruppin.ac.il/bgroup12/prod/docs/Images/Capture5.PNG</imageUrl>
+            <description>מסך עריכת יוזר</description>
+        </screenShot>
+    </screenShots>
+
+    <advisors>
+        <advisor>מר ניר חן</advisor>
+        <advisor>מר בני בורנפלד</advisor>
+    </advisors>
+    <shortDescription>
+        מערכת המידע נבנתה עבור חברות אשר מנהלות אתר אינטרנט. המערכת מתמקדת במספר תחומים עיקריים. הראשון הוא מודול אסיפת מידע אודות גולשים באתר- עבור כל גולש נשמים פרטים רוולנטיים עבור החברה. 
+מודול זה עוזר למנהלים לבצע הזמנות על פי רמת ההתעניינות של הגולשים. 
+המודול השני הינו מודול הגדרת תחומי עניין, מאפשר לקבוע בצורה דינאמית אילו תחומים קיימים לחברה ומאפשר גמישות על ידי הסרת תחומים ועריכתם. מודול שליחת אימיילים אשר מאפשר למנהל המכירות לשלוח אימיילים אשר מציעים מבצעים או מוצרים של החברה על פי קריטריונים מסויימים כגון: גולש אשר התעניין במכנסיים או חולצות באתר. מודול לצפייה בגולשים באתר, מודול הגדרת תחומי עניין של החברה ומודול הגדרת איזורי אחריות של אנשי המכירות, ניתן לבחור בצורה דינאמית ע"י בחירת נקודות על מפה והגדרת האיזור הגיאוגרפי של כל איש מכירות.    </shortDescription>
+    <goals>
+        <goal>
+            <description>קבלת מידע עדכני אודות הלקוחות</description>
+            <status>
+                המערכת אוספת מידע על תחומי העניין והפעולות של הגולשים באתר בזמן אמת.
+            </status>
+        </goal>
+        <goal>
+            <description>גישה אל תחומי העניין של הגולש והצעת מוצרים או מבצעים בהתאם.</description> 
+            <status>
+                המערכת שולחת אימיילים בהתאם למידת ההתעניינות של הלקוח בתחומי עניין מסויימים.
+            </status>
+        </goal>
+        <goal>
+            <description>ניהול דינאמי של תחומי עניין בחברה</description>
+            <status>
+                מנהל המערכת מנהל את תחומי העניין על פי עמודים באתר, בצורה דינאמית ובחלוקה לרמות.
+            </status>
+        </goal>
+        <goal>
+            <description>מעקב אחר אינטרקציות עם גולשים (לידים)</description>
+            <status>
+                המערכת מרכזת עבור מנהל המכירות את כלל האינטרקציות עם הלקוחות.
+            </status>
+        </goal>
+    </goals>
+
+    <modules>
+        <module>
+            <name>הגדרת יוזרים</name>
+            <description>
+                המודול מאפשר לאדמין להגדיר את משתמשי המערכת כגון: אנשי מכירות, מנהלי מכירות ואדמין.
+            </description>
+            <features>
+                <feature>הגדרת יוזר</feature>
+                <feature>עריכת יוזר</feature>
+                <feature>מחיקת יוזר</feature>
+            </features>
+        </module>
+        <module>
+            <name>מסך הגדרת איזורים</name>
+            <description>
+                המודול מאפשר להגדיר את האיזורים הגיאוגרפיים עליהם יהיו אחראים אנשי המכירות.
+            </description>
+            <features>
+                <feature>הגדרת האיזורים הגיאוגרפיים של החברה</feature>
+                <feature>מחיקת איזור גיאוגרפי של החברה</feature>
+                <feature>שיוך איזור גיאוגרפי לאיש מכירות</feature>
+                <feature>העברת איזור גיאוגרפי לאחריות איש מכירות אחר</feature>
+
+           </features>
+        </module>
+        <module>
+            <name>יצירת פרסומות</name>
+            <description>
+                המודול מאפשר למנהל מכירות ליצור פרסומות אשר יופיעו באתר בהתאם לתחומי העניין של הגולש.
+            </description>
+            <features>
+      <feature>יצירה פרסומת</feature>	
+      <feature>עדכון פרסומת</feature>	
+      <feature>מחיקת פרסומת</feature>	
+          </features>
+        </module>
+<module>
+            <name>הגדרת תחומי עניין וניקוד</name>
+            <description>
+                המודול מאפשר לאדמין להגדיר תחומי עניין לכל עמוד באתר ולהגדיר ניקוד.
+            </description>
+            <features>
+      <feature>יצירה תחום עניין</feature>	
+      <feature>עדכון תחום עניין </feature>	
+      <feature>מחיקת תחום עניין </feature>	
+
+          </features>
+        </module>
+
+    </modules>
+    <technologies>
+        <technology name="ASP.NET"/>
+        <technology name="SQL Server - Microsoft"/>
+        <technology name="jQuery library"/>
+        <technology name="ASP.NET AJAX "/>
+        <technology name="GOOGLE API"/>
+ 	<technology name="Bootstrap,Assets"/>
+    </technologies>
+    <challenges>
+        עבודה עם ממשקי אפליקציות חדשות, שילוב של אלגוריתם קלאסי בתוך מערכת המידע, עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה, ניהול ותכנון לוחות זמנים, חילופי תפקידים בעמותה.
+    </challenges>
+    <personalNote> 
+        ביצוע הפרויקט היווה אתגר רציני מבחינות רבות. יחד עם זאת אנחנו מרגישים שהוא תרם רבות לפיתוח האישי והמקצועי שלנו ונתן לנו כלים טובים להתמודדות במשימות עתידיות אשר יוטלו עלינו במהלך הקריירה המקצועית שלנו.
+    </personalNote>
+</project>
+
+

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project>
+<name>מערכת ניווט בקמפוס המרכז האקדמי רופין</name>
+<faculty>IE</faculty>
+<year>2015</year>
+<type>מערכות מידע</type>
+<tags>
+<tag>המרכז האקדמי רופין</tag>
+<tag>סטודנטים</tag>
+<tag>ניווט</tag>
+<tag>חניה</tag>
+<tag>קמפוס</tag> 
+<tag>סגל</tag>
+<tag>אורחים</tag>
+</tags>
+<customer>
+<name>המרכז האקדמי רופין</name>
+<logoUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/logoRuppin.jpg</logoUrl>
+<shortDescription>המרכז האקדמי רופין הינו מוסד אקדמי ציבורי להשכלה גבוהה בשרון, המוסמך להעניק תארים ניהוליים ומקצועיים רבים ומגוונים</shortDescription>
+<interstedParties>
+<party>סטודנטים</party>
+<party>סגל אקדמי ועובדי מנהלה</party>
+<party>אורחי המכללה</party>
+<party>תושבי עמק חפר והסביבה</party>
+</interstedParties>
+<users>
+<user>סטודנטים</user>
+<user>סגל אקדמי ועובדי מנהלה</user>
+<user>אורחי המכללה</user>
+<user>מנהל המערכת</user>
+</users>
+</customer>
+<students>
+<groupCode>igroup37</groupCode>
+<student>
+<name>ליאור לוי</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/lior.png</imageUrl>
+</student>
+<student>
+<name>שיר זבידה</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/shir.jpg</imageUrl>
+</student>
+</students>
+<projectImageUrl> http://proj.ruppin.ac.il/igroup37/prod/docs/Images/logo.png </projectImageUrl>
+<projectLandingPage>http://proj.ruppin.ac.il/igroup37/prod/omgapp.html</projectLandingPage>
+<movie>https://www.youtube.com/v/iBTryZ_JBwI</movie>
+<screenShots>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/appHome.png</imageUrl>
+<description>מסך הכניסה למערכת</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/search.png</imageUrl>
+<description>מסך חיפוש יעד</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/destination.png</imageUrl>
+<description>מסך ניווט ליעד</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/list.png</imageUrl>
+<description>מסך רשימת יעדים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/info.png</imageUrl>
+<description>מסך מידע אודות היעד</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/saveParking.png</imageUrl>
+<description>מסך שמירת מיקום חניה</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/app/parking.png</imageUrl>
+<description>מסך ניווט לחניה</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/login.png</imageUrl>
+<description>מסך כניסה למערכת האדמין</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/home.png</imageUrl>
+<description>דף הבית במערכת האדמין</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/updateMapping.png</imageUrl>
+<description>מסך יצירה ועדכון מיפוי</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/watchMapping.png</imageUrl>
+<description>מסך צפייה במיפוי</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/neighbors.png</imageUrl>
+<description>מסך יצירת שכנים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup37/prod/docs/Images/desktop/report.png</imageUrl>
+<description>מסך הפקת דוחות</description>
+</screenShot>
+</screenShots>
+<advisors>
+<advisor>דר' דיצה ביימל</advisor>
+<advisor>מר בנימין בורנפלד</advisor>
+</advisors>
+<shortDescription>מהות הפרויקט היא פיתוח מערכת ניווט להתמצאות בקמפוס ובמגרשי החניה במרכז האקדמי רופין</shortDescription>
+<goals>
+<goal>
+<description>המערכת מאפשרת למשתמשים לנווט ברחבי המקפוס ומגרשי החניה בקלות ובנוחות</description>
+<status>באמצעות שימוש באממצעי נייד כגון סמארטפון וטאבלט.</status>
+</goal>
+<goal>
+<description>המערכת תאפשר לקצר זמני הגעה לכתות הלימוד ולמבנים השונים ותספק מיקום לגבי מקומות שונים במרכז האקדמי, לפי תחומי העניין של המשתמש.</description>
+<status>המערכת מבוססת על אלגוריתם דיקסטרה למציאת המסלול הקצר ביותר. בנוסף, ישנה רשימת יעדים ועל גבי מפת הקמפוס מפוזרים מרקרים אשר מציינים את סוג היעד כגון: מסעדה, אגודת סטודנטים וכו'.</status>
+</goal>
+<goal>
+<description>המערכת תאפשר למנהל המערכת להפיק דוחות, לפי הפונקציות השונות הקיימות בה.</description>
+<status>המערכת שומרת מידע אודות המסלולים של המשתמשים, מנתחת ומעבדת את המידע לכדי דוח</status>
+</goal>
+</goals>
+<modules>
+<module>
+<name>מודול ניווט ליעד</name>
+<description>המודול מחשב את המסלול הקצר ביותר על פי אלגוריתם דיקסטרה מהמיקום הנוכחי של המשתמש אל היעד שהוקלד. בכל 5 שניות המיקום הנוכחי של המשתמש מתעדכן על גבי המפה. בנוסף, ישנו חישוב של הזמן והמרחק אל היעד אשר מתעדכן גם כן בכל 5 שניות.</description>
+<features>
+<feature>חיפוש יעד על ידי הזנת יעד רצוי. ישנה השלמה אוטומטית של היעד שמוזן.</feature>
+<feature>הצגת המסלול על גבי המפה וסימון נקודת התחלה ונקודת סיום.</feature>
+<feature>רשימת יעדים הכוללת הצגת תמונה של היעד וצפייה במידע אודות היעד או ניווט ישיר ליעד ללא צורך בהקלדה.</feature>
+<feature>סימון יעדים על גבי המפה באייקון מתאים ואפשרות לצפייה במידע אודות היעד כגון שעות פתיחה וכו'.</feature>
+</features>
+</module>
+<module>
+<name>מודול ניווט לחניה</name>
+<description>מודול המאפשר ניווט אל מקום החניה במגרשי החניה של המרכז האקדמי רופין.</description>
+<features>
+<feature>שמירת מיקום החניה</feature>
+<feature>ניווט למקום החניה</feature>
+</features>
+</module>
+<module>
+<name>מודול הוספה,צפייה, עדכון ומחיקת נקודות במערכת האדמין</name>
+<description>המודול מאפשר יצירת מיפוי של קמפוס המרכז האקדמי רופין. ניתן לצפות, להוסיף, לעדכן ולמחוק נקודות.</description>
+<features>
+<feature>הוספת נקודה חדשה/הוספת מסלול</feature>
+<feature>עדכון פרטי נקודה</feature>
+<feature>צפייה במיפוי קיים והבחנה בין סוגי הנקודות</feature>
+<feature>מחיקת נקודה/מחיקת כל המיפוי/מחיקה על פי רדיוס על ידי הזנת רדיוס רצוי למחיקה</feature>
+</features>
+</module>
+<module>
+<name>מודול יצירת שכנים</name>
+<description>חישוב על ידי אלגוריתם דייסקטרה של נקודות שכנות על ידי הזנת מרחק אשר מהווה הגדרה לנקודה שכנה</description>
+</module>
+<module>
+<name>הפקת דוחות</name>
+<description>מודול המאפשר להפיק דוח משתמש. הדוח מבצע השוואה בין המסלול אשר חושב על ידי המערכת לבין המסלול בפועל בו הלך המשתמש</description>
+<features>
+<feature>מאפשר יצירת דוח חדש על ידי בחירת משתמש ותאריך ניווט</feature>
+<feature>צפייה בדוח</feature>
+</features>
+</module>
+</modules>
+<technologies>
+<technology name="HTML 5"/>
+<technology name="HTML"/> 
+<technology name="Google Maps API"/> 
+<technology name="ASP.NET"/>
+<technology name="C#"/>
+<technology name="MS SQL Server"/>
+<technology name="JavaScript"/>
+<technology name="AJAX"/>
+<technology name="Web Service"/>
+<technology name="jQuery"/>
+<technology name="jQuery mobile"/>
+<technology name="CSS"/>
+</technologies>
+<challenges>הדבקת תצלום אוויר של המרכז האקדמי רופין על גבי מפת גוגל בצורה מדוייקת, פיתוח אלגוריתם דייקסטרה אשר מחב את המסלול הקצר ביותר מנקודת התחלה אל נקודת סיום, עיצוב ממשק משתמש ידידותי, חלוקת המטלות</challenges>
+<personalNote/>
+</project>

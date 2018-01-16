@@ -216,13 +216,13 @@
 <technology name="ASP.NET"/>
 <technology name="jQuery"/>
 <technology name="AJAX"/>
-<technology name="SQL Server - Microsoft"/>
-<technology name="jQuery library"/>
+<technology name="SQL Server"/>
+<technology name="jQuery"/>
 <technology name="Google Maps API"/>
-<technology name="Javascript"/>
-<technology name="Facebook API "/>
-<technology name="jQuery Mobile "/>
-<technology name="Phonegap Build "/>
+<technology name="JavaScript"/>
+<technology name="FACEBOOK API"/>
+<technology name="jQuery mobile"/>
+<technology name="PHONEGAP"/>
 
 </technologies>
   

@@ -248,7 +248,7 @@
     <technology name="ASP.NET"/>
     <technology name="C#"/>
     <technology name="jQuery Mobile"/>
-    <technology name="javaScript"/>
+    <technology name="JavaScript"/>
   </technologies>
   <challenges>
     עבודה מול השרת, תיאום עבודת הצוות בשלבי הפיתוח, למידת העבודה עם phonegap.

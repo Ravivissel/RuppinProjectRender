@@ -132,7 +132,7 @@
     <technology name="ASP.NET"/>
     <technology name="C#"/>
     <technology name="jQuery"/>
-    <technology name="AjaxToolKit"/>
+    <technology name="Ajax toolkit"/>
   </technologies>
   <challenges>
     האתגר המרכזי בו נתקלנו ניהול נכון של ארכיטקטורת המערכת, חשיבה אינטנסיבית וביקורתית אל מחוץ לקופסא והניסיון הבלתי פוסק לחולל שינויי בתחום מתן השירות בארץ ובעולם

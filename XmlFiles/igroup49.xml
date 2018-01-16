@@ -178,11 +178,11 @@
     <technology name="C#"/>
     <technology name="MS SQL Server"/>
     <technology name="JavaScript"/>
-    <technology name="ASP.NET AJAX Control Toolkit"/>
+    <technology name="ASP.NET AJAX"/>
     <technology name="jQuery"/>
-    <technology name="Bootstrap"/>
+    <technology name="BOOTSTRAP"/>
     <technology name="JS charts"/>
-    <technology name="Web Services"/>
+    <technology name="Web Service"/>
   </technologies>
   <challenges>
     עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, התמודדות מול מאגר נתונים גדול ומסורבל ויצירת שפה משותפת למערכת אחידה

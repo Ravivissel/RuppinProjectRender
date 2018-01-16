@@ -154,7 +154,9 @@
 <technology name="ASP.NET AJAX"/>
 <technology name="jQuery"/>
 <technology name="jQuery Mobile"/>
-<technology name="Phonegap, Camera, File Transfer"/>
+<technology name="phonegap"/>
+<technology name="Camera"/>
+<technology name="File Transfer"/>
 <technology name="Waze"/>
 </technologies>
 <challenges>עיצוב ממשק נוח למשתמש, עבודה עם יכולות של טלפון סלולרי, פיתוח מערכת מהירה ומעוצבת.</challenges>

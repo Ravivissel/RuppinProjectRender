@@ -221,9 +221,9 @@
         <technology name="C#"/>
         <technology name="jQuery"/>
         <technology name="AJAX"/>
-        <technology name="PHONEGAP"/>
+        <technology name="phonegap"/>
         <technology name="JavaScript"/>
-        <technology name="HTML5"/>
+        <technology name="HTML 5"/>
         <technology name="SQL Server"/>
 
     </technologies>

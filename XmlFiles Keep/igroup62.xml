@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <name>מערכת לניהול חוות טיפוליות בבעלי חיים</name>
+  <faculty>IE</faculty>
+  <year>2016</year>
+  <type>מערכות מידע</type>
+  <tags>
+    <tag>סוסים</tag>
+    <tag>טיפול</tag>
+    <tag>חווה</tag>
+    <tag>הדרכה</tag>
+    <tag>רכיבה</tag>
+    <tag>הורים</tag>
+    <tag>פסיכולוגיה</tag>
+    <tag>הפרעות</tag>
+    <tag>רפואה אלטרנטיבית</tag>
+    <tag>קשב וריכוז</tag>
+  </tags>
+  <customer>
+    <name>חוות טיפוליות בבעלי חיים</name>
+    <logoUrl>http://proj.ruppin.ac.il/igroup62/prod/images/logo_therapy_tranp.png</logoUrl>
+    <shortDescription>מערכת סי.אר.אם ידידותית וקלה לשימוש המיועדת לניהול מטופלי חוות טיפוליות בבעלי חיים</shortDescription>
+    <interstedParties>
+      <party>קופות חולים</party>
+      <party>מטופלי לקויות למידה</party>
+      <party>מדריכי רכיבה</party>
+      <party>מנהלי מערכות מידע</party>
+      <party>אנשי מקצוע</party>
+    </interstedParties>
+    <users>
+      <user>מנהלי חווה טיפולית</user>
+      <user>מדריכי חווה טיפולית</user>
+      <user>מטופלי חווה טיפולית</user>
+    </users>
+  </customer>
+  <students>
+    <groupCode>igroup62</groupCode>
+    <student>
+      <name>אביעד עמר</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/aviadPic.jpg</imageUrl>
+    </student>
+    <student>
+      <name>יגאל בראונשטיין</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/igalPic.jpg</imageUrl>
+    </student>
+    <student>
+      <name>עופר רביד</name>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/oferPic.jpg</imageUrl>
+    </student>
+  </students>
+  <projectImageUrl>http://proj.ruppin.ac.il/igroup62/prod/images/logo_therapy_tranp.png</projectImageUrl>
+  <projectLandingPage>http://proj.ruppin.ac.il/igroup62/prod/login.aspx</projectLandingPage>
+  <movie>https://www.youtube.com/v/VBi91dc_WOU</movie>
+  <screenShots>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/landingPage.jpg</imageUrl>
+      <description>מסך נחיתה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/dashBoard.jpg</imageUrl>
+      <description>מסך ראשי</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/calendarAddEvent.jpg</imageUrl>
+      <description>מסך לוח פעילויות החווה</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/wizard.jpg</imageUrl>
+      <description>גרף מעקב התקדמות</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/patientGraph.jpg</imageUrl>
+      <description>מסך חיפוש</description>
+    </screenShot>
+    <screenShot>
+      <imageUrl>http://proj.ruppin.ac.il/igroup62/prod/docs/Images/patientsManagement.jpg</imageUrl>
+      <description>ניהול לקוחות</description>
+      </screenShot>
+    </screenShots>
+  <advisors>
+    <advisor>בועז ניסימוב</advisor>
+    <advisor>בנימין בורנפלד</advisor>
+  </advisors>
+  <shortDescription>מהות הפרויקט הוא לספק מערכת מידע ידידותית וויזואלית לניהול מטופלי חוות טיפוליות בדגש על שמירת מטופליה ומעקב אחר התקדמותם</shortDescription>
+  <goals>
+    <goal>
+      <description>איחוד שלושת סוגי הנתונים למאגר מרכזי אחד</description>
+      <status>המערכת מאגדת בתוכה את שלושת המודולים - ניהול פעילויות החווה, הגדרת מטופלים ופרופילם האישי, ניתוח התקדמותם על גבי גרפים</status>
+    </goal>
+    <goal>
+      <description>הצגת נתונים מהימנים ונכונים ללמידה על מטופלי החווה ומעקב אחר התקדמותם</description>
+      <status>מסד הנתונים של המערכת על גבי שרת אשר שומר את כל המידע הרלוונטי</status>
+    </goal>
+    <goal>
+      <description>צמצום שעות עבודה של עובדי הארגון</description>
+      <status>המערכת מנתחת ומעבדת נתונים</status>
+    </goal>
+    <goal>
+      <description>הפחתת שעות תפעוליות בהגדרת ושמירת מטופלי החווה תוך כדי מעקב אחר התקדמותם</description>
+      <status>דרך המערכת ניתן לזהות את הגורמים המכריעים להתקיימות מקרים אלו</status>
+    </goal>
+  </goals>
+  <modules>
+    <module>
+      <name>מסך הבית</name>
+      <description>המודול מכיל את לוח פעילויות החווה, מעקב אחר מטופלים אופציונאלים אשר לא סיימו את תהליך ההרשמה למערכת, תפריט ניתוב מסכים, רשימת מדריכי החווה</description>
+      <features>
+      <feature>אלגוריתם העושה שימוש בציוני המפגשים לפי כל מטופל ושקלולם לציון אחד המושווה לציון ההתחלתי שהתקבל ביום הזנת המטופל במערכת</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול הוספת מטופל</name>
+      <description>מודול המאפשר הוספת מטופלים למערכת באופן חכם המתעד את אפיונם הרפואי ומתן ציונים לפי סקאלות טיפוליות ביום האינטייק</description>
+      <features>
+        <feature>אפשרות צפיה בסטטוס הרשמת המטופלים לפי שלבים המוצגים באופן ברור וידידותי</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול חיפוש</name>
+      <description>המודול מאפשר חיפוש מטופלים ומדריכים לפי שם פרטי תוך כדי השלמה אוטומטית</description>
+      <features>
+        <feature>חיפוש לפי שם מלא</feature>
+      </features>
+    </module>
+    <module>
+      <name>מודול צפייה בפעילויות החווה</name>
+      <description>לוח פעילויות שעובד יחד עם חשבון גוגל קלנדר של החווה הטיפולית</description>
+      <features>
+        <feature>צפייה בפעילויות החווה</feature>
+        <feature>אפשרות להוספת פעילויות </feature>
+      </features>
+    </module>
+    </modules>
+    <technologies>
+      <technology name="ASP.NET"/>
+      <technology name="C#"/>
+      <technology name="MS SQL Server"/>
+      <technology name="JavaScript"/>
+      <technology name="ASP.NET AJAX Control Toolkit"/>
+      <technology name="jQuery"/>
+      <technology name="Photoshop"/>
+    </technologies>
+    <challenges>עיצוב ממשק משתמש נוח וידידותי, חלוקת המטלות בין חברי הקבוצה ועבודת צוות, התמודדות מול מאגר נתונים בעל אופי טיפולי ויצירת שפה משותפת למערכת אחידה</challenges>
+    <personalNote/>
+  </project>

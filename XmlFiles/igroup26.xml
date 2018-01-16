@@ -211,7 +211,7 @@
         <technology name="ASP.NET"/>
         <technology name="C#"/>
         <technology name="jQuery"/>
-        <technology name="javaScript"/>
+        <technology name="JavaScript"/>
     </technologies>
     <challenges>
         בניית תשתית טובה שכוללת שאילתות ופונקציות מורכבות, על מנת לאפשר שיבוץ תקין ללא תקלות ומתן תמונת מצב נכונה

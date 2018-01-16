@@ -1,0 +1,164 @@
+<project>
+<script id="tinyhippos-injected"/>
+<name>ADS Laminar Inventory management System</name>
+<type>מערכות מידע</type>
+<tags>
+<tag>ניהול מלאי</tag>
+<tag>מסנני אוויר</tag>
+</tags>
+<faculty>IE</faculty>
+<year>2016</year>
+<customer>
+<name>ADS Laminar</name>
+<logoUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/logoPNG.png</logoUrl>
+<shortDescription>
+חברה מובילה בתחום האוויר הנקי המתמחה בייצור מוצרים לאזורי עבודה בתנאים סטריליים ובמתן שירות ופתרונות בתחום האוויר הנקי בארץ ובעולם. החברה מתמחה בייצור מסנני אוויר בכל רמות הסינון ויחידות סינון עצמאיות. </shortDescription>
+<interstedParties>
+<party>ברנרד ביג'אוי – מנכ"ל החברה</party>
+<party>רמי ביג'אוי – סמנכ"ל החברה, אחראי שיווק ומכירות</party>
+<party>יוסף ביג'אוי - מהנדס החברה</party>
+<party>נתן ביג'אוי – מנהל תפ"י</party>
+<party>ניסים רווח – מנהל הייצור</party>
+<party>עובדי הייצור והמחסן</party>
+</interstedParties>
+<users>
+<user>מנהל התפ"י</user>
+<user>מנהל הייצור</user>
+<user>עובדי הייצור והמחסן</user>
+</users>
+</customer>
+<students>
+<groupCode>igroup55</groupCode>
+<student>
+<name>טניה לגזיאל, נופר שניידר ויערה שמחון</name>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/3ofus.jpg</imageUrl>
+</student>
+</students>
+תמונה של הפרויקט
+<projectImageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/logoPNG.png</projectImageUrl>
+<projectLandingPage>http://proj.ruppin.ac.il/igroup55/prod/</projectLandingPage>
+<movie>https://youtu.be/Jt1pAalr_JU</movie>
+<screenShots>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/login.PNG</imageUrl>
+<description>כניסה למערכת</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/newOrder.PNG</imageUrl>
+<description>יצירת הוראת עבודה חדשה </description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/workorder.PNG</imageUrl>
+<description>הוראת ייצור</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/print.PNG</imageUrl>
+<description>הדפסת מדבקות לאחר הרכבת מסננים</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/quality.PNG</imageUrl>
+<description>בדיקת איכות עבור מסנן</description>
+</screenShot>
+<screenShot>
+<imageUrl>http://proj.ruppin.ac.il/igroup55/prod/docs/Images/report.PNG</imageUrl>
+<description>דוח"ח מסננים פסולים</description>
+</screenShot>
+</screenShots>
+<advisors>
+<advisor>מר אריה עמית</advisor>
+<advisor>מר בני בורנפלד</advisor>
+</advisors>
+<shortDescription>
+מערכת מידע לניהול מלאי בתהליך של שלושה סוגי מסננים עיקריים אותם מייצר המפעל. המערכת מתעדת את כל שלבי הייצור, החל מקבלת חומרי גלם וקבלת הזמנה לייצור, תרגום ההזמנה להוראות עבודה ומעקב אחר המוצר בתחנות הייצור השונות. המערכת כוללת הפקת הוראות עבודה, הפקת הוראות ייצור, קליטת חומרי גלם וכן עדכון בזמן אמת של שלבי הייצור ע"י עובדי רצפת הייצור. 
+</shortDescription>
+<goals>
+<goal>
+<description>תיעוד מלאי ממוחשב</description>
+<status>
+בעבר תיעוד המלאי היה נעשה בצורה ידנית. כעת כל המידע יוזן בצורה ממוחשבת, יקצר תהליכי עבודה וייעל את זמני הזנת המידע.</status>
+</goal>
+<goal>
+<description>בקרה ושליטה</description>
+<status>
+המערכת תאפשר שליטה ובקרה על הייצור בזמן אמת. ניתן לקבל סטטוס אודות הזמנות וכמויות בכל זמן.</status>
+</goal>
+<goal>
+<description>ייעול תהליך הייצור ותיעודו</description>
+<status>
+באמצעות המערכת, יהיה ניתן להדפיס מדבקות של מספרי המסננים בעת תהליך ההרכבה. מדבקות אלו ילוו את המסנן בכל תהליך הייצור וימנעו עבודה כפולה ומסורבלת כפי שנעשתה בעבר.
+</status>
+</goal>
+</goals>
+<modules>
+<module>
+<name>ניהול חומרי גלם</name>
+<description>
+מודול המיועד בעיקר לעובדי המחסן במטרה לאפשר מעקב ובקרה אחר כלל חומרי הגלם במפעל ועדכונם בזמן אמת
+</description>
+<features>
+<feature>יצירת חומר גלם חדש</feature>
+<feature>צפייה בחומרי הגלם הקיימים</feature>
+<feature>עדכון חומרי גלם בעת קבלת/ניפוק סחורה</feature>
+</features>
+</module>
+<module>
+<name>ניהול משתמשים</name>
+<description>
+ניהול משתמשי המערכת והתאמת הרשאות על פי תחנות עבודה
+</description>
+<features>
+<feature> יצירת משתמש חדש</feature>
+<feature>עדכון משתמש קיים</feature>
+</features>
+</module>
+<module>
+<name> הוראות עבודה וייצור</name>
+<description>
+המערכת מאפשרת לייצר הוראת עבודה כתוצאה מהזמנת לקוח או יצור למלאי ותרגומה להוראת ייצור לעובדי המפעל</description>
+<features>
+<feature>צפייה בהוראות עבודה קיימות</feature>
+<feature>יצירת הוראת עבודה חדשה</feature>
+<feature>יצירת הוראת ייצור ע"פ הוראת עבודה לכלל תחנות העבודה</feature>
+<feature>צפייה ועדכון של הוראות ייצור</feature>
+<feature>תעדוף הוראות עבודה ע"פ אלמנט חכם במערכת</feature>
+</features>
+</module>
+<module>
+<name>מלאי בתהליך</name>
+<description>
+מודול זה מנהל את כלל הפעילות הנעשית על המוצרים בתהליך בכלל תחנות העבודה. מתבצע בעיקר ע"י עובדי הייצור</description>
+<features>
+<feature>צפייה בהוראות הייצור לכל עובד בתחנתו ע"פ תאריכים והזמנות רלוונטיות</feature>
+<feature>הזנת נתוני ייצור עוגות בתחנת קיפול נייר</feature>
+<feature>הנפקת מספרים סידוריים למסננים והדפסתם</feature>
+<feature>עדכון כמויות של מוצרים שעובדו בתחנות דבק/נייר/אריזה</feature>
+<feature>תיעוד בדיקת איכות של מסנן</feature>
+</features>
+</module>
+<module>
+<name>דוחות</name>
+<description>
+ הנפקת דוחות בזמן אמת</description>
+<features>
+<feature>דו"ח מסננים פסולים</feature>
+<feature>דו"ח סטטוס הזמנות בחתך של תחנות</feature>
+<feature>דו"ח תוצרת גמורה</feature>
+</features>
+</module>
+</modules>
+<technologies>
+<technology name="HTML"/>
+<technology name="CSS"/>
+<technology name="ASP.NET"/>
+<technology name="C#"/>
+<technology name="javaScript"/>
+<technology name="AJAX"/>
+<technology name="SQL Server"/>
+</technologies>
+<challenges>
+האתגר העיקרי בו נתקלנו היה מימוש מערכת המידע בהתאם לאיפיון הנעשה בשלב מוקדם יותר. גילינו כי קיימת חשיבות גדולה לאיפיון המערכת טרם היישום, תוך התחשבות ברצון הלקוח ושיתופו. המטרה היא למעשה לפתח מערכת אשר תענה על צרכי הלקוח ולכן יש לקחת בחשבון את השפעת המערכת על הפרטים הקטנים שלעיתים נראים כלא חשובים. יש לוודא בכל שלב של התהליך מעורבות של הלקוח ושביעות רצונו בכל שלב של הפרויקט. כמו כן יש לתכנן ביעילות את עבודת הפיתוח תוך התמקדות בפרטים של כל מודול, כך שהמערכת תיהיה יעילה ויציבה יותר.
+ </challenges>
+<personalNote>
+מלבד גאווה רבה וסיפוק גדול, המערכת שפיתחנו היוותה עבורנו אתגר חשוב ומעניין. למדנו רבות הן בתחום הטכני והן בתחום העסקי, התנסנו בניהול פרויקט לראשונה מול לקוח גדול וקיבלנו אפשרות ליישם את הכלים שרכשנו במהלך ארבעת השנים האחרונות.
+</personalNote>
+</project>

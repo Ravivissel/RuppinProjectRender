@@ -111,7 +111,7 @@
   <technologies>
     <technology name="ASP.NET"/>
     <technology name="C#"/>
-    <technology name="javascript"/>
+    <technology name="JavaScript"/>
     <technology name="jQuery"/>
   </technologies>
   <challenges>
