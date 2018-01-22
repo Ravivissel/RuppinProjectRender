@@ -14,7 +14,7 @@ function getId(url) {
 function getProjectCB(result) {
     projects = JSON.parse(result.d);
     proj = projects[0];
-    // Riki, in this point in the code you get in object proj all the fields you need.
+
     fillSeeMoreLikeThis(initPage(proj));
 
 

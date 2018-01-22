@@ -3,8 +3,6 @@
 <head>
     <title></title>
 
-    <script src="js/ajaxCalls.js"></script>
-
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
     <script src="//code.jquery.com/jquery-1.12.3.js"></script>
@@ -32,12 +30,13 @@
     <link href="css/changes.css" rel="stylesheet" />
 
 
-
-
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
     <script src="PgwSlider-master/PgwSlider-master/pgwslider.js"></script>
     <script src="js/RavivJS.js"></script>
+    <script src="js/ajaxCalls.js"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -51,224 +50,234 @@
 <body onload="init()" id="body">
     <!-- Navigation -->
 
+
+    <div class="sampleContainer">
+        <div class="loader">
+            <span class="dot dot_1"></span>
+            <span class="dot dot_2"></span>
+            <span class="dot dot_3"></span>
+            <span class="dot dot_4"></span>
+        </div>
+    </div>
     
-    <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
-        <div id='ruppinLogo'>
-            <img src='images/714px-Ruppin_Academic_Center_Logo.svg.png' class='ruppinImg' />
-        </div>
-        <div class='container'>
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class='navbar-header pull-right'>
-                <button type='button' class='navbar-toggle' data-toggle='collapse'
-                        data-target='#bs-example-navbar-collapse-1'>
-                    <span class='sr-only'>Toggle navigation</span>
-                    <span class='icon-bar'></span>
-                    <span class='icon-bar'></span>
-                    <span class='icon-bar'></span>
-                </button>
-                <a class='navbar-brand ' href='http://proj.ruppin.ac.il/'>חזרה לדף הפרוייקטים</a>
+
+    <div id="renderPage" hidden="hidden">
+        <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+            <div id='ruppinLogo'>
+                <img src='images/714px-Ruppin_Academic_Center_Logo.svg.png' class='ruppinImg' />
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class='collapse navbar-collapse pull-right' id='bs-example-navbar-collapse-1'>
-                <ul class='nav navbar-nav'>
-                    <li>
-                        <a href='#aboutUs'>עלינו</a>
-                    </li>
-                    <li>
-                        <a href='#custumerContainer'>על הלקוח שלנו</a>
-                    </li>
+            <div class='container'>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class='navbar-header pull-right'>
+                    <button type='button' class='navbar-toggle' data-toggle='collapse'
+                            data-target='#bs-example-navbar-collapse-1'>
+                        <span class='sr-only'>Toggle navigation</span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
+                    <a class='navbar-brand ' href='http://proj.ruppin.ac.il/'>חזרה לדף הפרוייקטים</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class='collapse navbar-collapse pull-right' id='bs-example-navbar-collapse-1'>
+                    <ul class='nav navbar-nav'>
+                        <li>
+                            <a href='#aboutUs'>עלינו</a>
+                        </li>
+                        <li>
+                            <a href='#custumerContainer'>על הלקוח שלנו</a>
+                        </li>
 
-                    <li>
-                        <a href='#aboutTheProjectDiV'>על הפרוייקט</a>
-                    </li>
-                    
+                        <li>
+                            <a href='#aboutTheProjectDiV'>על הפרוייקט</a>
+                        </li>
 
-                </ul>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-    <!-- Page Content -->
-    <div class='container' id='TopContainer'>
-        <!-- Portfolio Item Heading -->
-        <div class='row projHeader'>
-            <div class='col-lg-12'>
-                <h1 class='page-header' id="projTitle">
-                    ""
-                </h1>
+            <!-- /.container -->
+        </nav>
+        <!-- Page Content -->
+        <div class='container' id='TopContainer'>
+            <!-- Portfolio Item Heading -->
+            <div class='row projHeader'>
+                <div class='col-lg-12'>
+                    <h1 class='page-header' id="projTitle">
+                        ""
+                    </h1>
+                </div>
             </div>
-        </div>
 
-        <div class='row'>
-        </div>
-
-        <div class='col-md-8'>
-            <div style='position: relative; height: 0; padding-bottom: 56.25%'>
-                <iframe id="movie" src="" width='640' height='360' frameborder='0'
-                        style='position:absolute;width:100%;height:100%;left:0' allowfullscreen></iframe>
+            <div class='row'>
             </div>
-        </div>
-        <div class='col-md-4'>
 
-            <div id='aboutTheProjectDiV'>
-                <h3> על הפרוייקט</h3>
-                <ul>
-                    <li>
-                        <span class='headers'>שם הפרוייקט:</span> <span id='projName'></span>
-                    </li>
-                    <li><span class='headers'>סוג:</span> <span id='projType'></span></li>
-                    <li>
-                        <span class='headers'>תגיות:</span> <span id='projTags'>
+            <div class='col-md-8'>
+                <div style='position: relative; height: 0; padding-bottom: 56.25%'>
+                    <iframe id="movie" src="" width='640' height='360' frameborder='0'
+                            style='position:absolute;width:100%;height:100%;left:0' allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class='col-md-4'>
 
-                        </span>
-                        <div>
-                            <span id='projTags'>
+                <div id='aboutTheProjectDiV'>
+                    <h3> על הפרוייקט</h3>
+                    <ul>
+                        <li>
+                            <span class='headers'>שם הפרוייקט:</span> <span id='projName'></span>
+                        </li>
+                        <li><span class='headers'>סוג:</span> <span id='projType'></span></li>
+                        <li>
+                            <span class='headers'>תגיות:</span> <span id='projTags'>
 
                             </span>
-                        </div>
-                    </li>
+                            <div>
+                                <span id='projTags'>
 
+                                </span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <hr class='hr1' />
+                <div id='projShortDescriptionDiv'>
+                    <h3>תיאור קצר של המערכת</h3>
+                    <p id='shortDescription'>
+                        ""
+                    </p>
+                    <div class="toWebsite">
+                        <a id='projLandingPage' href=''>
+
+                            <p>לאתר הפרוייקט</p>
+                            <img id='projLogo' src='' alt='' />
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="divButton"> <button id="button" class="MBT-readmore"> עוד פרטים</button> </div>
+
+        <div class='container' id='moreDetailsContainer'>
+            <hr class='hr1' />
+            <div>
+                <h4>מטרת הפרוייקט</h4>
+                <ol id='projGoals' class="header"></ol>
+            </div>
+            <div>
+                <h4>מנחי הפרויקט</h4>
+                <ul id='projAdvisors'></ul>
+            </div>
+            <div>
+                <h4>מודולי המערכת</h4>
+                <ul id="projModules">
+                    <li>
+                        <span class='headers'>שם המודול:</span> <span></span> <span>-</span> <span id='modelExpanation'></span>
+                    </li>
                 </ul>
             </div>
+            <div>
+                <h4>טכנולוגיות</h4>
+                <ul>
+                    <li id="projTechnologies"></li>
+                </ul>
+            </div>
+            <div>
+                <h4>אתגרים</h4>
+                <ul>
+                    <p id='projChallenges'></p>
+                </ul>
+            </div>
+            <div>
+                <h4>הערות </h4>
+                <ul>
+                    <p id='projNotes'></p>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class='container' id='projScreenshotsContainer'>
+            <div id="projScreenshotsDiv">
+                <h3>צילומי מסך המערכת </h3>
+                <ul class='pgwSlider' id="projScreenshots"></ul>
+            </div>
+        </div>
+        <hr class='hr1' />
+        <div class="container" id="custumerContainer">
+
+            <h3>פרטי לקוח</h3>
+
+            <ul id="projCustomers"></ul>
+
+        </div>        <!-- /.row -->
+        <hr class='hr1' />
+        <div class='container ' id='aboutUs'>
+            <div class='row' id='students'>
+                <h3> קצת עלינו</h3>
+                <ul>
+                    <li><span class='headers'>מספר צוות:</span> <span id='projNum'></span></li>
+                    <li><span class='headers'>פקולטה:</span> <span id='projFaculty'></span></li>
+                    <li><span class='headers'>שנה:</span> <span id='projYear'> </span></li>
+                </ul>
+                <div id="studentsDiv">
+
+                </div>
+            </div>
             <hr class='hr1' />
-            <div id='projShortDescriptionDiv'>
-                <h3>תיאור קצר של המערכת</h3>
-                <p id='shortDescription'>
-                    ""
-                </p>
-                <div class="toWebsite">
-                    <a id='projLandingPage' href=''>
 
-                        <p>לאתר הפרוייקט</p>
-                        <img id='projLogo' src='' alt='' />
-
-                    </a>
-                </div>
-            </div>
-        </div>
-        
-    </div>
- 
-    <div id="divButton"> <button id="button" class="MBT-readmore"> עוד פרטים</button> </div>
-
-    <div class='container' id='moreDetailsContainer'>
-        <hr class='hr1' />
-        <div>
-            <h4>מטרת הפרוייקט</h4>
-            <ol id='projGoals' class="header"></ol>
-        </div>
-        <div>
-            <h4>מנחי הפרויקט</h4>
-            <ul id='projAdvisors'></ul>
-        </div>
-        <div>
-            <h4>מודולי המערכת</h4>
-            <ul id="projModules">
-                <li>
-                    <span class='headers'>שם המודול:</span> <span></span> <span>-</span> <span id='modelExpanation'></span>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h4>טכנולוגיות</h4>
-            <ul>
-                <li id="projTechnologies"></li>
-            </ul>
-        </div>
-        <div>
-            <h4>אתגרים</h4>
-            <ul>
-                <p id='projChallenges'></p>
-            </ul>
-        </div>
-        <div>
-            <h4>הערות </h4>
-            <ul>
-                <p id='projNotes'></p>
-            </ul>
-        </div>
-        
-  
-
-    </div>
-    
-    
-
-    <div class='container' id='projScreenshotsContainer'>
-        <div id="projScreenshotsDiv">
-            <h3>צילומי מסך המערכת </h3>
-            <ul class='pgwSlider' id="projScreenshots">
-               
-            </ul>
-        </div>
-    </div> 
-    <hr class='hr1' />
-    <div class="container" id="custumerContainer">
-   
-    <h3>פרטי לקוח</h3>
-
-        <ul id="projCustomers"></ul>
-
-    </div>        <!-- /.row -->
-    <hr class='hr1' />
-    <div class='container ' id='aboutUs'>
-        <div class='row' id='students'>
-            <h3> קצת עלינו</h3>
-            <ul>
-                <li><span class='headers'>מספר צוות:</span> <span id='projNum'></span></li>
-                <li><span class='headers'>פקולטה:</span> <span id='projFaculty'></span></li>
-                <li><span class='headers'>שנה:</span> <span id='projYear'> </span></li>
-            </ul>
-            <div id="studentsDiv">
-
-            </div>
-        </div>
-        <hr class='hr1' />
-
-        <!-- Related Projects Row -->
-        <div class='row'>
-
-            <h3 class='page-header'>פרוייקטים דומים </h3>
-            <div class='col-lg-12' id="relatedProjects">
-
-                <div class='col-sm-3 col-xs-6'>
-                   
-                </div>
-                <div class='col-sm-3 col-xs-6'>
-                    <a href='renderProject.html?gid=bgroup15'>
-                        <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/flat-user.png' alt=''>
-                    </a>
-                </div>
-                <div class='col-sm-3 col-xs-6'>
-                    <a href='renderProject.html?gid=bgroup16'>
-                        <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup16/prod/docs/images/logo.jpg' alt=''>
-                    </a>
-                </div>
-                <div class='col-sm-3 col-xs-6'>
-                    <a href='renderProject.html?gid=bgroup20'>
-                        <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Logo/Logom.png' alt=''>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
-        <hr>
-        <!-- Footer -->
-        <footer>
+            <!-- Related Projects Row -->
             <div class='row'>
-                <div class='col-lg-12'>
-                    <p>Copyright &copy; Raviv Vissel 2017</p>
+
+                <h3 class='page-header'>פרוייקטים דומים </h3>
+                <div class='col-lg-12' id="relatedProjects">
+
+                    <div class='col-sm-3 col-xs-6'>
+
+                    </div>
+                    <div class='col-sm-3 col-xs-6'>
+                        <a href='renderProject.html?gid=bgroup15'>
+                            <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup15/prod/docs/Images/flat-user.png' alt=''>
+                        </a>
+                    </div>
+                    <div class='col-sm-3 col-xs-6'>
+                        <a href='renderProject.html?gid=bgroup16'>
+                            <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup16/prod/docs/images/logo.jpg' alt=''>
+                        </a>
+                    </div>
+                    <div class='col-sm-3 col-xs-6'>
+                        <a href='renderProject.html?gid=bgroup20'>
+                            <img class='img-responsive portfolio-item' src='http://proj.ruppin.ac.il/bgroup20/prod/docs/Images/Logo/Logom.png' alt=''>
+                        </a>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
-        </footer>
+            <hr>
+            <!-- Footer -->
+            <footer>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                        <p>Copyright &copy; Raviv Vissel 2017</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
+        </div>
+        <!-- /.container -->
+        <!-- jQuery -->
+        <script src='js/jquery.js'></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src='js/bootstrap.min.js'></script>
     </div>
-    <!-- /.container -->
-    <!-- jQuery -->
-    <script src='js/jquery.js'></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src='js/bootstrap.min.js'></script>
 </body>
 
 </html>
