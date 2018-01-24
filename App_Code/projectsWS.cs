@@ -29,12 +29,13 @@ public class projectsWS : System.Web.Services.WebService {
 
      [WebMethod]
     [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-    public string getProjects(List<String> projFilesNames)
+    public Project getProjects(string filename)
     {
         projRup.WebServiceSupplier projRup = new projRup.WebServiceSupplier();
-        string[] projStringArray = projFilesNames.ToArray();
-        
-        return projRup.GetProjects(projStringArray);
+        projRup.Project proj = projRup.GetProject(filename);
+
+
+        return null;
      
        
 

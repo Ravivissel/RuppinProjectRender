@@ -59,7 +59,7 @@ function getProjectsList(request, successCB, errorCB) {
 function getProjects(request, successCB, errorCB) {
 
     // serialize the object to JSON string
-    var dataString = JSON.stringify({ projFilesNames: request });
+    var dataString = JSON.stringify(request);
 
     $.ajax({ // ajax call starts
         url: 'projectsWS.asmx/getProjects',       // server side web service method

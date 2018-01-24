@@ -1,9 +1,13 @@
 ﻿function init() {
     groupid = getParameterByName('gid');
+    var request = {
+        filename: groupid
+
+
+    }
     //projFilesNames = ["bgroup1.xml"];
-    projFilesNames = new Array();
-    projFilesNames[0] = groupid;
-    getProjects(projFilesNames, getProjectCB, errorCB);
+   
+    getProjects(request, getProjectCB, errorCB);
 }
 
 function getParameterByName(name, url) {
