@@ -7,7 +7,7 @@
     }
     //projFilesNames = ["bgroup1.xml"];
    
-    getProjects(request, getProjectCB, errorCB);
+    getProject(request, getProjectCB, errorCB);
 }
 
 function getParameterByName(name, url) {

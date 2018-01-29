@@ -26,7 +26,7 @@ function errorCB(e) {
 
 function initPage(project) {
 
-
+ 
     fillAboutTheProject(project);
     fillMoreAboutTheProject(project);
     fillCustomers(project);
@@ -82,8 +82,10 @@ function fillMoreAboutTheProject(project) {
         var LectureA = project.ProjectDetailes.ProjectLectureA;
         var LectureB = project.ProjectDetailes.ProjectLectureB;
 
-        str += "<span>" + LectureA.PersonFirstName + " " + LectureA.PersonLastName + ", </span >";
-        str += "<span>" + LectureB.PersonFirstName + " " + LectureB.PersonLastName + "</span >";
+        if (LectureA.PersonFirstName != "")
+            str += "<span>" + LectureA.PersonFirstName + " " + LectureA.PersonLastName + "</span >";
+        if (LectureB.PersonFirstName != "")
+            str += "<span> ," + LectureB.PersonFirstName + " " + LectureB.PersonLastName + "</span >";
 
         return str;
     }
@@ -224,11 +226,11 @@ $(document).ready(function () {
     });
 
 
-
-
+    $("#renderPage").fadeIn();
+    $("#loader").fadeOut();
 
 })
-
+/*
 function fillSeeMoreLikeThis() {
 
     const requiredNumberOfLogos = 1;
@@ -243,7 +245,7 @@ function fillSeeMoreLikeThis() {
         for (let numberOfLogo = 0; numberOfLogo < requiredNumberOfLogos; numberOfLogo++) {
 
             let projectId = getRandomProjectFromList(allProjectsNames);
-            projectId += ".xml"
+            //projectId += ".xml"
             projFilesNames.push(projectId);
 
 
@@ -251,12 +253,12 @@ function fillSeeMoreLikeThis() {
         }
 
 
-        getProjects(projFilesNames, function (results) {
+        getProject(projFilesNames, function (results) {
 
             let projectsObjectsArray = JSON.parse(results.d);
             let str = "";
-            str += "<a href='renderProject.html?gid=" + projectsObjectsArray[0].groupCode + "'>";
-            str += "<img class='img-responsive portfolio-item' src='" + projectsObjectsArray[0].projectImageUrl + "' alt=''/>";
+            str += "<a href='renderProject.html?gid=" + projectsObjectsArray[0].ProjectID + "'>";
+            str += "<img class='img-responsive portfolio-item' src='" + projectsObjectsArray[0].ProjectDetailes.ProjectLogo + "' alt=''/>";
             str += "   </a>";
 
             document.getElementById('relatedProjects').innerHTML = str;
@@ -292,5 +294,5 @@ function fillSeeMoreLikeThis() {
 
     }, function (err) { console.log(err) });
 
+        */
 
-}
