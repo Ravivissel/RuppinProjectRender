@@ -19,9 +19,7 @@ public class projectsWS : System.Web.Services.WebService
 
     public projectsWS()
     {
-
-        //Uncomment the following line if using designed components 
-        //InitializeComponent(); 
+     
     }
 
     [WebMethod]
@@ -35,11 +33,22 @@ public class projectsWS : System.Web.Services.WebService
     public string getProject(string filename)
     {
         projRup.WebServiceSupplier projRup = new projRup.WebServiceSupplier();
-        projRup.Project proj = projRup.GetProject(filename);
 
-        JavaScriptSerializer js = new JavaScriptSerializer();
-        string projectJSON = js.Serialize(proj);
-        return projectJSON;
+        try
+        {
+            projRup.Project proj = projRup.GetProject(filename);
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            string projectJSON = js.Serialize(proj);
+            return projectJSON;
+        }
+
+        catch
+        {
+
+            return null;
+        }
+        
+        
 
 
 
