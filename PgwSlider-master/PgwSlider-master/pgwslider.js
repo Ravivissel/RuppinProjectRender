@@ -18,7 +18,7 @@
             displayList : true,
             displayControls : false,
             touchControls : true,
-            verticalCentering : false,
+            verticalCentering : true,
             adaptiveHeight : false,
             maxHeight : 700,
             beforeSlide : null,

@@ -57,13 +57,12 @@ function initPage(project) {
         fillAboutUs(project);
 
         $(document).ready(function () {
-
+            
             $("#renderPage").fadeIn();
             $("#loader").fadeOut();
         });
     }
-    catch (err)
-    {
+    catch (err) {
         //TODO: make a error page
         $("#loader").fadeOut();
     }
@@ -159,8 +158,16 @@ function fillMoreAboutTheProject(project) {
             var str = "";
             var screenshots = project.ScreenShotList;
 
+
+
             for (var i = 0; i < screenshots.length; i++) {
-                str += "<li><img class='slideShowImages' src='" + screenshots[i].ScreenShotPath + "'alt='" + screenshots[i].ScreenShotName + "'/></li>";
+                var screenShotPath;
+                if (screenshots[i].ScreenShotPath)
+                    screenShotPath = screenshots[i].ScreenShotPath;
+                else
+                    screenShotPath = "images/imageNotFound.png";
+
+                str += "<li><img class='slideShowImages' src='" + screenShotPath + "'alt='" + screenshots[i].ScreenShotName + "'/></li>";
             }
             return str;
 
@@ -208,11 +215,18 @@ function fillAboutUs(project) {
 function fillCustomers(project) {
     initCustomerArea(project)
     var customer = project.Customer;
+    var customerLogo;
+
     document.getElementById('projCustomerName').innerHTML = customer.CustomerName;
     document.getElementById('projCustomerShortDescription').innerHTML = customer.CustomerDescription;
     document.getElementById('projStakeholders').innerHTML = getStakeholders(customer);
     document.getElementById('projUsers').innerHTML = getUsers(customer);
-    document.getElementById("projCustomerImage").src = customer.Logo;
+    if (customer.Logo)
+        customerLogo = customer.Logo
+    else
+        customerLogo = "images/default.jpg";
+    document.getElementById("projCustomerImage").src = customerLogo;
+
 
 
 
