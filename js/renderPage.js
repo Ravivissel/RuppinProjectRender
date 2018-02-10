@@ -49,19 +49,24 @@ function errorCB(e) {
 
 function initPage(project) {
 
-    fillAboutTheProject(project);
-    fillMoreAboutTheProject(project);
-    fillCustomers(project);
-    fillAboutUs(project);
 
-    $(document).ready(function(){
+    try {
+        fillAboutTheProject(project);
+        fillMoreAboutTheProject(project);
+        fillCustomers(project);
+        fillAboutUs(project);
 
-        $("#renderPage").fadeIn();
-    $("#loader").fadeOut();
+        $(document).ready(function () {
 
-
-});
-
+            $("#renderPage").fadeIn();
+            $("#loader").fadeOut();
+        });
+    }
+    catch (err)
+    {
+        //TODO: make a error page
+        $("#loader").fadeOut();
+    }
     //fillSeeMoreLikeThis();
 
 }
@@ -81,7 +86,7 @@ function fillAboutTheProject(project) {
         var tags = project.ProjectDetailes.ProjectTags;
         var str = "";
         for (var i = 0; i < tags.length; i++) {
-            str += "<span><a href=''> " + tags[i].TagsName + "</a></span>";
+            str += "<span>" + tags[i].TagsName + " </span>";
         }
         return str;
     }

@@ -156,3 +156,21 @@ h4 {
     width:20%;
 
 }
+
+.pgwSlider .ps-current img {
+    
+     min-width: 0
+  
+}
+
+.anchor {
+
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -170px;
+    left: 0;
+    visibility: hidden;
+}

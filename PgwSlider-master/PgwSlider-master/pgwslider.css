@@ -17,14 +17,16 @@
     color: #fff;
 }
 
-.pgwSlider .ps-current {
-    float: left;
-    width: 74%;
-    overflow: hidden;
-    height: inherit;
-    position: relative;
-    font-size: 1rem;
-}
+    .pgwSlider .ps-current {
+        float: left;
+        width: 74%;
+        overflow: hidden;
+        height: inherit;
+        position: relative;
+        font-size: 1rem;
+        background-image: url("../../images/Navy-Blue-Wallpaper-566.jpg");
+        background-position: center;
+    }
 
 .pgwSlider.listOnTheLeft .ps-current {
     float: right;
@@ -41,24 +43,28 @@
     display: none;
 }
 
-.pgwSlider .ps-current img {
-    max-width: 100%;
-    min-width: 100%;
-    height: auto;
-    display: block;
-    transition: margin-top 250ms linear;
-}
+    .pgwSlider .ps-current img {
+        max-width: 100%;
+        max-height: -webkit-fill-available;
+        ;
+        height: auto;
+        display: block;
+        transition: margin-top 250ms linear;
+        display: block;
+        margin: 0 auto;
+    }
 
 .pgwSlider .ps-caption {
     position: absolute;
     width: 100%;
-    padding: 12px;
+
     background: rgba(0, 0, 0, 0.7);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
     left: 0;
     bottom: 0;
     display: none;
     z-index: 3;
+    
 }
 
 ul.pgwSlider,

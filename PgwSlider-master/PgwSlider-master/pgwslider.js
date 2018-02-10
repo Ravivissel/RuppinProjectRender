@@ -12,7 +12,7 @@
         var defaults = {
             mainClassName : 'pgwSlider',
             listPosition : 'right',
-            selectionMode: 'mouseOver',
+            selectionMode: 'click',
             transitionEffect : 'fading',
             autoSlide : false,
             displayList : true,
@@ -20,7 +20,7 @@
             touchControls : true,
             verticalCentering : false,
             adaptiveHeight : false,
-            maxHeight : 500,
+            maxHeight : 700,
             beforeSlide : null,
             afterSlide : null,
             adaptiveDuration : 200,
