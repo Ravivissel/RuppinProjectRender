@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+   >
+ s
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+    <!--CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+   
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+    <link href="PgwSlider-master/PgwSlider-master/pgwslider.css" rel="stylesheet" />
+    <link href="css/changes.css" rel="stylesheet" />
+    <link href="css/LoaderAnimation.css" rel="stylesheet" />
+    
+
+    <!-- javascript -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="PgwSlider-master/PgwSlider-master/pgwslider.js"></script>
+    <script src="js/renderPage.js"></script>
+    <script src="js/ajaxCalls.js"></script>
+    <script src="js/Scroll.js"></script>
+
+
+</head>
+<body onload="init()" id="body" data-spy="scroll">
+    <!-- Navigation -->
+
+    <div class="loader" id="loader"></div>
+
+    <div id="renderPage" hidden="hidden">
+
+        <nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
+            <div id='ruppinLogo'>
+                <img src='images/714px-Ruppin_Academic_Center_Logo.svg.png' class='ruppinImg' />
+            </div>
+            <div class='container'>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class='navbar-header pull-right'>
+                    <button type='button' class='navbar-toggle' data-toggle='collapse'
+                            data-target='#navbar'>
+                        <span class='sr-only'>Toggle navigation</span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                        <span class='icon-bar'></span>
+                    </button>
+                    <a class='navbar-brand ' href='http://proj.ruppin.ac.il/'>חזרה לדף הפרוייקטים</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class='collapse navbar-collapse pull-right' id='navbar'>
+                    <ul class='nav navbar-nav'>
+
+                        <li>
+                            <a href='#custumerContainer'>על הלקוח שלנו</a>
+                        </li>
+                        <li>
+                            <a href='#aboutUs'>עלינו</a>
+                        </li>
+                        <li>
+                            <a href='#aboutTheProjectDiV'>על הפרוייקט</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+
+        <!-- Page Content -->
+        <div class='container' id='TopContainer'>
+            <!-- Portfolio Item Heading -->
+            <div class='row projHeader'>
+                <div class='col-lg-12' >
+                    <h1 class='page-header' id="projTitle">
+                        ""
+                    </h1>
+                </div>
+            </div>
+
+            <div class='row'>
+            </div>
+
+            <div class='col-md-8'>
+                <div style='position: relative; height: 0; padding-bottom: 56.25%'>
+                    <iframe id="movie" src="" width='640' height='360' frameborder='0'
+                            style='position:absolute;width:100%;height:100%;left:0' allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class='col-md-4'>
+
+                <div id='aboutTheProjectDiV'>
+                    <h3> על הפרוייקט</h3>
+                    <ul>
+                        <li>
+                            <span class='headers'>שם הפרוייקט:</span> <span id='projName'></span>
+                        </li>
+                        <li><span class='headers'>סוג:</span> <span id='projType'></span></li>
+                        <li>
+                            <span class='headers'>תגיות:</span> <span id='projTags'>
+
+                            </span>
+                            <div>
+                                <span id='projTags'>
+
+                                </span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <hr class='hr1' />
+                <div id='projShortDescriptionDiv'>
+                    <h3>תיאור קצר של המערכת</h3>
+                    <p id='shortDescription'>
+                        ""
+                    </p>
+                    <div class="toWebsite">
+                        <a id='projLandingPage' href=''>
+
+                            <p>לאתר הפרוייקט</p>
+                            <img id='projLogo' src='' alt='' />
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr class='hr1' />
+        <div class='container ' id='aboutUs'>
+            <div class='row' id='students'>
+                <h3> קצת עלינו</h3>
+                <ul>
+                    <li><span class='headers'>מספר צוות:</span> <span id='projNum'></span></li>
+                    <li><span class='headers'>פקולטה:</span> <span id='projFaculty'></span></li>
+                    <li><span class='headers'>שנה:</span> <span id='projYear'> </span></li>
+                </ul>
+                <div id="studentsDiv">
+
+                </div>
+            </div>
+
+            <!-- /.row -->
+
+            <hr class='hr1' />
+            <div class="container" id="custumerContainer">
+
+                <h3>פרטי לקוח</h3>
+
+                <ul id="projCustomers"></ul>
+
+            </div>
+            <hr class='hr1'>
+            <!-- /.row -->
+            <div id="divButton"> <button id="button" class="MBT-readmore"> עוד פרטים</button> </div>
+
+            <div class='container' id='moreDetailsContainer'>
+                <hr class='hr1' />
+                <div>
+                    <h4>מטרת הפרוייקט</h4>
+                    <ol id='projGoals' class="header"></ol>
+                </div>
+                <div>
+                    <h4>מנחי הפרויקט</h4>
+                    <ul id='projAdvisors'></ul>
+                </div>
+                <div>
+                    <h4>מודולי המערכת</h4>
+                    <ul id="projModules">
+                        <li>
+                            <span class='headers'>שם המודול:</span> <span></span> <span>-</span> <span id='modelExpanation'></span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>טכנולוגיות</h4>
+                    <ul>
+                        <li id="projTechnologies"></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>אתגרים</h4>
+                    <ul>
+                        <p id='projChallenges'></p>
+                    </ul>
+                </div>
+                <div>
+                    <h4>הערות </h4>
+                    <ul>
+                        <p id='projNotes'></p>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+            <div class='container' id='projScreenshotsContainer'>
+                <div id="projScreenshotsDiv">
+                    <h3>צילומי מסך המערכת </h3>
+                    <ul class='pgwSlider' id="projScreenshots"></ul>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                        <p class="copyright" >Copyright &copy; Raviv Vissel 2017</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
+        </div>
+        <!-- /.container -->
+        <!-- jQuery -->
+        <script src='js/jquery/jquery.js'></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src='js/bootstrap/bootstrap.min.js'></script>
+    </div>
+</body>
+
+</html>
+<script src='PgwSlider-master/PgwSlider-master/pgwslider.js'></script>
+
+
