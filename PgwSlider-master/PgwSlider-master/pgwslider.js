@@ -20,7 +20,7 @@
             touchControls : true,
             verticalCentering : true,
             adaptiveHeight : false,
-            maxHeight : 700,
+            maxHeight : 600,
             beforeSlide : null,
             afterSlide : null,
             adaptiveDuration : 200,
@@ -169,6 +169,7 @@
                         } else {
                             $(this).find('img').css('margin-top', '');
                         }
+
                     });
 
                     // Current elements
@@ -190,7 +191,7 @@
                         } else {
                             $(this).find('img').css('margin-top', '');
                         }
-
+                        //$(this).find('img').css('margin-top', 0);
                         if (! isVisible) {
                             $(this).hide();
                         }

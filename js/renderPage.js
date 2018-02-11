@@ -36,12 +36,25 @@ function getId(url) {
 
 function getProjectCB(result) {
     var proj = JSON.parse(result.d);
-    initPage(proj)
+
+    try {
+
+        initPage(proj)
+    }
+    catch (err)
+    {
+        console.log(err);
+    }
+    $(document).ready(function () {
+        $("#renderPage").fadeIn();
+        $("#loader").fadeOut();
+    });
+
+};
+  
 
 
 
-
-}
 
 function errorCB(e) {
     alert("I caught the exception :  The exception message is : " + e.responseText);
@@ -55,12 +68,7 @@ function initPage(project) {
         fillMoreAboutTheProject(project);
         fillCustomers(project);
         fillAboutUs(project);
-
-        $(document).ready(function () {
-            
-            $("#renderPage").fadeIn();
-            $("#loader").fadeOut();
-        });
+       
     }
     catch (err) {
         //TODO: make a error page
@@ -68,7 +76,10 @@ function initPage(project) {
     }
     //fillSeeMoreLikeThis();
 
+   
+
 }
+
 
 function fillAboutTheProject(project) {
     document.getElementById('projTitle').innerHTML = project.ProjectDetailes.ProjectName;
@@ -267,7 +278,7 @@ function fillCustomers(project) {
 
 }
 
-$(window).load(function () {
+$(document).ready(function () {
 
 
     $("#moreDetailsContainer").hide();
@@ -353,6 +364,6 @@ function fillSeeMoreLikeThis() {
 
     }, function (err) { console.log(err) });
 
-
+   
 
 }
